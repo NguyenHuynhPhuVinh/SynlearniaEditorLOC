@@ -1,0 +1,803 @@
+      "canNavigateForwardInEditLocations": "Si es posible navegar hacia adelante en el historial de ubicaciones de edición del editor",
+      "canNavigateForwardInNavigationLocations": "Si es posible navegar hacia adelante en el historial de ubicaciones de navegación del editor",
+      "canNavigateToLastEditLocation": "Si es posible navegar a la última ubicación de edición del editor",
+      "canNavigateToLastNavigationLocation": "Si es posible navegar a la última ubicación de navegación del editor",
+      "canReopenClosedEditor": "Si es posible volver a abrir el último editor cerrado"
+    },
+    "vs/workbench/services/host/browser/browserHostService": {
+      "retry": "&&Reintentar",
+      "unableToOpenExternal": "El explorador ha bloqueado la apertura de una nueva pestaña o ventana. Presione \"Reintentar\" para volver a intentarlo.",
+      "unableToOpenExternalWorkspace": "El explorador ha bloqueado la apertura de una nueva pestaña o ventana para ''{0}''. Presione \"Reintentar\" para volver a intentarlo.",
+      "unableToOpenWindowDetail": "Permita los elementos emergentes de este sitio web en su [configuración del explorador]({0})."
+    },
+    "vs/workbench/services/hover/browser/hoverWidget": {
+      "hoverhint": "Mantenga presionada la tecla {0} para pasar el mouse"
+    },
+    "vs/workbench/services/integrity/electron-browser/integrityService": {
+      "integrity.dontShowAgain": "No mostrar de nuevo",
+      "integrity.moreInformation": "Más información",
+      "integrity.prompt": "La instalación de {0} parece estar dañada. Vuelva a instalar."
+    },
+    "vs/workbench/services/issue/browser/issueTroubleshoot": {
+      "I cannot reproduce": "No puedo reproducir",
+      "Stop": "Detener",
+      "This is Bad": "Puedo reproducir",
+      "ask to download insiders": "Intente descargar y reproducir el problema en {0} participantes de Insider.",
+      "ask to reproduce issue": "Intente reproducir el problema en {0} participantes de Insider y confirme si el problema existe allí.",
+      "bad": "Puedo reproducir",
+      "detail.start": "La solución de problemas es un proceso que le ayuda a identificar la causa de un problema. La causa de un problema puede ser un error de configuración, debido a una extensión o ser {0} él mismo.\r\n\r\nDurante el proceso, la ventana se vuelve a cargar varias veces. Cada vez que deba confirmar si sigue viendo el problema.",
+      "download insiders": "Descargar {0} participantes de Insider",
+      "empty.profile": "La solución de problemas está activa y ha restablecido temporalmente las configuraciones a los valores predeterminados. Compruebe si todavía puede reproducir el problema y continúe seleccionando entre estas opciones.",
+      "good": "No puedo reproducir",
+      "issue is in core": "La solución de problemas ha identificado que el problema es con {0}.",
+      "issue is with configuration": "La solución de problemas ha identificado que el problema se debe a las configuraciones. Para notificar el problema, exporte las configuraciones mediante el comando \"Exportar Perfil\" y comparta el archivo en el informe de problemas.",
+      "msg": "&&Solucionar problema",
+      "profile.extensions.disabled": "La solución de problemas está activa y ha deshabilitado temporalmente todas las extensiones instaladas. Compruebe si todavía puede reproducir el problema y continúe seleccionando entre estas opciones.",
+      "report anyway": "Notificar problema de todos modos",
+      "stop": "Detener",
+      "title.stop": "Tener la solución de problemas",
+      "troubleshoot issue": "Solucionar problema",
+      "troubleshootIssue": "Solucionar problema...",
+      "use insiders": "Probablemente, esto significa que el problema ya se ha solucionado y estará disponible en una próxima versión. Puede usar {0} participantes de Insider de forma segura hasta que la nueva versión estable esté disponible."
+    },
+    "vs/workbench/services/keybinding/browser/keybindingService": {
+      "invalid.keybindings": "Valor de \"contributes.{0}\" no válido: {1}",
+      "keybindings.commandsIsArray": "Tipo incorrecto. Se esperaba \"{0}\". El campo \"command\" no es compatible con la ejecución de varios comandos. Use el comando \"runCommands\" para pasar varios comandos para ejecutarlo.",
+      "keybindings.json.args": "Argumentos que se pasan al comando para ejecutar.",
+      "keybindings.json.command": "Nombre del comando que se va a ejecutar",
+      "keybindings.json.key": "Tecla o secuencia de teclas (separadas por un espacio)",
+      "keybindings.json.removalCommand": "Nombre del comando para el que se quitará el método abreviado de teclado",
+      "keybindings.json.title": "Configuración de enlaces de teclado",
+      "keybindings.json.when": "Condición cuando la tecla está activa.",
+      "nonempty": "se esperaba un valor no vacío.",
+      "optstring": "la propiedad \"{0}\" se puede omitir o debe ser de tipo \"string\"",
+      "requirestring": "la propiedad \"{0}\" es obligatoria y debe ser de tipo \"string\"",
+      "unboundCommands": "Aquí hay otros comandos disponibles: ",
+      "vscode.extension.contributes.keybindings": "Aporta enlaces de teclado.",
+      "vscode.extension.contributes.keybindings.args": "Argumentos que se pasan al comando para ejecutar.",
+      "vscode.extension.contributes.keybindings.command": "Identificador del comando que se va a ejecutar cuando se desencadena el enlace de teclado.",
+      "vscode.extension.contributes.keybindings.key": "Tecla o secuencia de teclas (teclas separadas con signo más y secuencias con espacio, por ejemplo, Ctrl+O y Ctrl+L para una presión simultánea).",
+      "vscode.extension.contributes.keybindings.linux": "Tecla o secuencia de teclas específica de Linux.",
+      "vscode.extension.contributes.keybindings.mac": "Tecla o secuencia de teclas específica de Mac.",
+      "vscode.extension.contributes.keybindings.when": "Condición cuando la tecla está activa.",
+      "vscode.extension.contributes.keybindings.win": "Tecla o secuencia de teclas específica de Windows."
+    },
+    "vs/workbench/services/keybinding/browser/keyboardLayoutService": {
+      "keyboard.layout.config": "Controla la distribución del teclado que se usa en la Web.",
+      "keyboardConfigurationTitle": "Teclado"
+    },
+    "vs/workbench/services/keybinding/common/keybindingEditing": {
+      "emptyKeybindingsHeader": "Coloque sus atajos de teclado en este archivo para sobreescribir los valores predeterminados",
+      "errorInvalidConfiguration": "No se puede escribir en el archivo de configuración KeyBindings. Tiene un objeto que no es de tipo Array. Abra el archivo para corregirlo y vuelva a intentarlo.",
+      "errorKeybindingsFileDirty": "No se puede escribir porque el archivo de configuración de enlaces de teclado tiene cambios sin guardar. Guárdelo primero e inténtelo de nuevo.",
+      "parseErrors": "No se puede escribir en el archivo de configuración KeyBindings. Abra el archivo para corregir los errores/advertencias e inténtelo otra vez."
+    },
+    "vs/workbench/services/label/common/labelService": {
+      "temporaryWorkspace": "Área de trabajo",
+      "untitledWorkspace": "Sin título (área de trabajo)",
+      "vscode.extension.contributes.resourceLabelFormatters": "Aporta reglas de formato de etiqueta de recursos.",
+      "vscode.extension.contributes.resourceLabelFormatters.authority": "Autorización URI en la que se debe hacer coincidir el formateador. Se admiten patrones globales.",
+      "vscode.extension.contributes.resourceLabelFormatters.formatting": "Reglas para el formato de etiquetas de recursos uri.",
+      "vscode.extension.contributes.resourceLabelFormatters.formatting.workspaceSuffix": "Sufijo agregado a la etiqueta del área de trabajo.",
+      "vscode.extension.contributes.resourceLabelFormatters.label": "Reglas de etiqueta que se van a mostrar. Por ejemplo: myLabel:/${path}. ${path}, ${scheme}, ${authority} y ${authoritySuffix} se admiten como variables.",
+      "vscode.extension.contributes.resourceLabelFormatters.scheme": "Esquema URI en el que hacer coincidir el formateador. Por ejemplo \"archivo\". Se admiten los patrones globales sencillos.",
+      "vscode.extension.contributes.resourceLabelFormatters.separator": "Separador para utilizar en la pantalla de la etiqueta de uri. '/' o '', por ejemplo.",
+      "vscode.extension.contributes.resourceLabelFormatters.stripPathStartingSeparator": "Controla si deben eliminarse los caracteres separadores de inicio de las sustituciones de \"${path}\".",
+      "vscode.extension.contributes.resourceLabelFormatters.tildify": "Controla si el inicio de la etiqueta de URI debe ser tildified cuando sea posible.",
+      "workspaceName": "{0} (área de trabajo)",
+      "workspaceNameVerbose": "{0} (área de trabajo)"
+    },
+    "vs/workbench/services/language/common/languageService": {
+      "file extensions": "Extensiones de archivo",
+      "grammar": "Gramática",
+      "invalid": "Elemento \"contributes.{0}\" no válido. Se esperaba una matriz.",
+      "invalid.empty": "Valor vacío para \"contributes.{0}\"",
+      "language id": "ID.",
+      "language name": "Nombre",
+      "languages": "Lenguajes de programación",
+      "opt.aliases": "la propiedad `{0}` se puede omitir y debe ser de tipo \"string[]\"",
+      "opt.configuration": "la propiedad `{0}` se puede omitir y debe ser de tipo \"string\"",
+      "opt.extensions": "la propiedad `{0}` se puede omitir y debe ser de tipo \"string[]\"",
+      "opt.filenames": "la propiedad `{0}` se puede omitir y debe ser de tipo \"string[]\"",
+      "opt.firstLine": "la propiedad `{0}` se puede omitir y debe ser de tipo \"string\"",
+      "opt.icon": "la propiedad \"{0}\" se puede omitir y debe ser de tipo \"object\" con las propiedades \"{1}\" y \"{2}\" de tipo \"string\"",
+      "opt.mimetypes": "la propiedad `{0}` se puede omitir y debe ser de tipo \"string[]\"",
+      "require.id": "la propiedad \"{0}\" es obligatoria y debe ser de tipo \"string\"",
+      "snippets": "Fragmentos de código",
+      "vscode.extension.contributes.languages": "Aporta declaraciones de lenguaje.",
+      "vscode.extension.contributes.languages.aliases": "Alias de nombre para el lenguaje.",
+      "vscode.extension.contributes.languages.configuration": "Ruta de acceso relativa a un archivo que contiene opciones de configuración para el lenguaje.",
+      "vscode.extension.contributes.languages.extensions": "Extensiones de archivo asociadas al lenguaje.",
+      "vscode.extension.contributes.languages.filenamePatterns": "Patrones globales de nombre de archivo asociados al lenguaje.",
+      "vscode.extension.contributes.languages.filenames": "Nombres de archivo asociados al lenguaje.",
+      "vscode.extension.contributes.languages.firstLine": "Expresión regular que coincide con la primera línea de un archivo del lenguaje.",
+      "vscode.extension.contributes.languages.icon": "Icono que se va a usar como icono de archivo, si ningún tema de icono proporciona uno para el idioma.",
+      "vscode.extension.contributes.languages.icon.dark": "Ruta de icono cuando se usa un tema oscuro",
+      "vscode.extension.contributes.languages.icon.light": "Ruta del icono cuando se usa un tema ligero",
+      "vscode.extension.contributes.languages.id": "Identificador del lenguaje.",
+      "vscode.extension.contributes.languages.mimetypes": "Tipos MIME asociados al lenguaje."
+    },
+    "vs/workbench/services/lifecycle/browser/lifecycleService": {
+      "lifecycleVeto": "Es posible que los cambios realizados no se guarden. Seleccione \"Cancelar\" e inténtelo de nuevo."
+    },
+    "vs/workbench/services/localization/browser/localeService": {
+      "clearDisplayLanguageDetail": "Presione el botón Recargar para actualizar la página y usar el idioma del explorador.",
+      "clearDisplayLanguageMessage": "Para cambiar el idioma para mostrar, debe recargarse {0}",
+      "relaunchDisplayLanguageDetail": "Presione el botón Recargar para actualizar la página y establecer el idioma para mostrar en {0}.",
+      "relaunchDisplayLanguageMessage": "Para cambiar el idioma para mostrar, debe recargarse {0}",
+      "reload": "&&Recargar"
+    },
+    "vs/workbench/services/localization/electron-browser/localeService": {
+      "argvInvalid": "No se puede escribir el idioma para mostrar. Abra la configuración del entorno de ejecución, corrija los errores o advertencias que contiene e inténtelo de nuevo.",
+      "installing": "Instalando {0} compatibilidad con idiomas...",
+      "openArgv": "Abrir parámetros de ejecución",
+      "restart": "&&Reiniciar",
+      "restartDisplayLanguageDetail1": "Para cambiar el idioma de visualización a {0}, es necesario reiniciar {1}.",
+      "restartDisplayLanguageMessage1": "¿Reiniciar {0} para cambiar a {1}?"
+    },
+    "vs/workbench/services/log/common/logConstants": {
+      "window": "Ventana"
+    },
+    "vs/workbench/services/notification/common/notificationService": {
+      "neverShowAgain": "No mostrar de nuevo"
+    },
+    "vs/workbench/services/preferences/browser/keybindingsEditorInput": {
+      "keybindingsEditorLabelIcon": "Icono de la etiqueta del editor de enlaces de teclado.",
+      "keybindingsInputName": "Métodos abreviados de teclado"
+    },
+    "vs/workbench/services/preferences/browser/keybindingsEditorModel": {
+      "cat.title": "{0}: {1}",
+      "default": "Sistema",
+      "extension": "Extensión",
+      "meta": "meta",
+      "option": "Opción",
+      "user": "Usuario"
+    },
+    "vs/workbench/services/preferences/browser/preferencesService": {
+      "defaultKeybindings": "Enlaces de teclado predeterminados",
+      "emptyKeybindingsHeader": "Coloque sus atajos de teclado en este archivo para sobreescribir los valores predeterminados",
+      "fail.createSettings": "No se puede crear '{0}' ({1}).",
+      "openFolderFirst": "Abra primero una carpeta o área de trabajo para crear la configuración correspondiente."
+    },
+    "vs/workbench/services/preferences/common/preferencesEditorInput": {
+      "preferencesEditorInputName": "Preferencias",
+      "preferencesEditorLabelIcon": "Icono de la etiqueta del editor de preferencias.",
+      "settingsEditor2InputName": "Configuración",
+      "settingsEditorLabelIcon": "Icono de la etiqueta del editor de configuración."
+    },
+    "vs/workbench/services/preferences/common/preferencesModels": {
+      "commonlyUsed": "Más utilizada",
+      "defaultKeybindingsHeader": "Sobreescriba sus atajos de teclado colocándolos en su archivo de atajos de teclado"
+    },
+    "vs/workbench/services/preferences/common/preferencesValidation": {
+      "invalidTypeError": "La configuración tiene un tipo no válido, se esperaba {0}. Corríjalo en JSON.",
+      "regexParsingError": "Error al analizar la siguiente expresión regular con y sin la marca u:",
+      "validations.arrayIncorrectType": "Tipo incorrecto. Se esperaba una matriz.",
+      "validations.booleanIncorrectType": "Tipo incorrecto. Se esperaba \"booleano\".",
+      "validations.colorFormat": "Formato de color no válido. Use #RGB, #RGBA, #RRGGBB o #RRGGBBAA.",
+      "validations.exclusiveMax": "El valor debe ser estrictamente menor que {0}.",
+      "validations.exclusiveMin": "El valor debe ser estrictamente mayor que {0}.",
+      "validations.expectedInteger": "El valor debe ser un entero.",
+      "validations.expectedNumeric": "El valor debe ser un número.",
+      "validations.invalidStringEnumValue": "No se acepta el valor. Valores válidos: {0}.",
+      "validations.max": "El valor debe ser menor o igual que {0}.",
+      "validations.maxLength": "El valor debe tener {0} caracteres como máximo.",
+      "validations.min": "El valor debe ser mayor o igual que {0}.",
+      "validations.minLength": "El valor debe tener {0} caracteres como mínimo.",
+      "validations.multipleOf": "El valor debe ser múltiplo de {0}.",
+      "validations.objectIncorrectType": "Tipo incorrecto. Se esperaba un objeto.",
+      "validations.objectPattern": "No se permite {0} la propiedad. \r\n",
+      "validations.regex": "El valor debe coincidir con la instancia de regex \"{0}\".",
+      "validations.stringArrayIncorrectType": "Tipo incorrecto. Se esperaba una matriz de cadenas.",
+      "validations.stringArrayItemEnum": "El valor {0} no es uno de {1}",
+      "validations.stringArrayItemPattern": "El valor {0} debe coincidir con la instancia de regex {1}.",
+      "validations.stringArrayMaxItem": "La matriz debe tener como máximo {0} elementos.",
+      "validations.stringArrayMinItem": "La matriz debe tener como mínimo {0} elementos.",
+      "validations.stringArrayUniqueItems": "La matriz tiene elementos duplicados.",
+      "validations.stringIncorrectEnumOptions": "Las opciones de enumeración deben ser cadenas, pero también hay una opción par no cadenas. Envíe una incidencia al autor de la extensión.",
+      "validations.stringIncorrectType": "Tipo incorrecto. Se esperaba «una cadena».",
+      "validations.uriEmpty": "Se esperaba el URI.",
+      "validations.uriMissing": "Se espera el URI.",
+      "validations.uriSchemeMissing": "Se espera el URI con un esquema."
+    },
+    "vs/workbench/services/progress/browser/progressService": {
+      "cancel": "Cancelar",
+      "dismiss": "Descartar",
+      "progress.text2": "{0}: {1}",
+      "progress.title2": "[{0}]: {1}",
+      "progress.title3": "[{0}] {1}: {2}",
+      "status.progress": "Mensaje de progreso"
+    },
+    "vs/workbench/services/remote/browser/remoteAgentService": {
+      "connectionError": "Se ha producido un error inesperado que requiere recargar esta página.",
+      "connectionErrorDetail": "El área de trabajo no se pudo conectar al servidor (error: {0})",
+      "reload": "&&Recargar"
+    },
+    "vs/workbench/services/remote/common/remoteExplorerService": {
+      "RemoteHelpInformationExtPoint": "Contribuye con información de ayuda para Remote",
+      "RemoteHelpInformationExtPoint.documentation": "La dirección URL, o un comando que la devuelve, a la página de documentación del proyecto",
+      "RemoteHelpInformationExtPoint.feedback": "La dirección URL, o un comando que la devuelve, al notificador de comentarios del proyecto",
+      "RemoteHelpInformationExtPoint.feedback.deprecated": "Use {0} en su lugar.",
+      "RemoteHelpInformationExtPoint.getStarted": "Dirección URL, o un comando que devuelve la dirección URL, a la página de Introducción del proyecto, o un id. de tutorial que aporta la extensión del proyecto.",
+      "RemoteHelpInformationExtPoint.issues": "La dirección URL, o un comando que la devuelve, a la lista de problemas del proyecto",
+      "RemoteHelpInformationExtPoint.reportIssue": "Dirección URL, o un comando que la devuelve, al notificador de problemas del proyecto.",
+      "getStartedWalkthrough.id": "Id. de un tutorial de introducción que se va a abrir."
+    },
+    "vs/workbench/services/remote/common/tunnelModel": {
+      "remote.localPortMismatch.single": "El puerto local {0} no pudo ser utilizado para la retransmisión al puerto remoto. {1}.\r\n\r\nEsto suele ocurrir cuando ya hay otro proceso que utiliza el puerto local.{0}.\r\n\r\nSe ha utilizado el número de puerto {2} en su lugar.",
+      "tunnel.forwardedPortsViewEnabled": "Indica si la vista Puertos está habilitada.",
+      "tunnel.source.auto": "Reenviado automáticamente",
+      "tunnel.source.user": "Reenviado por el usuario",
+      "tunnel.staticallyForwarded": "Reenviado de forma estática"
+    },
+    "vs/workbench/services/remote/electron-browser/remoteAgentService": {
+      "connectionError": "Error al conectar con el servidor de host de la extensión remota (Error: {0})",
+      "devTools": "Abrir Herramientas de desarrollo",
+      "directUrl": "Abrir en el explorador"
+    },
+    "vs/workbench/services/request/browser/requestService": {
+      "network": "Red"
+    },
+    "vs/workbench/services/request/electron-browser/requestService": {
+      "network": "Red"
+    },
+    "vs/workbench/services/search/browser/searchService": {
+      "errorSearchFile": "No se puede buscar con el buscador de archivos de Rol de trabajo",
+      "errorSearchText": "No se puede buscar con el buscador de texto de Rol de trabajo"
+    },
+    "vs/workbench/services/search/common/queryBuilder": {
+      "search.noWorkspaceWithName": "La carpeta del área de trabajo no existe: {0}"
+    },
+    "vs/workbench/services/secrets/electron-browser/secretStorageService": {
+      "encryptionNotAvailableJustTroubleshootingGuide": "No se pudo identificar el conjunto de claves del sistema operativo para almacenar los datos relacionados con el cifrado en el entorno de escritorio actual.",
+      "isGnome": "Está ejecutando este proceso en un entorno de tipo GNOME, pero el conjunto de claves del sistema operativo no está disponible para el cifrado. Asegúrese de que tiene instalado el elemento gnome-keyring u otra implementación compatible con libsecret y que se esté ejecutando.",
+      "isKwallet": "Está ejecutando este proceso en un entorno de KDE, pero el conjunto de claves del sistema operativo no está disponible para el cifrado. Asegúrese de que el elemento kwallet está en ejecución.",
+      "troubleshootingButton": "Abrir la guía de solución de problemas",
+      "usePlainText": "Usar el cifrado más débil",
+      "usePlainTextExtraSentence": "Abra la guía de solución de problemas para solucionar este problema o use un cifrado más débil que no use el conjunto de claves del sistema operativo."
+    },
+    "vs/workbench/services/suggest/browser/simpleSuggestWidget": {
+      "ariaCurrenttSuggestionReadDetails": "{0}, documentos: {1}",
+      "label": "{0}, {1}",
+      "label.desc": "{0}, {1} {2}",
+      "label.detail": "{0}{1} {2}",
+      "label.full": "{0}{1}, {2} {3}",
+      "simpleSuggestWidgetFirstSuggestionFocused": "Si se centra la primera sugerencia simple",
+      "simpleSuggestWidgetHasFocusedSuggestion": "Si se centra cualquier sugerencia simple",
+      "simpleSuggestWidgetHasNavigated": "Si se ha navegado hacia abajo en el widget de sugerencias simples",
+      "suggest": "Sugerir",
+      "suggestWidget.loading": "Cargando...",
+      "suggestWidget.noSuggestions": "No hay sugerencias."
+    },
+    "vs/workbench/services/suggest/browser/simpleSuggestWidgetDetails": {
+      "details.close": "Cerrar",
+      "loading": "Cargando..."
+    },
+    "vs/workbench/services/textfile/browser/textFileService": {
+      "confirmMakeWriteable": "'{0}' está marcado como de solo lectura. ¿Desea guardar de todos modos?",
+      "confirmMakeWriteableDetail": "Las rutas de acceso se pueden configurar como de solo lectura a través de la configuración.",
+      "confirmOverwrite": "'{0}' ya existe. ¿Desea reemplazarla?",
+      "deleted": "Eliminado",
+      "fileBinaryError": "El archivo parece ser binario y no se puede abrir como texto",
+      "makeWriteableButtonLabel": "&Guardar de todos modos",
+      "overwriteIrreversible": "Ya existe un archivo o carpeta con el nombre \"{0}\" en la carpeta \"{1}\". Reemplazarlo sobrescribirá su contenido actual.",
+      "readonly": "Solo lectura",
+      "readonlyAndDeleted": "Eliminado, solo lectura",
+      "replaceButtonLabel": "&&Reemplazar",
+      "textFileCreate.source": "Archivo creado",
+      "textFileModelDecorations": "Decoraciones de modelo de archivo de texto",
+      "textFileOverwrite.source": "Archivo reemplazado"
+    },
+    "vs/workbench/services/textfile/common/textFileEditorModel": {
+      "saveParticipants": "Guardando \"{0}\"",
+      "saveTextFile": "Escribiendo en el archivo...",
+      "textFileCreate.source": "Codificación de archivo cambiada"
+    },
+    "vs/workbench/services/textfile/common/textFileEditorModelManager": {
+      "genericSaveError": "No se pudo guardar \"{0}\": {1}"
+    },
+    "vs/workbench/services/textfile/common/textFileSaveParticipant": {
+      "saveParticipants1": "Ejecutando acciones de código y formateadores...",
+      "skip": "Omitir"
+    },
+    "vs/workbench/services/textfile/electron-browser/nativeTextFileService": {
+      "join.textFiles": "Guardando archivos de texto"
+    },
+    "vs/workbench/services/textMate/browser/textMateTokenizationFeatureImpl": {
+      "alreadyDebugging": "Ya se está registrando.",
+      "invalid.embeddedLanguages": "Valor no válido en \"contributes.{0}.embeddedLanguages\". Debe ser una asignación de objeto del nombre del ámbito al lenguaje. Valor proporcionado: {1}",
+      "invalid.injectTo": "Valor no válido en `contributes.{0}.injectTo`. Debe ser una matriz de nombres de ámbito de lenguaje. Valor proporcionado: {1}",
+      "invalid.language": "Lenguaje desconocido en \"contributes.{0}.language\". Valor proporcionado: {1}",
+      "invalid.path.0": "Se esperaba una cadena en 'contributes.{0}.path'. Valor proporcionado: {1}",
+      "invalid.path.1": "Se esperaba que \"contributes.{0}.path\" ({1}) se incluyera en la carpeta de la extensión ({2}). Esto puede hacer que la extensión no sea portátil.",
+      "invalid.scopeName": "Se esperaba una cadena en \"contributes.{0}.scopeName\". Valor proporcionado: {1}",
+      "invalid.tokenTypes": "Valor no válido en \"contributes.{0}.tokenTypes\". Debe ser una asignación de objeto del nombre del ámbito al tipo de token. Valor proporcionado: {1}",
+      "progress1": "Preparándose para registrar el análisis de gramática de TM. Haga clic en Detener cuando haya terminado.",
+      "progress2": "Se está registrando el análisis de gramática de TM. Haga clic en Detener cuando haya terminado.",
+      "stop": "Detener"
+    },
+    "vs/workbench/services/textMate/common/TMGrammars": {
+      "vscode.extension.contributes.grammars": "Aporta tokenizadores de TextMate.",
+      "vscode.extension.contributes.grammars.balancedBracketScopes": "Define qué nombres de ámbito contienen corchetes equilibrados.",
+      "vscode.extension.contributes.grammars.embeddedLanguages": "Asignación de un nombre de ámbito al identificador de lenguaje si esta gramática contiene lenguajes incrustados.",
+      "vscode.extension.contributes.grammars.injectTo": "Lista de nombres de ámbito de lenguaje al que se inyecta esta gramática.",
+      "vscode.extension.contributes.grammars.language": "Identificador del lenguaje para el que se aporta esta sintaxis.",
+      "vscode.extension.contributes.grammars.path": "Ruta de acceso del archivo tmLanguage. La ruta es relativa a la carpeta de extensión y normalmente empieza por \"./syntaxes/\".",
+      "vscode.extension.contributes.grammars.scopeName": "Nombre del ámbito de TextMate que usa el archivo tmLanguage.",
+      "vscode.extension.contributes.grammars.tokenTypes": "Asignación de nombre de ámbito a tipos de token.",
+      "vscode.extension.contributes.grammars.unbalancedBracketScopes": "Define qué nombres de ámbito no contienen corchetes equilibrados."
+    },
+    "vs/workbench/services/themes/browser/fileIconThemeData": {
+      "error.cannotparseicontheme": "Problemas al analizar el archivo de iconos de archivos: {0}",
+      "error.invalidformat": "Formato no válido del archivo de temas de iconos de archivos: se esperaba un objeto."
+    },
+    "vs/workbench/services/themes/browser/productIconThemeData": {
+      "defaultTheme": "Predeterminado",
+      "error.cannotparseicontheme": "Problemas al analizar el archivo de iconos de productos: {0}",
+      "error.fontId": "Falta el id. de fuente \"{0}\" o no es válido. Omitiendo la definición de la fuente.",
+      "error.fontSrc": "Origen de fuente no válido en la fuente “{0}”. Se omitirá el origen.",
+      "error.fontStyle": "Estilo de fuente no válido en la fuente \"{0}\". Ignorando el valor.",
+      "error.fontWeight": "Espesor de fuente no válido en la fuente \"{0}\". Ignorando el valor.",
+      "error.icon.font": "Omitiendo la definición de icono \"{0}\". Fuente desconocida.",
+      "error.icon.fontCharacter": "Omitiendo '{0}' de definición de icono: debe definirse",
+      "error.invalidformat": "Formato no válido del archivo de temas de iconos de productos: se esperaba un objeto.",
+      "error.missingProperties": "Formato no válido para el archivo de tema de iconos de producto: debe contener elementos iconDefinitions y fuentes.",
+      "error.noFontSrc": "No hay ningún origen de fuente válido en la fuente “{0}”. Se omitirá la definición de fuente.",
+      "error.parseicondefs": "Problemas al procesar las definiciones de iconos de productos en {0}:\r\n{1}"
+    },
+    "vs/workbench/services/themes/browser/workbenchThemeService": {
+      "error.cannotloadtheme": "No se puede cargar {0}: {1}"
+    },
+    "vs/workbench/services/themes/common/colorExtensionPoint": {
+      "colors": "Colores",
+      "contributes.color": "Contribuye a la extensión definida para los colores de los temas",
+      "contributes.color.description": "Descripción del color temático",
+      "contributes.color.id": "El identificador de los colores de los temas",
+      "contributes.color.id.format": "Los identificadores solo deben contener letras, dígitos y puntos y no pueden comenzar con un punto",
+      "contributes.defaults.dark": "El color predeterminado para los temas oscuros. Un valor de color en hexadecimal (#RRGGBB [AA]) o el identificador de un color para los temas que proporciona el valor predeterminado.",
+      "contributes.defaults.highContrast": "El color predeterminado para los temas oscuros de contraste alto. Un valor de color en hexadecimal (#RRGGBB[AA]) o el identificador de un color tematizable que proporciona el valor predeterminado. Si no se proporciona, el color “oscuro” se usa como predeterminado para los temas oscuros de contraste alto.",
+      "contributes.defaults.highContrastLight": "El color predeterminado para los temas de luz de contraste alto. Un valor de color en hexadecimal (#RRGGBB[AA]) o el identificador de un color tematizable que proporciona el valor predeterminado. Si no se proporciona, el color “claro” se usa como valor predeterminado para los temas de luz de contraste alto.",
+      "contributes.defaults.light": "El color predeterminado para los temas claros. Un valor de color en hexadecimal (#RRGGBB [AA]) o el identificador de un color para los temas que proporciona el valor predeterminado.",
+      "defaultDark": "Oscuro por defecto",
+      "defaultHC": "Contraste alto por defecto",
+      "defaultLight": "Claro por defecto",
+      "description": "Descripción",
+      "id": "Id.",
+      "invalid.colorConfiguration": "'configuration.colors' debe ser una matriz",
+      "invalid.default.colorType": "{0} debe ser un valor de color en hexadecimal (#RRGGBB [AA] o #RGB [A]) o el identificador de un color para los temas que puede ser el valor predeterminado.",
+      "invalid.defaults": "Se debe definir “configuration.colors.defaults” y contener “claro” y “oscuro”.",
+      "invalid.defaults.highContrast": "Si se define, 'configuration.colors.defaults.highContrast' debe ser una cadena.",
+      "invalid.defaults.highContrastLight": "Si se define, “configuration.colors.defaults.highContrastLight” debe ser una cadena.",
+      "invalid.description": "\"configuration.colors.description\" debe estar definido y no puede estar vacío",
+      "invalid.id": "\"configuration.colors.id\" debe estar definido y no puede estar vacío",
+      "invalid.id.format": "\"configuration.colors.id\" solo debe contener letras, dígitos y puntos y no puede comenzar con un punto"
+    },
+    "vs/workbench/services/themes/common/colorThemeData": {
+      "error.cannotload": "Problemas al analizar el archivo de tema: {0}:{1}",
+      "error.cannotparse": "Problemas al analizar el archivo de tema: {0}",
+      "error.cannotparsejson": "Problemas al analizar el archivo de tema JSON: {0}",
+      "error.invalidformat": "Formato no válido del archivo de temas JSON: se esperaba un objeto.",
+      "error.invalidformat.colors": "Problema al analizar el archivo de tema: {0}. La propiedad \"colors\" no es tipo \"object\".",
+      "error.invalidformat.semanticTokenColors": "Problema al analizar el archivo de tema de color: {0}. La propiedad \"semanticTokenColors\" contiene un selector no válido",
+      "error.invalidformat.tokenColors": "Problema al analizar el archivo de tema de color: {0}. La propiedad \"tokenColors\" debe ser una matriz que especifique colores o una ruta de acceso a un archivo de tema de TextMate",
+      "error.plist.invalidformat": "Problema al analizar el archivo de tema: {0}. \"settings\" no es una matriz."
+    },
+    "vs/workbench/services/themes/common/colorThemeSchema": {
+      "schema.colors": "Colores para resaltado de sintaxis",
+      "schema.fontStyle.error": "El estilo de fuente debe ser \"cursiva\", \"negrita\", \"subrayado\", \"tachado\" o una combinación o la cadena vacía.",
+      "schema.properties.name": "Descripción de la regla.",
+      "schema.properties.scope": "Selector de ámbito con el que se compara esta regla.",
+      "schema.semanticTokenColors": "Colores para tokens semánticos",
+      "schema.supportsSemanticHighlighting": "Si el resaltado semántico debe estar habilitado para este tema.",
+      "schema.token.background.warning": "En este momento los colores de fondo para Token no están soportados.",
+      "schema.token.fontStyle": "Estilo de fuente de la regla: \"cursiva\", \"negrita\", \"subrayado\", \"tachado\" o una combinación. La cadena vacía anula la configuración heredada.",
+      "schema.token.fontStyle.none": "Ninguno (borrar el estilo heredado)",
+      "schema.token.foreground": "Color de primer plano para el token.",
+      "schema.token.settings": "Colores y estilos para el token.",
+      "schema.tokenColors.path": "Ruta a un archivo tmTheme (relativa al archivo actual).",
+      "schema.workbenchColors": "Colores en el área de trabajo"
+    },
+    "vs/workbench/services/themes/common/fileIconThemeSchema": {
+      "schema.file": "Icono de archivo predeterminado, que se muestra para todos los archivos que no coinciden con ninguna extensión, nombre de archivo o identificador de lenguaje.",
+      "schema.fileExtension": "La identificación de la definición de icono para la asociación.",
+      "schema.fileExtensions": "Asocia las extensiones de archivo a iconos. La clave de objeto es el nombre de la extensión de archivo, que es el último segmento del nombre de un archivo después del último punto (sin incluir el punto). La comparación de extensiones no distingue mayúsculas y minúsculas.",
+      "schema.fileName": "La identificación de la definición de icono para la asociación.",
+      "schema.fileNames": "Asocia los nombres de archivo a iconos. La clave de objeto es el nombre de archivo completo, sin incluir ningún segmento de la ruta de acceso. El nombre de archivo puede incluir puntos y una posible extensión de archivo. No se permiten patrones ni comodines. La comparación de nombres de archivo no distingue mayúsculas y minúsculas.",
+      "schema.folder": "Icono de las carpetas contraídas y, si folderExpanded no se ha establecido, también de las carpetas expandidas.",
+      "schema.folderExpanded": "Icono de las carpetas expandidas. El icono de carpeta expandida es opcional. Si no establece, se muestra el icono definido para la carpeta.",
+      "schema.folderName": "La identificación de la definición de icono para la asociación.",
+      "schema.folderNameExpanded": "La identificación de la definición de icono para la asociación.",
+      "schema.folderNames": "Asocia los nombres de carpeta a iconos. La clave de objeto es el nombre de la carpeta, sin incluir ningún segmento de la ruta de acceso. No se permiten patrones ni comodines. La comparación de nombres de carpeta no distingue mayúsculas y minúsculas. ",
+      "schema.folderNamesExpanded": "Asocia los nombres de carpeta a iconos para las carpetas expandidas. La clave de objeto es el nombre de la carpeta, sin incluir ningún segmento de la ruta de acceso. No se permiten patrones ni comodines. La comparación de nombres de carpeta no distingue mayúsculas y minúsculas.",
+      "schema.font-format": "El formato de la fuente.",
+      "schema.font-path": "La ruta de acceso de la fuente, relativa al archivo actual de temas de iconos de archivos.",
+      "schema.font-size": "Tamaño predeterminado de la fuente. Se recomienda encarecidamente usar un valor de porcentaje, por ejemplo: 125 %.",
+      "schema.font-style": "El estilo de la fuente. Consulte https://developer.mozilla.org/en-US/docs/Web/CSS/font-style para ver los valores válidos.",
+      "schema.font-weight": "El peso de la fuente. Consulte https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight para ver los valores válidos.",
+      "schema.fontCharacter": "Cuando se usa una fuente de glifo: el carácter de la fuente que se va a usar.",
+      "schema.fontColor": "Cuando se usa una fuente de glifo: el color que se va a usar.",
+      "schema.fontId": "Cuando se usa una fuente: el identificador de la fuente. Si no se ha establecido, el valor predeterminado es la primera definición de fuente.",
+      "schema.fontSize": "Cuando se usa una fuente: porcentaje del tamaño de fuente para la fuente del texto. Si no se ha establecido, el valor predeterminado es el tamaño de la definición de fuente.",
+      "schema.fonts": "Fuentes que se usan en las definiciones de icono.",
+      "schema.hidesExplorerArrows": "Configura si las flechas del explorador deben quedar ocultas cuando este tema esté activo.",
+      "schema.highContrast": "Asociaciones opcionales para iconos de archivo en temas de color de contraste alto.",
+      "schema.iconDefinition": "Definición de icono. La clave del objeto es el identificador de la definición.",
+      "schema.iconDefinitions": "Descripción de todos los iconos que se pueden usar al asociar archivos a iconos.",
+      "schema.iconPath": "Cuando se usa SVG o PNG: la ruta de acceso a la imagen. La ruta es relativa al archivo del conjunto de iconos.",
+      "schema.id": "El identificador de la fuente.",
+      "schema.languageId": "La identificación de la definición del icono para la asociación.",
+      "schema.languageIds": "Asocia lenguajes a los iconos. La clave de objeto es el identificador de lenguaje definido en el punto de aportación de lenguaje.",
+      "schema.light": "Asociaciones opcionales para iconos de archivo en temas de colores claros.",
+      "schema.rootFolder": "El icono de carpeta para las carpetas raíz contraídas y, si no se establece rootFolderExpanded, también para las carpetas raíz expandidas.",
+      "schema.rootFolderExpanded": "Icono de carpeta para carpetas raíz expandidas. El icono de carpeta raíz expandida es opcional. Si no se establece, se mostrará el icono definido para la carpeta raíz.",
+      "schema.rootFolderNameExpanded": "La identificación de la definición de icono para la asociación.",
+      "schema.rootFolderNames": "Asocia los nombres de carpeta raíz a los iconos. La clave de objeto es el nombre de la carpeta raíz. No se permiten patrones ni comodines. La coincidencia de nombres de carpeta raíz no distingue mayúsculas de minúsculas.",
+      "schema.rootFolderNamesExpanded": "Asocia los nombres de carpeta raíz a los iconos de las carpetas raíz expandidas. La clave de objeto es el nombre de la carpeta raíz. No se permiten patrones ni comodines. La coincidencia de nombres de carpeta raíz no distingue mayúsculas de minúsculas.",
+      "schema.showLanguageModeIcons": "Configura si se deben usar los iconos de idioma predeterminados si el tema no define un icono para un idioma.",
+      "schema.src": "La ubicación de la fuente."
+    },
+    "vs/workbench/services/themes/common/iconExtensionPoint": {
+      "contributes.icon.default": "Valor predeterminado del icono. Una referencia a un ThemeIcon existente o un icono en una fuente de icono.",
+      "contributes.icon.default.fontCharacter": "Carácter para el icono en la fuente del icono.",
+      "contributes.icon.default.fontPath": "La ruta de la fuente del icono que lo define.",
+      "contributes.icon.description": "Descripción del icono con temas",
+      "contributes.icon.id": "Identificador del icono con temas",
+      "contributes.icon.id.format": "Los identificadores solo pueden contener letras, dígitos y caracteres de signo menos; además, deben estar formados por un mínimo de dos segmentos con el formato \"componente-nombreIcono\".",
+      "contributes.icons": "Contribuye a los iconos con temas definidos por la extensión",
+      "invalid.icons.configuration": "El elemento 'configuration.icons' debe ser un objeto con los nombres de icono como propiedades.",
+      "invalid.icons.default": "El elemento \"configuration.icons.default\" debe ser una referencia al identificador de otro icono de tema (cadena) o una definición de icono (objeto) con las propiedades \"fontPath\" y \"fontCharacter\".",
+      "invalid.icons.default.fontPath.extension": "El elemento `contributes.icons.default.fontPath` que se espera que tenga la extensión de archivo 'woff', 'woff2' o 'ttf', es '{0}'.",
+      "invalid.icons.default.fontPath.path": "El elemento `contributes.icons.default.fontPath` ({0}) que se espera que se incluya en la carpeta de la extensión ({0}).",
+      "invalid.icons.description": "El objeto \"configuration.icons.description\" debe estar definido y no puede estar vacío",
+      "invalid.icons.id.format": "Las claves 'configuration.icons' representan los id. de icono y solo pueden contener letras, dígitos y caracteres de signo menos. Deben estar formadas por un mínimo de dos segmentos con el formato `componente-nombreicono`."
+    },
+    "vs/workbench/services/themes/common/productIconThemeSchema": {
+      "schema.font-format": "El formato de la fuente.",
+      "schema.font-path": "La ruta de acceso de la fuente, relativa al archivo actual de temas de iconos de archivos.",
+      "schema.font-style": "El estilo de la fuente. Consulte https://developer.mozilla.org/en-US/docs/Web/CSS/font-style para ver los valores válidos.",
+      "schema.font-weight": "El peso de la fuente. Consulte https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight para ver los valores válidos.",
+      "schema.iconDefinitions": "Asociación del nombre de icono a un carácter de fuente.",
+      "schema.id": "El identificador de la fuente.",
+      "schema.src": "La ubicación de la fuente."
+    },
+    "vs/workbench/services/themes/common/themeConfiguration": {
+      "autoDetectHighContrast": "Si está habilitado, cambiará automáticamente al tema de alto contraste si el sistema operativo está usando un tema de alto contraste. El tema de contraste alto que se va a usar se especifica mediante {0} y {1}.",
+      "colorTheme": "Especifica el tema de color que se usa en el área de trabajo cuando {0} no está habilitado.",
+      "colorThemeError": "El tema es desconocido o no está instalado.",
+      "defaultProductIconThemeDesc": "Predeterminada",
+      "defaultProductIconThemeLabel": "Predeterminado",
+      "detectColorScheme": "Si se habilita, seleccionará automáticamente un tema de color basado en el modo de color del sistema. Si el modo de color del sistema es oscuro, se usa {0}; de lo contrario, {1}.",
+      "editorColors": "Invalida el estilo de fuente y los colores de sintaxis del editor del tema de color seleccionado.",
+      "editorColors.comments": "Establece los colores y estilos para los comentarios",
+      "editorColors.functions": "Establece los colores y estilos para las declaraciones y referencias de funciones.",
+      "editorColors.keywords": "Establece los colores y estilos para las palabras clave.",
+      "editorColors.numbers": "Establece los colores y estilos para literales numéricos.",
+      "editorColors.semanticHighlighting": "Si el resaltado semántico debe estar habilitado para este tema.",
+      "editorColors.semanticHighlighting.deprecationMessage": "Use \"habilitado\" en el valor \"editor.semanticTokenColorCustomizations\" en su lugar.",
+      "editorColors.semanticHighlighting.deprecationMessageMarkdown": "Use \"enabled\" en el valor {0} en su lugar.",
+      "editorColors.semanticHighlighting.enabled": "Indica si el resaltado semántico está habilitado o deshabilitado para este tema.",
+      "editorColors.semanticHighlighting.rules": "Reglas de estilo del token semántico para este tema.",
+      "editorColors.strings": "Establece los colores y estilos para los literales de cadena.",
+      "editorColors.textMateRules": "Establece colores y estilos utilizando las reglas de la tematización de textmate (avanzadas).",
+      "editorColors.types": "Establece los colores y estilos para las declaraciones y referencias de tipos.",
+      "editorColors.variables": "Establece los colores y estilos para las declaraciones y referencias de variables.",
+      "iconTheme": "Especifica el tema de icono de archivo utilizado en el área de trabajo o \"null\" para no mostrar ningún icono de archivo.",
+      "iconThemeError": "El tema de icono de archivo es desconocido o no está instalado.",
+      "noIconThemeDesc": "Sin iconos de archivo",
+      "noIconThemeLabel": "Ninguno",
+      "preferredDarkColorTheme": "Especifica el tema de color cuando el modo de color del sistema es oscuro y {0} está habilitado.",
+      "preferredHCDarkColorTheme": "Especifica el tema de color cuando está en modo oscuro de alto contraste y {0} está habilitado.",
+      "preferredHCLightColorTheme": "Especifica el tema de color cuando está en modo claro de alto contraste y {0} está habilitado.",
+      "preferredLightColorTheme": "Especifica el tema de color cuando el modo de color del sistema es claro y {0} está habilitado.",
+      "productIconTheme": "Especifica el tema del icono del producto usado.",
+      "productIconThemeError": "El tema del icono del producto se desconoce o no está instalado.",
+      "semanticTokenColors": "Invalida los estilos y el color de token semántico del editor del tema de color seleccionado.",
+      "workbenchColors": "Reemplaza los colores del tema de color actual"
+    },
+    "vs/workbench/services/themes/common/themeExtensionPoints": {
+      "color themes": "Temas de color",
+      "file icon themes": "Temas de icono de archivo",
+      "invalid.path.1": "Se esperaba que \"contributes.{0}.path\" ({1}) se incluyera en la carpeta de la extensión ({2}). Esto puede hacer que la extensión no sea portátil.",
+      "product icon themes": "Temas de icono de producto",
+      "reqarray": "El punto de extensión \"{0}\" debe ser una matriz.",
+      "reqid": "Se esperaba una cadena en `contributes.{0}.id`. Valor proporcionado: {1}",
+      "reqpath": "Se esperaba una cadena en 'contributes.{0}.path'. Valor proporcionado: {1}",
+      "themes": "Temas",
+      "vscode.extension.contributes.iconThemes": "Aporta temas de icono de archivo.",
+      "vscode.extension.contributes.iconThemes.id": "Id. del tema del icono de archivo tal como se utiliza en la configuración del usuario.",
+      "vscode.extension.contributes.iconThemes.label": "Etiqueta del tema del icono de archivo como se muestra en la interfaz de usuario.",
+      "vscode.extension.contributes.iconThemes.path": "Ruta del archivo de definición del tema del icono de archivo. La ruta de acceso es relativa a la carpeta de extensión y suele ser \"./fileicons/awesome-icon-theme.json\".",
+      "vscode.extension.contributes.productIconThemes": "Aporta temas de icono de producto.",
+      "vscode.extension.contributes.productIconThemes.id": "Id. del tema del icono del producto tal como se utiliza en la configuración del usuario.",
+      "vscode.extension.contributes.productIconThemes.label": "Etiqueta del tema del icono del producto como se muestra en la interfaz de usuario.",
+      "vscode.extension.contributes.productIconThemes.path": "Ruta del archivo de definición del tema del icono de producto. La ruta de acceso es relativa a la carpeta de extensión y suele ser \"./producticons/awesome-product-icon-theme.json\".",
+      "vscode.extension.contributes.themes": "Aporta temas de color de textmate.",
+      "vscode.extension.contributes.themes.id": "Id. del tema de color tal como se utiliza en la configuración del usuario.",
+      "vscode.extension.contributes.themes.label": "Etiqueta del tema de color tal como se muestra en la interfaz de usuario.",
+      "vscode.extension.contributes.themes.path": "Ruta de acceso del archivo tmTheme. La ruta de acceso es relativa a la carpeta de extensión y suele ser \"./colorthemes/awesome-color-theme.json\".",
+      "vscode.extension.contributes.themes.uiTheme": "Tema base que define los colores que se usan en el editor: \"vs\" es el tema de color claro, 'vs-dark' es el tema de color oscuro, 'hc-black' es el tema oscuro de alto contraste, 'hc-light' es el tema claro de contraste alto."
+    },
+    "vs/workbench/services/themes/common/tokenClassificationExtensionPoint": {
+      "contributes.color.description": "Descripción del tipo de token semántico",
+      "contributes.semanticTokenModifiers": "Contribuye con modificadores de token semántico.",
+      "contributes.semanticTokenModifiers.description": "La descripción del modificador de token semántico",
+      "contributes.semanticTokenModifiers.id": "El identificador del modificador de token semántico",
+      "contributes.semanticTokenModifiers.id.format": "Los identificadores deben tener el formato letterOrDigit[_-letterOrDigit]*",
+      "contributes.semanticTokenScopes": "Aporta los mapas de ámbito de token semántico.",
+      "contributes.semanticTokenScopes.languages": "Enumera el languge para el que son los valores predeterminados.",
+      "contributes.semanticTokenScopes.scopes": "Asigna un token semántico (descrito por el selector de tokens semántico) a uno o varios ámbitos textMate utilizados para representar ese token.",
+      "contributes.semanticTokenTypes": "Contribuye con tipos de token semánticos.",
+      "contributes.semanticTokenTypes.id": "El identificador del tipo de token semántico",
+      "contributes.semanticTokenTypes.id.format": "Los identificadores deben tener el formato letterOrDigit[_-letterOrDigit]*",
+      "contributes.semanticTokenTypes.superType": "El supertipo del tipo de token semántico",
+      "contributes.semanticTokenTypes.superType.format": "Los supertipos deben tener el formato letterOrDigit[_-letterOrDigit]*",
+      "invalid.description": "\"configuration.{0}.description\" debe estar definido y no puede estar vacío",
+      "invalid.id": "\"configuration.{0}.id\" debe estar definido y no puede estar vacío",
+      "invalid.id.format": "\"configuration.{0}.id\" debe seguir el patrón letterOrDigit[-_letterOrDigit]*",
+      "invalid.semanticTokenModifierConfiguration": "\"configuration.semanticTokenModifier\" debe ser una matriz",
+      "invalid.semanticTokenScopes.configuration": "\"configuration.semanticTokenScopes\" debe ser una matriz",
+      "invalid.semanticTokenScopes.language": "\"configuration.semanticTokenScopes.language\" debe ser una cadena",
+      "invalid.semanticTokenScopes.scopes": "\"configuration.semanticTokenScopes.scopes\" debe definirse como un objeto",
+      "invalid.semanticTokenScopes.scopes.selector": "\"configuration.semanticTokenScopes.scopes\": problemas al analizar el selector {0}.",
+      "invalid.semanticTokenScopes.scopes.value": "Los valores de \"configuration.semanticTokenScopes.scopes\" deben ser una matriz de cadenas",
+      "invalid.semanticTokenTypeConfiguration": "\"configuration.semanticTokenType\" debe ser una matriz",
+      "invalid.superType.format": "\"configuration.{0}.superType\" debe seguir el patrón letterOrDigit[-_letterOrDigit]*"
+    },
+    "vs/workbench/services/themes/electron-browser/themes.contribution": {
+      "window.systemColorTheme": "Establece el modo de color para los elementos nativos de la interfaz de usuario, como cuadros de diálogo nativos, menús y barra de título. Incluso si el sistema operativo está configurado en modo de color claro, puede seleccionar un tema de color del sistema oscuro para la ventana. También puede configurar para ajustar automáticamente en función de la configuración {0}.\r\n\r\nNota: Esta configuración se omite cuando {1} está habilitado.",
+      "window.systemColorTheme.auto": "Usar colores de widget nativos claros para temas de color claro y oscuros para temas de color oscuro.",
+      "window.systemColorTheme.dark": "Usar colores de widget nativos oscuros.",
+      "window.systemColorTheme.default": "Los colores del widget nativo coinciden con los colores del sistema.",
+      "window.systemColorTheme.light": "Usar colores de widget nativos claros."
+    },
+    "vs/workbench/services/userDataProfile/browser/extensionsResource": {
+      "all profiles and disabled": "Todos los perfiles",
+      "exclude": "Seleccionar {0} extensión",
+      "extensions": "Extensiones",
+      "installingExtension": "Instalando extensión {0}..."
+    },
+    "vs/workbench/services/userDataProfile/browser/globalStateResource": {
+      "globalState": "Estado de la interfaz de usuario"
+    },
+    "vs/workbench/services/userDataProfile/browser/keybindingsResource": {
+      "keybindings": "Métodos abreviados de teclado"
+    },
+    "vs/workbench/services/userDataProfile/browser/mcpProfileResource": {
+      "mcp": "Servidores MCP"
+    },
+    "vs/workbench/services/userDataProfile/browser/settingsResource": {
+      "settings": "Configuración"
+    },
+    "vs/workbench/services/userDataProfile/browser/snippetsResource": {
+      "exclude": "Seleccionar {0} de fragmento de código",
+      "snippets": "Fragmentos de código"
+    },
+    "vs/workbench/services/userDataProfile/browser/tasksResource": {
+      "tasks": "Tareas"
+    },
+    "vs/workbench/services/userDataProfile/browser/userDataProfileImportExportService": {
+      "applying global state": "Aplicando estado de IU...",
+      "close": "Cerrar",
+      "copy": "&&Copiar vínculo",
+      "create from profile": "Crear perfil: {0}",
+      "create keybindings": "Creando métodos abreviados de teclado...",
+      "create snippets": "Creando fragmentos de código...",
+      "create tasks": "Creando tareas...",
+      "creating settings": "Creando configuración...",
+      "export profile dialog": "Guardar perfil",
+      "export profile name": "Asigne un nombre al perfil",
+      "export profile title": "Exportar perfil",
+      "export success": "El perfil '{0}' se exportó correctamente.",
+      "file": "archivo",
+      "from default": "Del perfil predeterminado",
+      "installing extensions": "Instalando extensiones...",
+      "invalid profile content": "Este perfil no es válido.",
+      "local": "Local",
+      "open": "&&Abrir vínculo",
+      "open in": "&&Abrir en {0}",
+      "overwrite": "&&Reemplazar",
+      "profile already exists": "El perfil con el nombre '{0}' ya existe. ¿Quiere reemplazar su contenido?",
+      "profile name required": "Se debe proporcionar un nombre de perfil.",
+      "profiles.exporting": "{0}: Exportando...",
+      "progress extensions": "Aplicando extensiones...",
+      "progress global state": "Aplicando estado...",
+      "progress keybindings": "Aplicando métodos abreviados de teclado...",
+      "progress settings": "Aplicando configuración...",
+      "progress snippets": "Aplicando fragmentos de código...",
+      "progress tasks": "Aplicando tareas...",
+      "select": "Seleccionar {0}",
+      "select profile": "Seleccionar perfil",
+      "select profile content handler": "Exporte el perfil \"{0}\" como...",
+      "switching profile": "Cambiando de perfil...",
+      "troubleshoot issue": "Solucionar problema",
+      "troubleshoot profile progress": "Configurando perfil de solución de problemas: {0}"
+    },
+    "vs/workbench/services/userDataProfile/browser/userDataProfileManagement": {
+      "cannotDeleteDefaultProfile": "No se puede eliminar el perfil predeterminado",
+      "cannotRenameDefaultProfile": "No se puede cambiar el nombre del perfil predeterminado",
+      "reload button": "&&Recargar",
+      "reload message": "Cambiar un perfil requiere volver a cargar VS Code.",
+      "reload message when removed": "Se ha quitado el perfil actual. Vuelva a cargar para volver al perfil predeterminado.",
+      "reload message when switched": "El área de trabajo actual se ha quitado del perfil actual. Vuelva a cargar para volver al perfil actualizado.",
+      "reload message when updated": "Se ha actualizado el perfil actual. Vuelva a cargar para volver al perfil actualizado.",
+      "switch profile": "Cambiando a un perfil"
+    },
+    "vs/workbench/services/userDataProfile/common/userDataProfile": {
+      "defaultProfileIcon": "Icono del perfil predeterminado.",
+      "profile": "Perfil",
+      "profiles": "Perfiles"
+    },
+    "vs/workbench/services/userDataProfile/common/userDataProfileIcons": {
+      "settingsViewBarIcon": "Icono de configuración en la barra de vistas."
+    },
+    "vs/workbench/services/userDataSync/browser/userDataSyncWorkbenchService": {
+      "and": " y ",
+      "choose account placeholder": "Seleccione una cuenta con la que iniciar sesión",
+      "conflicts detected": "Conflictos detectados en {0}",
+      "download sync activity dialog open label": "Guardar",
+      "download sync activity dialog title": "Seleccionar carpeta en la que descargar la actividad de sincronización de configuración",
+      "last used": "Último uso con sincronización",
+      "no": "No",
+      "no account": "No hay ninguna cuenta disponible.",
+      "no authentication providers": "No se puede activar la sincronización de la configuración porque no hay ningún proveedor de autenticación disponible.",
+      "no authentication providers during signin": "No se puede iniciar sesión porque no hay proveedores de autenticación disponibles.",
+      "others": "Otros",
+      "replace local": "Aceptar &&remoto",
+      "replace local single": "Aceptar {0} &&remoto",
+      "replace remote": "Aceptar &&local",
+      "replace remote single": "Aceptar {0} &&local",
+      "reset": "Esto borrará los datos en la nube y detendrá la sincronización en todos sus dispositivos.",
+      "reset title": "Borrar",
+      "resetButton": "&&Restablecer",
+      "resolve": "Resuelva los conflictos para activar...",
+      "resolving conflicts": "Resolviendo conflictos...",
+      "settings sync": "Sincronización de configuración",
+      "show conflicts": "&&Mostrar conflictos",
+      "sign in using account": "Iniciar sesión con {0}",
+      "signed in": "Sesión iniciada",
+      "sync in progress": "La sincronización de la configuración se está activando. ¿Quiere cancelarla?",
+      "sync turned on": "Se activó {0}",
+      "syncing...": "Activando...",
+      "turning on": "Activando...",
+      "yes": "&&Sí"
+    },
+    "vs/workbench/services/userDataSync/common/userDataSync": {
+      "download sync activity title": "Descargar actividad de sincronización de configuración",
+      "extensions": "Extensiones",
+      "keybindings": "Métodos abreviados de teclado",
+      "mcp": "Servidores MCP",
+      "profiles": "Perfiles",
+      "prompts": "Indicaciones e instrucciones",
+      "settings": "Configuración",
+      "snippets": "Fragmentos de código",
+      "sync category": "Sincronización de configuración",
+      "syncViewIcon": "Vea el icono de la vista de sincronización de la configuración.",
+      "tasks": "Tareas",
+      "ui state label": "Estado de la interfaz de usuario",
+      "workspace state label": "Estado del área de trabajo"
+    },
+    "vs/workbench/services/views/browser/viewDescriptorService": {
+      "hideView": "Ocultar “{0}”",
+      "hideViewDescription": "Oculta la vista {0} si está visible y el contenedor de vistas en el que se encuentra está visible",
+      "resetViewLocation": "Restablecer ubicación",
+      "toggleVisibilityDescription": "Alterna la visibilidad de la vista {0} si el contenedor de vistas en el que se encuentra está visible",
+      "user": "Contenedor de vista de usuario"
+    },
+    "vs/workbench/services/views/browser/viewsService": {
+      "editor": "Editor de texto",
+      "focus view": "Foco en vista {0}",
+      "open view": "Abre la vista {0}",
+      "preserveFocus": "Indica si se debe conservar el foco existente al abrir la vista.",
+      "resetViewLocation": "Restablecer ubicación",
+      "show view": "Mostrar {0}",
+      "toggle view": "Alternar {0}"
+    },
+    "vs/workbench/services/views/test/browser/viewContainerModel.test": {
+      "Test View 1": "Vista de pruebas 1",
+      "Test View 2": "Vista de pruebas 2",
+      "Test View 3": "Vista de pruebas 3",
+      "Test View 4": "Vista de pruebas 4",
+      "Test View 5": "Vista de pruebas 5",
+      "test": "prueba"
+    },
+    "vs/workbench/services/views/test/browser/viewDescriptorService.test": {
+      "Test View 1": "Vista de pruebas 1",
+      "Test View 2": "Vista de pruebas 2",
+      "Test View 3": "Vista de pruebas 3",
+      "Test View 4": "Vista de pruebas 4",
+      "test": "prueba"
+    },
+    "vs/workbench/services/voiceRecognition/electron-sandbox/workbenchVoiceRecognitionService": {
+      "voiceTranscription": "Transcripción de voz",
+      "voiceTranscriptionError": "Error en la transcripción de voz: {0}",
+      "voiceTranscriptionGettingReady": "Preparando el micrófono...",
+      "voiceTranscriptionRecording": "Grabando desde el micrófono..."
+    },
+    "vs/workbench/services/workingCopy/common/fileWorkingCopyManager": {
+      "confirmMakeWriteable": "'{0}' está marcado como de solo lectura. ¿Desea guardar de todos modos?",
+      "confirmMakeWriteableDetail": "Las rutas de acceso se pueden configurar como de solo lectura a través de la configuración.",
+      "confirmOverwrite": "'{0}' ya existe. ¿Desea reemplazarla?",
+      "deleted": "Eliminado",
+      "fileWorkingCopyCreate.source": "Archivo creado",
+      "fileWorkingCopyDecorations": "Decoraciones de copia de trabajo de archivo",
+      "fileWorkingCopyReplace.source": "Archivo reemplazado",
+      "makeWriteableButtonLabel": "&&Guardar de todos modos",
+      "overwriteIrreversible": "Ya existe un archivo o carpeta con el nombre \"{0}\" en la carpeta \"{1}\". Reemplazarlo sobrescribirá su contenido actual.",
+      "readonly": "Solo lectura",
+      "readonlyAndDeleted": "Eliminado, solo lectura",
+      "replaceButtonLabel": "&&Reemplazar"
+    },
+    "vs/workbench/services/workingCopy/common/storedFileWorkingCopy": {
+      "genericSaveError": "No se pudo guardar \"{0}\": {1}",
+      "overwrite": "Sobrescribir",
+      "overwriteElevated": "Sobrescribir como Administrador...",
+      "overwriteElevatedSudo": "Sobrescribir como Sudo...",
+      "permissionDeniedSaveError": "No se pudo guardar '{0}': Permisos insuficientes. Seleccione 'Reintentar como Admin' para volverlo a intentar como administrador.",
+      "permissionDeniedSaveErrorSudo": "Error al guardar '{0}': Permisos insuficientes. Seleccione 'Reintentar como Sudo' para reintentarlo como superusuario.",
+      "readonlySaveError": "No se pudo guardar \"{0}\": el archivo es de solo lectura. Seleccione \"Sobrescribir\" para tratar de hacerlo editable.",
+      "readonlySaveErrorAdmin": "No se pudo guardar \"{0}\": el archivo es de solo lectura. Seleccione la opción de sobrescribir como administrador para reintentarlo como administrador.",
+      "readonlySaveErrorSudo": "No se pudo guardar '{0}': El archivo es de sólo lectura. Seleccione 'Sobrescribir como Sudo' para reintentar como superusuario.",
+      "retry": "Reintentar",
+      "revert": "Revertir",
+      "saveAs": "Guardar como...",
+      "saveElevated": "Reintentar como Administrador...",
+      "saveElevatedSudo": "Reintentar como Sudo...",
+      "saveParticipants": "Guardando \"{0}\"",
+      "saveTextFile": "Escribiendo en el archivo...",
+      "staleSaveError": "Error al guardar \"{0}\": El contenido del archivo es más nuevo. ¿Desea sobrescribir el archivo con sus cambios?"
+    },
+    "vs/workbench/services/workingCopy/common/storedFileWorkingCopyManager": {
+      "join.fileWorkingCopyManager": "Guardando copias de trabajo"
+    },
+    "vs/workbench/services/workingCopy/common/storedFileWorkingCopySaveParticipant": {
+      "saveParticipants1": "Ejecutando acciones de código y formateadores...",
+      "skip": "Omitir"
+    },
+    "vs/workbench/services/workingCopy/common/workingCopyHistoryService": {
+      "default.source": "Archivo guardado",
+      "join.workingCopyHistory": "Guardando historial local",
+      "moved.source": "Archivo movido",
+      "renamed.source": "Se ha cambiado el nombre del archivo"
+    },
+    "vs/workbench/services/workingCopy/common/workingCopyHistoryTracker": {
+      "undoRedo.source": "Deshacer / Rehacer"
+    },
+    "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupService": {
+      "join.workingCopyBackups": "Copias de seguridad en funcionamiento"
+    },
+    "vs/workbench/services/workingCopy/electron-browser/workingCopyBackupTracker": {
+      "backupBeforeShutdownDetail": "Haga clic en \"Cancelar\" para dejar de esperar y guardar o revertir los editores con cambios sin guardar.",
+      "backupBeforeShutdownMessage": "La copia de seguridad de editores con cambios no guardados está tardando un poco más de lo esperado...",
+      "backupErrorDetails": "Pruebe a guardar o revertir primero los editores con cambios sin guardar e inténtelo de nuevo.",
+      "backupTrackerBackupFailed": "Los siguientes editores con cambios no guardados no se pudieron guardar en la ubicación de copia de seguridad.",
+      "backupTrackerConfirmFailed": "No se han podido guardar ni revertir los siguientes editores con cambios sin guardar.",
+      "discardBackupsBeforeShutdown": "Descartar las copias de seguridad está tardando un poco más de lo esperado...",
+      "ok": "&&Aceptar",
+      "revertBeforeShutdown": "La reversión de editores con cambios no guardados está tardando un poco más de lo esperado...",
+      "saveBeforeShutdown": "Guardar los editores con cambios sin guardar está tardando un poco más de lo esperado...",
+      "shutdownForceClose": "Cerrar de todos modos",
+      "shutdownForceQuit": "Salir de todos modos",
+      "shutdownForceReload": "Recargar de todos modos"
+    },
+    "vs/workbench/services/workspaces/browser/abstractWorkspaceEditingService": {
+      "errorInvalidTaskConfiguration": "No se puede escribir en el archivo de configuración del área de trabajo. Por favor, abra el archivo para corregir sus errores/advertencias e inténtelo de nuevo.",
+      "openWorkspaceConfigurationFile": "Configuración del área de trabajo abierta",
+      "save": "Guardar",
+      "saveWorkspace": "Guardar área de trabajo"
+    },
+    "vs/workbench/services/workspaces/browser/workspaceTrustEditorInput": {
+      "workspaceTrustEditorInputName": "Confianza en el área de trabajo",
+      "workspaceTrustEditorLabelIcon": "Icono de la etiqueta del editor de confianza del área de trabajo."
+    },
+    "vs/workbench/services/workspaces/electron-browser/workspaceEditingService": {
+      "doNotAskAgain": "Descartar siempre las áreas de trabajo sin título sin preguntar",
+      "doNotSave": "&&No guardar",
+      "restartExtensionHost.reason": "Apertura de un área de trabajo multiraíz",
+      "save": "&&Guardar",
+      "saveWorkspaceDetail": "Guarde el área de trabajo si tiene pensado volverla a abrir.",
+      "saveWorkspaceMessage": "¿Quiere guardar la configuración del área de trabajo como un archivo?",
+      "workspaceOpenedDetail": "El área de trabajo ya está abierta en otra ventana. Por favor, cierre primero la ventana y vuelta a intentarlo de nuevo.",
+      "workspaceOpenedMessage": "No se puede guardar el área de trabajo '{0}'"
+    }
+  }
+}
