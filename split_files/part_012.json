@@ -1,1000 +1,1000 @@
-      "mcpServerError": "No se pudo iniciar el servidor MCP {0}: {1}",
-      "mcpServerInstall": "Instalar {0}",
-      "mcpServerNotFound": "No se ha encontrado el comando \"{0}\" necesario para ejecutar {1}.",
-      "mcpViewDocs": "Ver documentación"
-    },
-    "vs/workbench/contrib/mcp/common/mcpServerConnection": {
-      "mcpServer.starting": "Iniciando el servidor {0}",
-      "mcpServer.state": "Estado de conexión: {0}",
-      "mcpServer.stopping": "Deteniendo servidor {0}"
-    },
-    "vs/workbench/contrib/mcp/common/mcpService": {
-      "mcp.autostart.configure": "Configurar",
-      "mcp.autostart.progress": "Esperando a que se inicie el servidor MCP \"{0}\"...",
-      "mcp.autostart.send": "Omitir espera"
-    },
-    "vs/workbench/contrib/mcp/common/mcpTypes": {
-      "mcpstate.error": "Error {0}",
-      "mcpstate.running": "En ejecución",
-      "mcpstate.starting": "Iniciando",
-      "mcpstate.stopped": "Detenido"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/commands/commands": {
-      "layout.column": "Diseño de la columna",
-      "layout.mixed": "Diseño mixto",
-      "layout.showBase": "Mostrar base",
-      "layout.showBaseCenter": "Mostrar centro base",
-      "layout.showBaseTop": "Mostrar base superior",
-      "merge.acceptAllInput1": "Aceptar todos los cambios recibidos desde la izquierda",
-      "merge.acceptAllInput2": "Aceptar todos los cambios actuales desde la derecha",
-      "merge.goToNextUnhandledConflict": "Ir al siguiente conflicto no controlado",
-      "merge.goToPreviousUnhandledConflict": "Ir al conflicto no controlado anterior",
-      "merge.openBaseEditor": "Abrir archivo base",
-      "merge.toggleCurrentConflictFromLeft": "Alternar conflicto actual desde la izquierda",
-      "merge.toggleCurrentConflictFromRight": "Alternar conflicto actual desde la derecha",
-      "mergeEditor": "Editor de combinación",
-      "mergeEditor.acceptAllCombination": "Aceptar todas las combinaciones",
-      "mergeEditor.acceptMerge": "Completar la fusión mediante combinación",
-      "mergeEditor.acceptMerge.unhandledConflicts.accept": "&&Completar con conflictos",
-      "mergeEditor.acceptMerge.unhandledConflicts.detail": "El archivo contiene conflictos no controlados.",
-      "mergeEditor.acceptMerge.unhandledConflicts.message": "¿Desea completar la combinación de {0}?",
-      "mergeEditor.compareInput1WithBase": "Comparar la entrada 1 con la base",
-      "mergeEditor.compareInput2WithBase": "Comparar la entrada 2 con la base",
-      "mergeEditor.compareWithBase": "Comparar con línea base",
-      "mergeEditor.resetChoice": "Restablecer opción para \"Cerrar con conflictos\"",
-      "mergeEditor.resetResultToBaseAndAutoMerge": "Restablecer resultado",
-      "mergeEditor.resetResultToBaseAndAutoMerge.short": "Restablecer",
-      "mergeEditor.toggleBetweenInputs": "Alternar entre las entradas de Editor de combinación",
-      "openfile": "Abrir archivo",
-      "showNonConflictingChanges": "Mostrar cambios que no están en conflicto",
-      "title": "Abrir el Editor de combinación"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/commands/devCommands": {
-      "merge.dev.copyState": "Copiar estado del editor de mezcla como JSON",
-      "merge.dev.loadContentsFromFolder": "Cargar estado del editor de combinación desde la carpeta",
-      "merge.dev.saveContentsToFolder": "Guardar estado del editor de combinación en la carpeta",
-      "mergeEditor": "Editor de combinación (desarrollo)",
-      "mergeEditor.name": "Editor de combinación",
-      "mergeEditor.noActiveMergeEditor": "No hay ningún editor de combinación activo",
-      "mergeEditor.selectFolderToSaveTo": "Seleccionar la carpeta en la que desea guardar",
-      "mergeEditor.successfullyCopiedMergeEditorContents": "Estado del editor de mezcla copiado correctamente",
-      "mergeEditor.successfullySavedMergeEditorContentsToFolder": "El estado del editor de combinación se guardó correctamente en la carpeta"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/mergeEditor.contribution": {
-      "diffAlgorithm.advanced": "Usa el algoritmo de diferenciación avanzada.",
-      "diffAlgorithm.legacy": "Usa el algoritmo de diferenciación heredado.",
-      "name": "Editor de combinación"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/mergeEditorAccessibilityHelp": {
-      "msg1": "Está en un editor de mezcla.",
-      "msg2": "Navegue entre conflictos de combinación mediante los comandos Ir al siguiente conflicto no controlado{0} e Ir al anterior conflicto no controlado{1}.",
-      "msg3": "Ejecute el comando Editor de combinación: aceptar todos los cambios recibidos desde la izquierda{0} y Editor de combinación: aceptar todos los cambios actuales desde la derecha{1}",
-      "msg4": "Complete la combinación{0}.",
-      "msg5": "Alternar entre las entradas del editor de combinación, los cambios entrantes y los cambios actuales {0}."
-    },
-    "vs/workbench/contrib/mergeEditor/browser/mergeEditorInput": {
-      "mergeEditor.input1": "Entrada izquierda actual",
-      "mergeEditor.input2": "Entrada derecha actual",
-      "mergeEditor.result": "Resultado de la fusión mediante combinación",
-      "name": "Combinando: {0}"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/mergeEditorInputModel": {
-      "acceptMerge": "&&Aceptar combinación",
-      "detail1": "El resultado de la combinación se perderá si no lo guarda.",
-      "detail1Conflicts": "El archivo contiene conflictos no controlados. El resultado de la combinación se perderá si no lo guarda.",
-      "detailN": "Los resultados de la combinación se perderán si no los guarda.",
-      "detailNConflicts": "Los archivos contienen conflictos no controlados. Los resultados de la combinación se perderán si no los guarda.",
-      "discard": "&&No guardar",
-      "merge-editor.source": "Antes de resolver los conflictos en el Editor de combinación",
-      "message1": "¿Desea mantener el resultado de la combinación de {0}?",
-      "messageN": "¿Desea mantener el resultado de la combinación de los archivos {0}?",
-      "noMoreWarn": "No volver a hacerme esta pregunta",
-      "save": "&&Guardar",
-      "saveTempFile.detail": "Esto escribirá el resultado de la combinación en el archivo original y cerrará el editor de combinación.",
-      "saveTempFile.message": "¿Desea aceptar el resultado de la combinación?",
-      "saveWithConflict": "&&Guardar con conflictos",
-      "workspace.close": "&&Cerrar",
-      "workspace.closeWithConflicts": "&&Cerrar con conflictos",
-      "workspace.detail1.handled": "Los cambios se perderán si no los guarda.",
-      "workspace.detail1.unhandled": "El archivo contiene conflictos no controlados. Los cambios se perderán si no los guarda.",
-      "workspace.detail1.unhandled.nonDirty": "El archivo contiene conflictos no controlados.",
-      "workspace.detailN.handled": "Los cambios se perderán si no los guarda.",
-      "workspace.detailN.unhandled": "Los archivos contienen conflictos no controlados. Los cambios se perderán si no los guarda.",
-      "workspace.detailN.unhandled.nonDirty": "Los archivos contienen conflictos no controlados.",
-      "workspace.doNotSave": "&&No guardar",
-      "workspace.message1": "¿Quiere guardar los cambios efectuados en {0}?",
-      "workspace.message1.nonDirty": "¿Desea cerrar el editor de combinación para {0}?",
-      "workspace.messageN": "¿Desea guardar los cambios realizados en {0} archivos?",
-      "workspace.messageN.nonDirty": "¿Desea cerrar {0} editores de combinación?",
-      "workspace.save": "&&Guardar",
-      "workspace.saveWithConflict": "&&Guardar con conflictos"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/mergeMarkers/mergeMarkersController": {
-      "conflictingLine": "1 Líneas en conflicto",
-      "conflictingLines": "{0} Líneas en conflicto"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/model/mergeEditorModel": {
-      "setInputHandled": "Establecer entrada controlada",
-      "undoMarkAsHandled": "Deshacer marca como controlada"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/view/colors": {
-      "mergeEditor.change.background": "Color de fondo de los cambios.",
-      "mergeEditor.change.word.background": "El color de primer plano de la palabra cambia.",
-      "mergeEditor.changeBase.background": "Color de fondo de los cambios en la base.",
-      "mergeEditor.changeBase.word.background": "Color de fondo de los cambios de palabra en la base.",
-      "mergeEditor.conflict.handled.minimapOverViewRuler": "Color de primer plano para los cambios en la entrada 1.",
-      "mergeEditor.conflict.handledFocused.border": "Color de borde de los conflictos con tiempo de concentración controlados.",
-      "mergeEditor.conflict.handledUnfocused.border": "Color de borde de los conflictos controlados sin tiempo de concentración.",
-      "mergeEditor.conflict.input1.background": "Color de fondo de las decoraciones en la entrada 1.",
-      "mergeEditor.conflict.input2.background": "Color de fondo de las decoraciones en la entrada 2.",
-      "mergeEditor.conflict.unhandled.minimapOverViewRuler": "Color de primer plano para los cambios en la entrada 1.",
-      "mergeEditor.conflict.unhandledFocused.border": "Color de borde de los conflictos centrados no controlados.",
-      "mergeEditor.conflict.unhandledUnfocused.border": "Color de borde de conflictos no controlados sin tiempo de concentración.",
-      "mergeEditor.conflictingLines.background": "El fondo del texto \"Líneas en conflicto\"."
-    },
-    "vs/workbench/contrib/mergeEditor/browser/view/conflictActions": {
-      "accept": "Aceptar {0}",
-      "acceptBoth": "Aceptar combinación",
-      "acceptBoth0First": "Aceptar la combinación ({0} primero)",
-      "acceptBothTooltip": "Aceptar una combinación automática de ambos lados en el documento de resultados.",
-      "acceptTooltip": "Aceptar {0} en el documento de resultados.",
-      "append": "Anexar {0}",
-      "appendTooltip": "Anexe {0} al documento de resultados.",
-      "combine": "Aceptar combinación",
-      "ignore": "Omitir",
-      "manualResolution": "Resolución manual",
-      "manualResolutionTooltip": "Este conflicto se ha resuelto manualmente.",
-      "markAsHandledTooltip": "No aceptar este lado del conflicto.",
-      "noChangesAccepted": "No se acepta ningún cambio",
-      "noChangesAcceptedTooltip": "La resolución actual de este conflicto es igual al antecesor común de los cambios de derecha e izquierda.",
-      "remove": "Quitar {0}",
-      "removeTooltip": "Quitar {0} del documento de resultados.",
-      "resetToBase": "Restablecer a la base",
-      "resetToBaseTooltip": "Restablecer este conflicto al antecesor común de los cambios a la derecha e izquierda."
-    },
-    "vs/workbench/contrib/mergeEditor/browser/view/editors/baseCodeEditorView": {
-      "base": "Base",
-      "compareWith": "Comparación con {0}",
-      "compareWithTooltip": "Las diferencias se resaltan con un color de fondo."
-    },
-    "vs/workbench/contrib/mergeEditor/browser/view/editors/inputCodeEditorView": {
-      "accept.conflicting": "Aceptar (el resultado tiene modificaciones)",
-      "accept.excluded": "Aceptar",
-      "accept.first": "Deshacer aceptar",
-      "accept.second": "Deshacer Aceptar (actualmente segundo)",
-      "input1": "Entrada 1",
-      "input2": "Entrada 2",
-      "mergeEditor.accept": "Aceptar {0}",
-      "mergeEditor.acceptBoth": "Aceptar ambos",
-      "mergeEditor.markAsHandled": "Marcar como controlado",
-      "mergeEditor.swap": "Intercambiar"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/view/editors/resultCodeEditorView": {
-      "allConflictHandled": "Todos los conflictos controlados, la combinación se puede completar ahora.",
-      "goToNextConflict": "Ir al siguiente conflicto",
-      "mergeEditor.remainingConflict": "{0} conflictos restantes",
-      "mergeEditor.remainingConflicts": "{0} conflicto restante",
-      "result": "Resultado"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/view/mergeEditor": {
-      "mergeEditor": "Editor de combinación de texto"
-    },
-    "vs/workbench/contrib/mergeEditor/browser/view/viewModel": {
-      "noConflictMessage": "Actualmente no hay ningún conflicto centrado que se pueda alternar."
-    },
-    "vs/workbench/contrib/mergeEditor/common/mergeEditor": {
-      "baseUri": "El identificador uri de la base de un editor de combinación",
-      "editorLayout": "Modo de diseño de un editor de combinación",
-      "is": "El editor es un editor de combinación",
-      "isr": "El editor es el editor de resultados de un editor de mezcla.",
-      "resultUri": "El identificador uri del resultado de un editor de combinación",
-      "showBase": "Si el editor de combinación muestra la versión base",
-      "showBaseAtTop": "Si la base debe mostrarse en la parte superior",
-      "showNonConflictingChanges": "Si el editor de combinación muestra cambios que no están en conflicto"
-    },
-    "vs/workbench/contrib/mergeEditor/electron-browser/devCommands": {
-      "merge.dev.openSelectionInTemporaryMergeEditor": "Abrir selección en el Editor de combinación temporal",
-      "merge.dev.openState": "Abrir estado del editor de mezcla desde JSON",
-      "mergeEditor": "Editor de combinación (desarrollo)",
-      "mergeEditor.enterJSON": "Escribir JSON"
-    },
-    "vs/workbench/contrib/multiDiffEditor/browser/actions": {
-      "ExpandAllDiffs": "Expandir todas las diferencias",
-      "collapseAllDiffs": "Contraer todas las diferencias",
-      "goToFile": "Abrir archivo"
-    },
-    "vs/workbench/contrib/multiDiffEditor/browser/icons.contribution": {
-      "multiDiffEditorLabelIcon": "Icono de la etiqueta del editor de diferencias múltiples."
-    },
-    "vs/workbench/contrib/multiDiffEditor/browser/multiDiffEditor.contribution": {
-      "name": "Multi editor de diferencias"
-    },
-    "vs/workbench/contrib/multiDiffEditor/browser/multiDiffEditorInput": {
-      "name": "Multi editor de diferencias",
-      "nameWithFiles": "{0} (archivos {1})",
-      "nameWithOneFile": "{0} (1 archivo)"
-    },
-    "vs/workbench/contrib/multiDiffEditor/browser/scmMultiDiffSourceResolver": {
-      "openChanges": "Abrir cambios"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/cellCommands/cellCommands": {
-      "notebookActions.changeCellToCode": "Cambiar la celda a código",
-      "notebookActions.changeCellToMarkdown": "Cambiar la celda a Markdown",
-      "notebookActions.collapseAllCellInput": "Contraer todas las entradas de celda",
-      "notebookActions.collapseAllCellOutput": "Contraer todas las salidas de celda",
-      "notebookActions.collapseCellInput": "Contraer entrada de celda",
-      "notebookActions.collapseCellOutput": "Contraer los resultados de la celda",
-      "notebookActions.copyCellDown": "Copiar celda inferior",
-      "notebookActions.copyCellUp": "Copiar celda superior",
-      "notebookActions.expandAllCellInput": "Expandir todas las entradas de celda",
-      "notebookActions.expandAllCellOutput": "Expandir todas las salidas de celda",
-      "notebookActions.expandCellInput": "Expandir entrada de celda",
-      "notebookActions.expandCellOutput": "Expandir los resultados de la celda",
-      "notebookActions.joinCellAbove": "Unir con la celda anterior",
-      "notebookActions.joinCellBelow": "Unir con la celda siguiente",
-      "notebookActions.joinSelectedCells": "Combinar celdas seleccionadas",
-      "notebookActions.moveCellDown": "Bajar celda",
-      "notebookActions.moveCellUp": "Subir celda",
-      "notebookActions.splitCell": "Dividir celda",
-      "notebookActions.toggleOutputs": "Alternar salidas",
-      "notebookActions.toggleScrolling": "Alternar salida de celda de desplazamiento"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/cellDiagnostics/cellDiagnosticsActions": {
-      "cellCommands.quickFix.noneMessage": "No hay acciones de código disponibles",
-      "notebookActions.cellFailureActions": "Mostrar acciones de error de celda",
-      "notebookActions.chatExplainCellError": "Explicar error de celda",
-      "notebookActions.chatFixCellError": "Corregir error de celda"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/cellDiagnostics/diagnosticCellStatusBarContrib": {
-      "notebook.cell.status.diagnostic": "Acciones rápidas {0}"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/executionStatusBarItemController": {
-      "notebook.cell.status.executing": "En ejecución",
-      "notebook.cell.status.failed": "Error",
-      "notebook.cell.status.pending": "Pendiente",
-      "notebook.cell.status.success": "Correcto",
-      "notebook.cell.statusBar.timerTooltip": "**Última ejecución** {0}\r\n\r\n**Tiempo de ejecución** {1}\r\n\r\n**Tiempo de sobrecarga** {2}\r\n\r\n**Tiempos de representación**\r\n\r\n{3}",
-      "notebook.cell.statusBar.timerTooltip.reportIssueFootnote": "Usa los vínculos anteriores para presentar un problema mediante el informador del problema.",
-      "notebook.cell.statusBar.timerVerbose": "Última ejecución: {0}, Duración: {1}"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/statusBarProviders": {
-      "notebook.cell.status.autoDetectLanguage": "Aceptar lenguaje detectado: {0}",
-      "notebook.cell.status.language": "Seleccionar el modo de lenguaje de celda",
-      "notebook.cell.status.searchLanguageExtensions": "Idioma de celda desconocido. Haga clic para buscar extensiones de '{0}'"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/chat/notebookChatUtils": {
-      "notebookOutputCellLabel": "{0} • Celda {1} • Salida {2}"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/clipboard/notebookClipboard": {
-      "notebook.cell.output.selectAll": "Seleccionar todo",
-      "notebookActions.copy": "Copiar celda",
-      "notebookActions.cut": "Cortar celda",
-      "notebookActions.paste": "Pegar celda",
-      "notebookActions.pasteAbove": "Pegar celda arriba",
-      "toggleNotebookClipboardLog": "Alternar solución de problemas del Portapapeles del bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/editorStatusBar/editorStatusBar": {
-      "kernel.select.label": "Seleccionar el kernel",
-      "notebook.activeCellStatusName": "Selecciones del editor del Bloc de notas",
-      "notebook.indentation": "Sangría del cuaderno",
-      "notebook.info": "Información del kernel del bloc de notas",
-      "notebook.multiActiveCellIndicator": "Celda {0} ({1} seleccionado)",
-      "notebook.select": "Selección del kernel del bloc de notas",
-      "notebook.singleActiveCellIndicator": "Celda {0} de {1}",
-      "selectNotebookIndentation": "Seleccione la sangría",
-      "tooltop": "{0} (Sugerencia)"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/find/notebookFind": {
-      "notebookActions.findInNotebook": "Buscar en el Bloc de notas",
-      "notebookActions.hideFind": "Ocultar Buscar en el Bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/find/notebookFindReplaceWidget": {
-      "findFilterIcon": "Icono de Buscar filtro en el widget de búsqueda.",
-      "label.closeButton": "Cerrar",
-      "label.find": "Buscar",
-      "label.nextMatchButton": "Coincidencia siguiente",
-      "label.previousMatchButton": "Coincidencia anterior",
-      "label.replace": "Reemplazar",
-      "label.replaceAllButton": "Reemplazar todo",
-      "label.replaceButton": "Reemplazar",
-      "label.toggleReplaceButton": "Alternar reemplazar",
-      "label.toggleSelectionFind": "Buscar en selección",
-      "notebook.find.filter.filterAction": "Buscar filtros",
-      "notebook.find.filter.findInCodeInput": "Origen de celda de código",
-      "notebook.find.filter.findInCodeOutput": "Salida de celda de código",
-      "notebook.find.filter.findInMarkupInput": "Origen de Markdown",
-      "notebook.find.filter.findInMarkupPreview": "Markdown representado",
-      "placeholder.find": "Buscar",
-      "placeholder.replace": "Reemplazar"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/find/notebookFindWidget": {
-      "ariaSearchNoResult": "{0} encontrado para '{1}'",
-      "ariaSearchNoResultEmpty": "Encontrados: {0}",
-      "ariaSearchNoResultWithLineNumNoCurrentMatch": "{0} encontrado para '{1}'"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/format/formatting": {
-      "format.title": "Dar formato al Bloc de notas",
-      "formatCell.label": "Aplicar formato a celda",
-      "formatCells.label": "Aplicar formato a las celdas",
-      "label": "Dar formato al Bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/gettingStarted/notebookGettingStarted": {
-      "workbench.notebook.layout.gettingStarted.label": "Restablecer la introducción del bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/layout/layoutActions": {
-      "notebook.toggleCellToolbarPosition": "Alternar la posición de la barra de herramientas de celdas"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/multicursor/notebookMulticursor": {
-      "addFindMatchToSelection": "Agregar selección hasta la siguiente coincidencia de búsqueda",
-      "deleteLeftMultiSelection": "Eliminar izquierda",
-      "deleteRightMultiSelection": "Eliminar derecho",
-      "exitMultiSelection": "Salir del modo de cursor múltiple",
-      "selectAllFindMatches": "Seleccionar todas las repeticiones de coincidencia de búsqueda"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow": {
-      "cursorMoveDown": "Situar el foco sobre Editor de celda siguiente",
-      "cursorMoveUp": "Situar el foco sobre Editor de celda anterior",
-      "cursorPageDown": "Página abajo del cursor de celda",
-      "cursorPageDownSelect": "Selección de la página abajo del cursor de celda",
-      "cursorPageUp": "Página arriba del cursor de celda",
-      "cursorPageUpSelect": "Selección de la página arriba del cursor de celda",
-      "focusFirstCell": "Enfocar la primera celda",
-      "focusLastCell": "Enfocar la última celda",
-      "focusOutput": "Foco en la salida de la celda activa",
-      "focusOutputOut": "Foco fuera de la salida de la celda activa",
-      "notebook.cell.webviewHandledEvents": "Pulsaciones de teclas que debe controlar el elemento prioritario en la salida de la celda.",
-      "notebook.navigation.allowNavigateToSurroundingCells": "Cuando se activa el cursor puede navegar a la celda siguiente o anterior cuando el cursor actual en el editor de celdas está en la primera o la última línea.",
-      "notebookActions.centerActiveCell": "Centrar celda activa"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookInlineVariables": {
-      "clearAllInlineValues": "Borrar todos los valores insertados"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariableCommands": {
-      "copyWorkspaceVariableValue": "Copiar valor",
-      "executeNotebookVariableProvider": "Ejecutar proveedor de variables de cuaderno"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariables": {
-      "notebookVariables": "Variables del cuaderno"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariablesDataSource": {
-      "notebook.indexedChildrenLimitReached": "Se alcanzó el límite de pantalla"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariablesTree": {
-      "notebook.ReplVariables": "REPL Variables",
-      "notebook.notebookVariables": "Variables del cuaderno",
-      "notebookVariableAriaLabel": "Variable {0}, valor {1}"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/outline/notebookOutline": {
-      "breadcrumbs.showCodeCells": "Cuando se habilita, las rutas de navegación del cuaderno contienen celdas de código.",
-      "filter": "Filtrar entradas",
-      "notebook.gotoSymbols.showAllSymbols": "Cuando se habilita, la selección rápida ir a símbolo mostrará símbolos de código completos del bloc de notas, así como encabezados de Markdown.",
-      "outline.showCodeCellSymbols": "Cuando está habilitado, el contorno del cuaderno muestra símbolos de celda de código. Se basa en la habilitación de `#notebook.outline.showCodeCells#`.",
-      "outline.showCodeCells": "Cuando está habilitado, el contorno del cuaderno muestra las celdas de código.",
-      "outline.showMarkdownHeadersOnly": "Cuando está habilitado, el contorno del cuaderno solo mostrará las celdas de Markdown que contengan un encabezado.",
-      "toggleCodeCellSymbols": "Símbolos de celda de código",
-      "toggleCodeCells": "Celdas de código",
-      "toggleShowMarkdownHeadersOnly": "Solo encabezados de Markdown"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/profile/notebookProfile": {
-      "setProfileTitle": "Establecer el perfil"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/saveParticipants/saveParticipants": {
-      "codeAction.apply": "Aplicando la acción de código \"{0}\".",
-      "codeaction.get2": "Obteniendo acciones de código de \"{0}\" ([configure]({1})).",
-      "formatNotebook": "Dar formato al bloc de notas",
-      "insertFinalNewLine": "Insertar nueva línea final",
-      "notebookFormatSave.formatting": "Formateando",
-      "notebookSaveParticipants.cellCodeActions": "Ejecutando acciones de código \"Cell\"",
-      "notebookSaveParticipants.formatCodeActions": "Ejecución de acciones de código \"Format\"",
-      "notebookSaveParticipants.notebookCodeActions": "Ejecutar acciones de código \"Bloc de notas\"",
-      "trimNotebookNewlines": "Recortar líneas nuevas finales",
-      "trimNotebookWhitespace": "Recortar espacio final de bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/contrib/troubleshoot/layout": {
-      "workbench.notebook.clearNotebookEdtitorTypeCache": "Borrar caché de tipos de editor de blocs de notas",
-      "workbench.notebook.inspectLayout": "Inspeccionar el diseño del Bloc de notas",
-      "workbench.notebook.toggleLayoutTroubleshoot": "Alternar solución de problemas de diseño de cuaderno"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/cellOperations": {
-      "notebookActions.joinSelectedCells": "No se pueden combinar celdas de diferentes tipos",
-      "notebookActions.joinSelectedCells.label": "Unir celdas del bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/cellOutputActions": {
-      "notebookActions.copyOutput": "Copiar salida de celda",
-      "notebookActions.openOutputInEditor": "Abrir salida de celda en editor de texto",
-      "notebookActions.openOutputInNotebookOutputEditor": "Abrir en vista previa de salida",
-      "notebookActions.showAllOutput": "Mostrar salidas vacías"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/chat/cellChatActions": {
-      "apply1": "Aceptar cambios",
-      "apply2": "Aceptar",
-      "apply3": "Aceptar cambios",
-      "arrowDown": "Cursor hacia abajo",
-      "arrowUp": "Cursor hacia arriba",
-      "discard": "Descartar",
-      "focusChatWidget": "Enfocar widget de chat",
-      "focusNextCell": "Enfocar la celda siguiente",
-      "focusNextChatWidget": "Enfocar widget de chat de celda siguiente",
-      "focusNotebookChat": "Enfocar chat",
-      "focusPreviousCell": "Enfocar celda anterior",
-      "notebook.apply1": "Aceptar y ejecutar",
-      "notebook.apply2": "Aceptar y Ejecutar",
-      "notebook.apply3": "Aceptar los cambios y ejecutar la celda",
-      "notebook.cell.chat.accept": "Crear solicitud",
-      "notebook.cell.chat.close": "Cerrar el chat",
-      "notebook.cell.chat.nextFromHistory": "Siguiente del historial",
-      "notebook.cell.chat.previousFromHistory": "Anterior desde el historial",
-      "notebook.cell.chat.stop": "Detener solicitud",
-      "notebookActions.menu.insertCode.ontoolbar": "Generar",
-      "notebookActions.menu.insertCode.tooltip": "Iniciar chat para generar código",
-      "notebookActions.menu.insertCodeCellWithChat": "Generar",
-      "notebookActions.menu.insertCodeCellWithChat.tooltip": "Iniciar chat para generar código",
-      "notebookActions.restoreCellprompt": "Generar"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/chat/notebook.chat.contribution": {
-      "chatContext.notebook.kernelVariable": "Variable de kernel...",
-      "chatContext.notebook.kernelVariable.placeholder": "Seleccionar una variable del núcleo",
-      "noKernelVariables": "No se encontraron variables de kernel",
-      "notebookActions.addOutputToChat": "Agregar salida de celda al chat",
-      "pickKernelVariableLabel": "Selección de una variable del kernel",
-      "selectKernelVariablePlaceholder": "Seleccionar una variable del núcleo"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/chat/notebookChatContext": {
-      "notebookCellChatFocused": "Si el editor de chat de celda está centrado",
-      "notebookChatAgentRegistered": "Si se ha registrado un agente de chat para el cuaderno",
-      "notebookChatHasActiveRequest": "Si el editor de chat de celda tiene una solicitud activa",
-      "notebookChatOuterFocusPosition": "Si el foco del editor del cuaderno está encima o debajo del chat de celda",
-      "notebookChatUserDidEdit": "Si el usuario realizó cambios encima del chat de celda del cuaderno"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/chat/notebookChatController": {
-      "default.placeholder": "Preguntar o editar en contexto",
-      "welcome.1": "El contenido generado por inteligencia artificial puede ser incorrecto"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/coreActions": {
-      "miShare": "Compartir",
-      "notebookActions.category": "Bloc de notas",
-      "notebookMenu.cellTitle": "Celda del bloc de notas",
-      "notebookMenu.insertCell": "Insertar celda"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/editActions": {
-      "autoDetect": "Detección automática",
-      "changeLanguage": "Cambiar el lenguaje de la celda",
-      "clearAllCellsOutputs": "Borrar todas las salidas",
-      "clearCellOutputs": "Borrar salidas de celdas",
-      "commentSelectedCells": "Comentar celdas seleccionadas",
-      "confirmDeleteButton": "Eliminar",
-      "confirmDeleteButtonMessage": "Esta celda se está ejecutando, ¿está seguro de que desea eliminarla?",
-      "detectLanguage": "Aceptar lenguaje detectado para celda",
-      "doNotAskAgain": "No volver a hacerme esta pregunta",
-      "indentConvert": "convertir archivo",
-      "indentView": "cambiar vista",
-      "languageDescription": "({0}): lenguaje actual",
-      "languageDescriptionConfigured": "({0})",
-      "languagesPicks": "idiomas (identificador)",
-      "noDetection": "No se puede detectar el lenguaje de la celda",
-      "noNotebookEditor": "No hay ningún editor de cuadernos activo en este momento",
-      "noWritableCodeEditor": "El editor del cuaderno activo es de solo lectura.",
-      "notebookActions.deleteCell": "Eliminar celda",
-      "notebookActions.editCell": "Editar celda",
-      "notebookActions.quitEdit": "Detener edición de celda",
-      "notebookActions.quitEditAllCells": "Detener la edición de todas las celdas",
-      "pickAction": "Seleccionar acción",
-      "pickLanguageToConfigure": "Seleccionar el modo de lenguaje",
-      "selectNotebookIndentation": "Seleccione la sangría"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/executeActions": {
-      "notebookActions.cancel": "Detener la ejecución de la celda",
-      "notebookActions.cancelNotebook": "Detener ejecución",
-      "notebookActions.execute": "Ejecutar la celda",
-      "notebookActions.executeAbove": "Ejecutar las celdas de arriba",
-      "notebookActions.executeAndFocusContainer": "Ejecutar celda y contenedor de foco",
-      "notebookActions.executeAndInsertBelow": "Ejecutar celda del Bloc de notas e insertar a continuación",
-      "notebookActions.executeAndSelectBelow": "Ejecutar celda del Bloc de notas y seleccionar a continuación",
-      "notebookActions.executeBelow": "Ejecutar la celda y abajo",
-      "notebookActions.executeNotebook": "Ejecutar todo",
-      "notebookActions.interruptNotebook": "Interrumpir",
-      "notebookActions.renderMarkdown": "Representar todas las celdas de Markdown",
-      "revealLastFailedCell": "Ir a la celda con errores más recientes",
-      "revealLastFailedCellShort": "Ir a la celda con errores más recientes",
-      "revealRunningCell": "Ir a la celda en ejecución",
-      "revealRunningCellShort": "Ir a"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/foldingController": {
-      "fold.cell": "Plegar celda",
-      "unfold.cell": "Desplegar celda"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/insertCellActions": {
-      "notebookActions.insertCodeCellAbove": "Insertar celda de código arriba",
-      "notebookActions.insertCodeCellAboveAndFocusContainer": "Insertar celda de código arriba y contenedor de foco",
-      "notebookActions.insertCodeCellAtTop": "Agregar una celda de código en la parte superior",
-      "notebookActions.insertCodeCellBelow": "Insertar celda de código abajo",
-      "notebookActions.insertCodeCellBelowAndFocusContainer": "Insertar celda de código debajo y contenedor de foco",
-      "notebookActions.insertMarkdownCellAbove": "Insertar celda de Markdown arriba",
-      "notebookActions.insertMarkdownCellAtTop": "Agregar una celda de Markdown en la parte superior",
-      "notebookActions.insertMarkdownCellBelow": "Insertar celda de Markdown abajo",
-      "notebookActions.menu.insertCode": "Código",
-      "notebookActions.menu.insertCode.minimalToolbar": "Agregar código",
-      "notebookActions.menu.insertCode.minimaltoolbar": "Agregar código",
-      "notebookActions.menu.insertCode.ontoolbar": "Código",
-      "notebookActions.menu.insertCode.tooltip": "Agregar celda de código",
-      "notebookActions.menu.insertMarkdown": "Markdown",
-      "notebookActions.menu.insertMarkdown.ontoolbar": "Markdown",
-      "notebookActions.menu.insertMarkdown.tooltip": "Agregar una celda de Markdown"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/layoutActions": {
-      "customizeNotebook": "Personalizar blocs de notas...",
-      "mitoggleNotebookStickyScroll": "&&Alternar desplazamiento permanente del bloc de notas",
-      "notebook.placeholder": "Archivo de configuración para guardar en",
-      "notebook.saveMimeTypeOrder": "Guardar orden de visualización de mimetype",
-      "notebook.showLineNumbers": "Números de línea del bloc de notas",
-      "notebook.toggleBreadcrumb": "Alternar rutas de navegación",
-      "notebook.toggleCellToolbarPosition": "Alternar la posición de la barra de herramientas de celdas",
-      "notebook.toggleLineNumbers": "Alternar los números de línea del bloc de notas",
-      "notebookStickyScroll": "Alternar desplazamiento permanente del bloc de notas",
-      "saveTarget.machine": "Configuración de usuario",
-      "saveTarget.workspace": "Configuración del área de trabajo",
-      "toggleStickyScroll": "Alternar desplazamiento permanente del bloc de notas",
-      "workbench.notebook.layout.configure.label": "Personalizar el diseño del Bloc de notas",
-      "workbench.notebook.layout.select.label": "Seleccionar entre los diseños del Bloc de notas",
-      "workbench.notebook.layout.webview.reset.label": "Restablecer vista web del bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/notebookIndentationActions": {
-      "changeTabDisplaySize": "Cambiar tamaño de visualización de tabulación",
-      "convertIndentation": "Convertir sangría",
-      "convertIndentationToSpaces": "Convertir sangría en espacios",
-      "convertIndentationToTabs": "Convertir sangría en tabulaciones",
-      "indentUsingSpaces": "Aplicar sangría con espacios",
-      "indentUsingTabs": "Aplicar sangría con tabulaciones",
-      "selectTabWidth": "Seleccionar tamaño de tabulación para el archivo actual"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/sectionActions": {
-      "expandSection": "Expandir sección",
-      "foldSection": "Plegar sección",
-      "miexpandSection": "&&Expandir sección",
-      "mifoldSection": "&&Plegar sección",
-      "mirunCell": "&&Ejecutar celda",
-      "mirunCellsInSection": "&&Ejecutar celdas en la sección",
-      "runCell": "Ejecutar celda",
-      "runCellsInSection": "Ejecutar celdas en la sección"
-    },
-    "vs/workbench/contrib/notebook/browser/controller/variablesActions": {
-      "notebookActions.openVariablesView": "Variables"
-    },
-    "vs/workbench/contrib/notebook/browser/diff/diffComponents": {
-      "hiddenCell": "{0} celda oculta",
-      "hiddenCells": "{0} celdas ocultas",
-      "hideUnchangedCells": "Ocultar celdas sin modificar",
-      "showUnchangedCells": "Mostrar celdas sin modificar"
-    },
-    "vs/workbench/contrib/notebook/browser/diff/diffElementOutputs": {
-      "builtinRenderInfo": "integrada",
-      "curruentActiveMimeType": "Activo actualmente",
-      "empty": "La celda no tiene resultados",
-      "mimeTypePicker": "Elija otro tipo MIME de salida. Tipos MIME disponibles: {0}",
-      "noRenderer.2": "No se ha encontrado ningún representador para la salida. Tiene los siguientes tipos MIME: {0}",
-      "promptChooseMimeType.placeHolder": "Seleccionar el tipo de mime para representar en la salida actual",
-      "promptChooseMimeTypeInSecure.placeHolder": "Seleccione el tipo de mime que se va a representar para la salida actual. Los tipos de mime enriquecidos solo están disponibles cuando el bloc de notas es de confianza"
-    },
-    "vs/workbench/contrib/notebook/browser/diff/notebookDiffActions": {
-      "goToCell": "Ir a la celda",
-      "hideUnchangedCells": "Ocultar celdas sin modificar",
-      "ignoreTrimWhitespace.label": "Mostrar las diferencias de espacios en blanco iniciales/finales",
-      "notebook.diff.action.next.title": "Mostrar el cambio siguiente",
-      "notebook.diff.action.previous.title": "Mostrar el cambio anterior",
-      "notebook.diff.cell.revertInput": "Revertir la entrada",
-      "notebook.diff.cell.revertMetadata": "Revertir metadatos",
-      "notebook.diff.cell.revertOutputs": "Revertir resultados",
-      "notebook.diff.cell.switchOutputRenderingStyleToText": "Cambiar la representación de salida",
-      "notebook.diff.cell.toggleCollapseUnchangedRegions": "Alternar contraer regiones sin cambios",
-      "notebook.diff.ignoreMetadata": "Ocultar las diferencias de los metadatos",
-      "notebook.diff.ignoreOutputs": "Ocultar las diferencias de los resultados",
-      "notebook.diff.inline.toggle.title": "Alternar vista insertada",
-      "notebook.diff.openFile": "Abrir archivo",
-      "notebook.diff.revertMetadata": "Revertir metadatos de Notebook",
-      "notebook.diff.showMetadata": "Mostrar las diferencias de los metadatos",
-      "notebook.diff.showOutputs": "Mostrar las diferencias de los resultados",
-      "notebook.diff.switchToText": "Abrir el editor de diferencias de texto",
-      "notebook.diff.toggleInline": "Habilite el comando para alternar el editor de diferencias en línea del bloc de notas experimental.",
-      "showUnchangedCells": "Mostrar celdas sin modificar"
-    },
-    "vs/workbench/contrib/notebook/browser/diff/notebookDiffEditor": {
-      "notebookTreeAriaLabel": "Diferencia de texto del bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/diff/notebookDiffEditorBrowser": {
-      "notebook.diffEditor.allCollapsed": "Si todas las celdas del editor de diferencias del cuaderno están contraídas",
-      "notebook.diffEditor.hasUnchangedCells": "Si hay celdas sin cambios en el editor de diferencias del cuaderno",
-      "notebook.diffEditor.item.kind": "Tipo de elemento en el editor de diferencias del cuaderno, celda, metadatos o salida",
-      "notebook.diffEditor.item.state": "El estado de diferencias del elemento en el editor de diferencias del cuaderno, eliminar, insertar, modificar o no modificar",
-      "notebook.diffEditor.unchangedCellsAreHidden": "Si las celdas sin cambios en el editor de diferencias del cuaderno están ocultas"
-    },
-    "vs/workbench/contrib/notebook/browser/diff/notebookDiffList": {
-      "notebook.diff.hiddenCells.expandAll": "Haga doble clic para mostrar"
-    },
-    "vs/workbench/contrib/notebook/browser/diff/notebookMultiDiffEditor": {
-      "notebookCellLabel": "Celda {0}",
-      "notebookCellMetadataLabel": "Metadatos",
-      "notebookCellOutputLabel": "Salida"
-    },
-    "vs/workbench/contrib/notebook/browser/notebook.contribution": {
-      "insertToolbarLocation.betweenCells": "Barra de herramientas que aparece al mantener el mouse entre las celdas.",
-      "insertToolbarLocation.both": "Ambas barras de herramientas.",
-      "insertToolbarLocation.hidden": "Las acciones de inserción no aparecen en ningún lugar.",
-      "insertToolbarLocation.notebookToolbar": "Barra de herramientas situada en la parte superior del editor del Bloc de notas.",
-      "notebook.VariablesView.description": "Habilitar la vista de variables experimentales del bloc de notas en el panel de depuración.",
-      "notebook.backup.sizeLimit": "Límite del tamaño de salida del cuaderno en kilobytes (KB) donde ya no se hará una copia de seguridad de los archivos del cuaderno para la recarga activa. Usa 0 para un número ilimitado.",
-      "notebook.cellExecutionTimeVerbosity.default.description": "La duración de la ejecución de celda es visible, con información avanzada al mantener el puntero sobre la información en pantalla.",
-      "notebook.cellExecutionTimeVerbosity.description": "Controla el nivel de detalle del tiempo de ejecución de la celda en la barra de estado de la celda.",
-      "notebook.cellExecutionTimeVerbosity.verbose.description": "La marca de tiempo y la duración de la última ejecución de la celda son visibles, con información avanzada al mantener el puntero sobre la información en pantalla.",
-      "notebook.cellFailureDiagnostics": "Muestra los diagnósticos disponibles para los errores de celda.",
-      "notebook.cellGenerate": "Habilite la acción de generación experimental para crear una celda de código con el chat en línea habilitado.",
-      "notebook.cellToolbarLocation.description": "Indica si la barra de herramientas de celdas debe mostrarse u ocultarse.",
-      "notebook.cellToolbarLocation.viewType": "Configurar la posición de la barra de herramientas de celdas para tipos de archivo específicos",
-      "notebook.cellToolbarVisibility.description": "Indica si la barra de herramientas de celda debe aparecer al pasar el cursor o hacer clic.",
-      "notebook.compactView.description": "Controlar si el editor del bloc de notas debe representarse en un formato compacto. Por ejemplo, cuando se activa, disminuirá el ancho del margen izquierdo.",
-      "notebook.confirmDeleteRunningCell": "Controlar si se requiere un mensaje de confirmación para eliminar una celda en ejecución.",
-      "notebook.consolidatedOutputButton.description": "Controla si la acción de los resultados se debe representar en la barra de herramientas de salida.",
-      "notebook.consolidatedRunButton.description": "Controla si se muestran acciones adicionales en una lista desplegable junto al botón ejecutar.",
-      "notebook.diff.enableOverviewRuler.description": "Indica si se debe representar la regla de información general en el editor de diferencias para el cuaderno.",
-      "notebook.diff.enablePreview.description": "Indica si se va a usar el editor de diferencias de texto mejorado para el bloc de notas.",
-      "notebook.disableOutputFilePathLinks": "Controla si se deben deshabilitar los vínculos de ruta de acceso de archivo en la salida de las celdas del bloc de notas.",
-      "notebook.displayOrder.description": "Lista de prioridades para los tipos de mimo de salida",
-      "notebook.dragAndDrop.description": "Controla si el editor del bloc de notas debe permitir mover celdas mediante arrastrar y colocar.",
-      "notebook.editorOptions.experimentalCustomization": "Configuración de los editores de código utilizados en los blocs de notas. Se puede usar para personalizar la mayoría de las opciones del editor*.",
-      "notebook.findFilters": "Personalice el comportamiento buscar widget para buscar en celdas del bloc de notas. Cuando el origen de marcado y la vista previa de marcado están habilitados, el widget buscará el código fuente o la vista previa en función del estado actual de la celda.",
-      "notebook.focusIndicator.description": "Controla dónde se representa el indicador de foco, ya sea a lo largo de los bordes de la celda o en el medianil izquierdo.",
-      "notebook.formatOnCellExecution": "Dé formato a una celda del bloc de notas tras la ejecución. Un formateador debe estar disponible.",
-      "notebook.formatOnSave": "Dar formato a un bloc de notas al guardar. Un formateador debe estar disponible y el editor no debe cerrarse. Cuando {0} se establece en \"afterDelay\", el archivo solo tendrá formato cuando se guarde explícitamente.",
-      "notebook.globalToolbar.description": "Controla si se debe representar una barra de herramientas global dentro del editor de bloc de notas.",
-      "notebook.globalToolbarShowLabel": "Controla si las acciones de la barra de herramientas del Bloc de notas deben representar la etiqueta o no.",
-      "notebook.inlineValues.auto": "Mostrar valores insertados solo cuando se registre un proveedor de valores insertados.",
-      "notebook.inlineValues.description": "Controla si se deben mostrar los valores insertados en las celdas de código del bloc de notas después de la ejecución de celdas. Los valores permanecerán hasta que la celda se edite, se vuelva a ejecutar o se borre explícitamente mediante el botón de la barra de herramientas Borrar todas las salidas o el comando \"Cuaderno: borrar valores insertados\".",
-      "notebook.inlineValues.off": "No mostrar nunca los valores insertados.",
-      "notebook.inlineValues.on": "Mostrar siempre los valores insertados, con una reserva regex si no hay registrado ningún proveedor de valores insertados. Nota: si se usa la reserva, puede haber un impacto en el rendimiento en las celdas más grandes.",
-      "notebook.insertFinalNewline": "Cuando esté habilitada, inserte una nueva línea final al final de las celdas de código al guardar un cuaderno.",
-      "notebook.insertToolbarPosition.description": "Controlar dónde deberían aparecer las acciones de inserción de celda.",
-      "notebook.interactiveWindow.collapseCodeCells": "Controla si las celdas de código de la ventana interactiva están contraídas de forma predeterminada.",
-      "notebook.markdown.lineHeight": "Controla el alto de línea en píxeles de las celdas de markdown de los blocs de notas. Cuando se establece en {0}, se usará {1}",
-      "notebook.markup.fontFamily": "Controla la familia de fuentes del marcado representado en los blocs de notas. Si se deja en blanco, se revertirá a la familia de fuentes predeterminada del área de trabajo.",
-      "notebook.markup.fontSize": "Controla el tamaño de fuente en píxeles de la revisión representada en los blocs de notas. Cuando se establece en {0}, se usa el 120 % de {1}.",
-      "notebook.minimalErrorRendering": "Controlar si se va a representar la salida de error en un estilo mínimo.",
-      "notebook.multiCursor.enabled": "Experimental. Habilita un conjunto limitado de controles de varios cursores en varias celdas del editor del bloc de notas. Actualmente se admiten las acciones principales del editor (escritura, cortar, copiar, pegar y composición) y un subconjunto limitado de comandos del editor.",
-      "notebook.outputFontFamily": "Familia de fuentes del texto de salida dentro de las celdas del bloc de notas. Cuando se establece en vacío, se usa el {0}.",
-      "notebook.outputFontSize": "Tamaño de fuente del texto de salida dentro de las celdas del bloc de notas. Cuando se establece en 0, se usa {0}.",
-      "notebook.outputLineHeight": "Alto de línea del texto de salida dentro de las celdas del bloc de notas.\r\n - Cuando se establece en 0, se usa el alto de línea del editor.\r\n - Los valores entre 0 y 8 se usarán como multiplicador con el tamaño de fuente.\r\n - Los valores mayores o iguales que 8 se usarán como valores efectivos.",
-      "notebook.outputScrolling": "Presentar inicialmente las salidas del bloc de notas en una región desplazable cuando no supere el límite.",
-      "notebook.outputWordWrap": "Controla si las líneas de la salida deben encapsularse.",
-      "notebook.remoteSaving": "Habilita el guardado incremental de cuadernos entre procesos y conexiones remotas. Cuando está habilitado, solo se envían al host de extensiones los cambios realizados en el bloc de notas, lo que mejora el rendimiento en el caso de blocs de notas de gran tamaño y conexiones de red lentas.",
-      "notebook.scrolling.revealNextCellOnExecute.description": "Distancia de desplazamiento al mostrar la siguiente celda al ejecutar {0}.",
-      "notebook.scrolling.revealNextCellOnExecute.firstLine.description": "Desplácese para mostrar la primera línea de la celda siguiente.",
-      "notebook.scrolling.revealNextCellOnExecute.fullCell.description": "Desplácese para mostrar completamente la celda siguiente.",
-      "notebook.scrolling.revealNextCellOnExecute.none.description": "No desplazarse.",
-      "notebook.showCellStatusbar.description": "Indica si se debe mostrar la barra de estado de la celda.",
-      "notebook.showCellStatusbar.hidden.description": "La barra de estado de la celda siempre está oculta.",
-      "notebook.showCellStatusbar.visible.description": "La barra de estado de la celda siempre está visible.",
-      "notebook.showCellStatusbar.visibleAfterExecute.description": "La barra de estado de la celda se oculta hasta que se ha ejecutado la celda. A continuación, se hace visible para mostrar el estado de ejecución.",
-      "notebook.showFoldingControls.description": "Controla cuándo se muestra la flecha de plegado del encabezado de Markdown.",
-      "notebook.stickyScrollEnabled.description": "Experimental. Controlar si se van a representar los encabezados de desplazamiento permanente del bloc de notas en el editor del bloc de notas.",
-      "notebook.stickyScrollMode.description": "Controla si las líneas de desplazamiento permanente anidadas aparecen apiladas o con sangría.",
-      "notebook.stickyScrollMode.flat": "Las líneas de desplazamiento permanente anidadas aparecen planas.",
-      "notebook.stickyScrollMode.indented": "Las líneas de desplazamiento permanente anidadas aparecen con sangría.",
-      "notebook.textOutputLineLimit": "Controla cuántas líneas de texto se muestran en una salida de texto. Si {0} está habilitado, esta configuración se usa para determinar el alto de desplazamiento de la salida.",
-      "notebook.undoRedoPerCell.description": "Indica si se debe utilizar una pila para deshacer o rehacer separada para cada celda.",
-      "notebookConfigurationTitle": "Bloc de notas",
-      "notebookFormatter.default": "Define un formateador de bloc de notas predeterminado que tiene prioridad sobre todos los demás valores de formateador. Debe ser el identificador de una extensión que contribuya a un formateador.",
-      "showFoldingControls.always": "Los controles plegables siempre están visibles.",
-      "showFoldingControls.mouseover": "Los controles plegables sólo son visibles al pasar el mouse.",
-      "showFoldingControls.never": "No mostrar nunca los controles de plegado y reducir el tamaño del medianil."
-    },
-    "vs/workbench/contrib/notebook/browser/notebookAccessibilityHelp": {
-      "notebook.cell.edit": "El comando Editar celda{0} se centrará en la entrada de celda.",
-      "notebook.cell.executeAndFocusContainer": "El comando Ejecutar celda{0} ejecuta la celda que tiene el foco actualmente.",
-      "notebook.cell.focusInOutput": "El comando Foco de salida ({0}) establecerá el foco en la salida de la celda.",
-      "notebook.cell.insertCodeCellBelowAndFocusContainer": "Los comandos Insertar celda encima{0} e Inferior{1} crearán nuevas celdas de código vacías.",
-      "notebook.cell.quitEdit": "El comando Salir de edición{0} establecerá el foco en el contenedor de celdas. Es posible que la tecla predeterminada (Escape) deba presionarse dos veces antes de salir del cursor virtual si está activa.",
-      "notebook.cellNavigation": "Las flechas arriba y abajo también moverán el foco entre las celdas mientras se centran en el contenedor de celdas externas.",
-      "notebook.changeCellType": "Los comandos Cambiar celda a Código o Markdown se usan para cambiar entre tipos de celda.",
-      "notebook.focusNextEditor": "El comando Situar el foco sobre Editor de celda siguiente ({0}) establecerá el foco en el editor de la celda siguiente.",
-      "notebook.focusPreviousEditor": "El comando Foco del Editor de celdas anterior{0} establecerá el foco en el editor de la celda anterior.",
-      "notebook.overview": "La vista del cuaderno es una colección de celdas de código y markdown. Las celdas de código se pueden ejecutar y producirán resultados directamente debajo de la celda."
-    },
-    "vs/workbench/contrib/notebook/browser/notebookAccessibilityProvider": {
-      "notebookTreeAriaLabel": "Cuaderno",
-      "notebookTreeAriaLabelHelp": "{0}\r\nUsar {1} para obtener ayuda de accesibilidad",
-      "notebookTreeAriaLabelHelpNoKb": "{0}\r\nEjecute el comando Abrir ayuda de accesibilidad para obtener más información",
-      "replHistoryTreeAriaLabel": "Historial del editor REPL"
-    },
-    "vs/workbench/contrib/notebook/browser/notebookEditor": {
-      "fail.noEditor": "No se puede abrir el recurso con el tipo de editor del bloc de notas '{0}'. Compruebe si tiene instalada y habilitada la extensión correcta.",
-      "fail.noEditor.extensionMissing": "No se puede abrir el recurso con el tipo de editor del bloc de notas '{0}'. Compruebe si tiene instalada y habilitada la extensión correcta.",
-      "notebookOpenAsText": "Abrir como texto",
-      "notebookOpenEnableMissingViewType": "Habilitar extensión para “{0}”",
-      "notebookOpenInTextEditor": "Abrir en el Editor de texto",
-      "notebookOpenInstallMissingViewType": "Instalar extensión para '{0}'",
-      "notebookTooLargeForHeapErrorWithSize": "El bloc de notas no se muestra en el editor del bloc de notas porque es muy grande ({0}).",
-      "notebookTooLargeForHeapErrorWithoutSize": "El bloc de notas no se muestra en el editor del bloc de notas porque es muy grande."
-    },
-    "vs/workbench/contrib/notebook/browser/notebookEditorWidget": {
-      "focusedCellBackground": "Color de fondo de una celda cuando la celda tiene el foco.",
-      "notebook.cellBorderColor": "Color de borde de las celdas del Bloc de notas.",
-      "notebook.cellEditorBackground": "Color de fondo del editor de celdas.",
-      "notebook.cellHoverBackground": "Color de fondo de una celda cuando se pasa el puntero sobre ella.",
-      "notebook.cellInsertionIndicator": "Color del indicador de inserción de celdas del cuaderno.",
-      "notebook.cellStatusBarItemHoverBackground": "Color de fondo de los elementos de la barra de estado de la celda del Bloc de notas.",
-      "notebook.cellToolbarSeparator": "Color del separador de la barra de herramientas inferior de la celda",
-      "notebook.editorBackground": "Color de fondo del bloc de notas.",
-      "notebook.focusedCellBorder": "Color de los bordes del indicador de foco de la celda cuando la celda está centrada.",
-      "notebook.focusedEditorBorder": "Color del borde del editor de celdas del cuaderno.",
-      "notebook.inactiveFocusedCellBorder": "Color de los bordes superior e inferior de la celda cuando una celda recibe el foco mientras el foco principal está fuera del editor.",
-      "notebook.inactiveSelectedCellBorder": "Color de los bordes de la celda cuando se seleccionan varias celdas.",
-      "notebook.outputContainerBackgroundColor": "El color del fondo del contenedor de salida del cuaderno.",
-      "notebook.outputContainerBorderColor": "Color del borde del contenedor de resultado del cuaderno.",
-      "notebook.selectedCellBorder": "Color del borde superior e inferior de la celda cuando la celda está seleccionada pero no tiene el foco.",
-      "notebook.symbolHighlightBackground": "Color de fondo de la celda resaltada",
-      "notebookEditorOverviewRuler.runningCellForeground": "Color de la decoración de celda en ejecución en la regla de información general del editor del bloc de notas.",
-      "notebookScrollbarSliderActiveBackground": "Color de fondo del control deslizante de la barra de desplazamiento del bloc de notas al hacer clic en él.",
-      "notebookScrollbarSliderBackground": "Color de fondo del control deslizante de la barra de desplazamiento del bloc de notas.",
-      "notebookScrollbarSliderHoverBackground": "Color de fondo del control deslizante de la barra de desplazamiento del bloc de notas al pasar el puntero.",
-      "notebookStatusErrorIcon.foreground": "Color del icono de error de las celdas del Bloc de notas en la barra de estado de la celda.",
-      "notebookStatusRunningIcon.foreground": "Color del icono en ejecución de las celdas del Bloc de notas en la barra de estado de la celda.",
-      "notebookStatusSuccessIcon.foreground": "Color del icono de error de las celdas del Bloc de notas en la barra de estado de la celda.",
-      "selectedCellBackground": "Color de fondo de una celda cuando esta se selecciona."
-    },
-    "vs/workbench/contrib/notebook/browser/notebookExtensionPoint": {
-      "Notebook id": "Id.",
-      "Notebook mimetypes": "Tipos de MIME",
-      "Notebook name": "Nombre",
-      "Notebook renderer name": "Nombre",
-      "contributes.notebook.provider": "Aporta el proveedor de documentos del Bloc de notas.",
-      "contributes.notebook.provider.displayName": "Nombre legible del Bloc de notas.",
-      "contributes.notebook.provider.selector": "Conjunto de globs para los que está destinado el Bloc de notas.",
-      "contributes.notebook.provider.selector.filenamePattern": "Glob para el que está habilitado el bloc de notas.",
-      "contributes.notebook.provider.viewType": "Tipo de bloc de notas.",
-      "contributes.notebook.renderer": "Aporta el proveedor del representador de resultados del Bloc de notas.",
-      "contributes.notebook.renderer.displayName": "Nombre legible del representador de salida del bloc de notas.",
-      "contributes.notebook.renderer.entrypoint": "Archivo que se cargará en la vista web para representar la extensión.",
-      "contributes.notebook.renderer.entrypoint.extends": "Representador existente que este extiende.",
-      "contributes.notebook.renderer.hardDependencies": "Lista de dependencias del kernel que requiere el representador. Si alguna de las dependencias está presente en el \"NotebookKernel. preloads\", se puede usar el representador.",
-      "contributes.notebook.renderer.optionalDependencies": "Lista de dependencias de kernel ligeras que puede usar el representador. Si alguna de las dependencias está presente en \"NotebookKernel. preloads\", el representador se preferirá a los representadores que no interactúen con el kernel.",
-      "contributes.notebook.renderer.requiresMessaging": "Define cómo y si el representador necesita comunicarse con un host de extensiónes, a través de `createRendererMessaging`. Los representadores con requisitos de mensajería más estrictos puede que no funcionen en todos los entornos.",
-      "contributes.notebook.renderer.requiresMessaging.always": "Se requiere mensajería. El representador solo se usará cuando forme parte de una extensión que se pueda ejecutar en un host de extensión.",
-      "contributes.notebook.renderer.requiresMessaging.never": "El representador no requiere mensajería.",
-      "contributes.notebook.renderer.requiresMessaging.optional": "El representador funciona mejor con la mensajería disponible, pero no es necesaria.",
-      "contributes.notebook.renderer.viewType": "Identificador único del representador de salida del bloc de notas.",
-      "contributes.notebook.selector": "Conjunto de globs para los que está destinado el cuaderno.",
-      "contributes.notebook.selector.provider.excludeFileNamePattern": "Glob para el que el bloc de notas está deshabilitado.",
-      "contributes.preload.entrypoint": "Ruta de acceso al archivo cargado en la vista web.",
-      "contributes.preload.localResourceRoots": "Rutas de acceso a recursos adicionales que deben permitirse en la vista web.",
-      "contributes.preload.provider": "Contribuye con las cargas previas del cuaderno.",
-      "contributes.preload.provider.viewType": "Tipo de bloc de notas.",
-      "contributes.priority": "Controla si el editor personalizado se habilita automáticamente cuando el usuario abre un archivo. Los usuarios pueden invalidar esto con el valor \"workbench.editorAssociations\".",
-      "contributes.priority.default": "El editor se usa automáticamente cuando el usuario abre un recurso, siempre que no se hayan registrado otros editores personalizados predeterminados para dicho recurso.",
-      "contributes.priority.option": "El editor no se usa automáticamente cuando el usuario abre un recurso, pero un usuario puede cambiar al editor mediante el comando \"Reopen With\".",
-      "notebookRenderer": "Representadores de cuaderno",
-      "notebooks": "Cuadernos"
-    },
-    "vs/workbench/contrib/notebook/browser/notebookIcons": {
-      "clearIcon": "Icono para borrar las salidas de celda en los editores del bloc de notas.",
-      "collapsedIcon": "Icono para anotar una sección contraída en los editores del bloc de notas.",
-      "copyIcon": "Icono para copiar contenido en el Portapapeles",
-      "deleteCellIcon": "Icono para eliminar una celda en los editores del bloc de notas.",
-      "editIcon": "Icono para editar una celda en los editores del bloc de notas.",
-      "errorStateIcon": "Icono para indicar un estado de error en los editores del bloc de notas.",
-      "executeAboveIcon": "Icono para ejecutar las celdas de arriba en los editores del bloc de notas.",
-      "executeAllIcon": "Icono para ejecutar todas las celdas en los editores del bloc de notas.",
-      "executeBelowIcon": "Icono para ejecutar debajo de las celdas en los editores de blocs de notas.",
-      "executeIcon": "Icono para ejecutar en los editores del bloc de notas.",
-      "executingStateIcon": "Icono para indicar un estado de ejecución en los editores de blocs de notas.",
-      "expandedIcon": "Icono para anotar una sección expandida en los editores del bloc de notas.",
-      "mimetypeIcon": "Icono de un tipo MIME en los editores del bloc de notas.",
-      "moveDownIcon": "Icono para desplazar una celda hacia abajo en los editores del bloc de notas.",
-      "moveUpIcon": "Icono para desplazar una celda hacia arriba en los editores del bloc de notas.",
-      "nextChangeIcon": "Icono de la acción de cambio siguiente en el editor de diferencias.",
-      "openAsTextIcon": "Icono para abrir el bloc de notas en un editor de texto.",
-      "pendingStateIcon": "Icono para indicar un estado pendiente en los editores de blocs de notas.",
-      "previousChangeIcon": "Icono de la acción de cambio anterior en el editor de diferencias.",
-      "renderOutputIcon": "Icono para representar la salida en el editor de diferencias.",
-      "revertIcon": "Icono para revertir en los editores del bloc de notas.",
-      "selectKernelIcon": "Icono de configuración para seleccionar un kernel en los editores del bloc de notas.",
-      "splitCellIcon": "Icono para dividir una celda en los editores del bloc de notas.",
-      "stopEditIcon": "Icono para detener la edición de una celda en los editores del bloc de notas.",
-      "stopIcon": "Icono para detener una ejecución en los editores del bloc de notas.",
-      "successStateIcon": "Icono para indicar un estado correcto en los editores del bloc de notas.",
-      "toggleWhitespace": "Icono de la acción de alternar espacio en blanco en el editor de diferencias.",
-      "variablesViewIcon": "Vea el icono de la vista de variables."
-    },
-    "vs/workbench/contrib/notebook/browser/outputEditor/notebookOutputEditor": {
-      "empty": "La celda no tiene resultados",
-      "noRenderer.2": "No se ha encontrado ningún representador para la salida. Tiene los siguientes tipos MIME: {0}",
-      "notebookOutputEditor": "Editor de salida del cuaderno"
-    },
-    "vs/workbench/contrib/notebook/browser/outputEditor/notebookOutputEditorInput": {
-      "notebookOutputEditorInput": "Vista previa de salida del cuaderno"
-    },
-    "vs/workbench/contrib/notebook/browser/services/notebookExecutionServiceImpl": {
-      "notebookRunTrust": "Al ejecutar una celda del bloc de notas se ejecutará el código desde esta área de trabajo."
-    },
-    "vs/workbench/contrib/notebook/browser/services/notebookKernelHistoryServiceImpl": {
-      "workbench.notebook.clearNotebookKernelsMRUCache": "Borrar caché MRU de los kernel de bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/services/notebookKeymapServiceImpl": {
-      "disableOtherKeymapsConfirmation": "¿Quiere deshabilitar otras asignaciones de teclas ({0}) para evitar conflictos entre enlaces de teclado?",
-      "no": "No",
-      "yes": "Sí"
-    },
-    "vs/workbench/contrib/notebook/browser/services/notebookLoggingServiceImpl": {
-      "renderChannelName": "Cuaderno"
-    },
-    "vs/workbench/contrib/notebook/browser/services/notebookServiceImpl": {
-      "notebookOpenInstallMissingViewType": "Instalar extensión para '{0}'"
-    },
-    "vs/workbench/contrib/notebook/browser/view/cellParts/cellEditorOptions": {
-      "notebook.cell.toggleLineNumbers.title": "Mostrar números de línea de celda",
-      "notebook.lineNumbers": "Controla la visualización de los números de línea en el editor de celdas.",
-      "notebook.showLineNumbers": "Números de línea del bloc de notas",
-      "notebook.toggleLineNumbers": "Alternar los números de línea del bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/view/cellParts/cellOutput": {
-      "curruentActiveMimeType": "Activo actualmente",
-      "empty": "La celda no tiene resultados",
-      "installJupyterPrompt": "Instalar representadores adicionales desde Marketplace",
-      "noRenderer.2": "No se ha encontrado ningún representador para la salida. Tiene los siguientes tipos MIME: {0}",
-      "pickMimeType": "Cambiar presentación",
-      "promptChooseMimeType.placeHolder": "Seleccionar el tipo de mime para representar en la salida actual",
-      "promptChooseMimeTypeInSecure.placeHolder": "Seleccionar el tipo de mime para representar en la salida actual",
-      "unavailableRenderInfo": "Representador no disponible"
-    },
-    "vs/workbench/contrib/notebook/browser/view/cellParts/codeCell": {
-      "cellExpandInputButtonLabel": "Expandir la entrada de la celda ({0})",
-      "cellExpandInputButtonLabelWithDoubleClick": "Haga doble clic para expandir la entrada de celda ({0})"
-    },
-    "vs/workbench/contrib/notebook/browser/view/cellParts/codeCellExecutionIcon": {
-      "notebook.cell.status.executing": "En ejecución",
-      "notebook.cell.status.failure": "Error",
-      "notebook.cell.status.pending": "Pendiente",
-      "notebook.cell.status.success": "Correcto"
-    },
-    "vs/workbench/contrib/notebook/browser/view/cellParts/codeCellRunToolbar": {
-      "notebook.moreRunActionsLabel": "Más..."
-    },
-    "vs/workbench/contrib/notebook/browser/view/cellParts/collapsedCellOutput": {
-      "cellExpandOutputButtonLabel": "Expandir la salida de la celda (${0})",
-      "cellExpandOutputButtonLabelWithDoubleClick": "Haga doble clic para expandir la salida de celda ({0})",
-      "cellOutputsCollapsedMsg": "Las salidas están contraídas"
-    },
-    "vs/workbench/contrib/notebook/browser/view/cellParts/foldedCellHint": {
-      "hiddenCellsLabel": "1 celda oculta",
-      "hiddenCellsLabelPlural": "{0} celdas ocultas"
-    },
-    "vs/workbench/contrib/notebook/browser/view/cellParts/markupCell": {
-      "cellExpandInputButtonLabel": "Expandir la entrada de la celda ({0})",
-      "cellExpandInputButtonLabelWithDoubleClick": "Haga doble clic para expandir la entrada de celda ({0})"
-    },
-    "vs/workbench/contrib/notebook/browser/view/renderers/backLayerWebView": {
-      "notebook.emptyMarkdownPlaceholder": "Celda de Markdown vacía, haga doble clic o presione Entrar para editar.",
-      "notebook.error.rendererFallbacksExhausted": "No se pudo representar el contenido de '$0'",
-      "notebook.error.rendererNotFound": "No se encontró ningún representador para '$0'",
-      "webview title": "Contenido de vista web del bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/view/renderers/cellRenderer": {
-      "cellExecutionOrderCountLabel": "Orden de ejecución"
-    },
-    "vs/workbench/contrib/notebook/browser/viewModel/notebookOutlineEntryFactory": {
-      "empty": "celda vacía"
-    },
-    "vs/workbench/contrib/notebook/browser/viewParts/notebookKernelQuickPickStrategy": {
-      "current1": "Seleccionado actualmente",
-      "current2": "{0} - Seleccionado actualmente",
-      "installSuggestedKernel": "Instalar o habilitar extensiones sugeridas",
-      "kernels.detecting": "Detectando Kernels",
-      "kernels.selectedKernelAndKernelDetectionRunning": "Kernel seleccionado: {0} (tareas de detección de kernel en ejecución)",
-      "learnMoreTooltip": "Más información",
-      "prompt.placeholder.change": "Cambiar el kernel para \"{0}\"",
-      "prompt.placeholder.select": "Seleccionar el kernel para '{0}'",
-      "searchForKernels": "Buscar extensiones de kernel en Marketplace",
-      "select": "Seleccionar el kernel",
-      "selectAnotherKernel": "Seleccionar otro kernel",
-      "selectAnotherKernel.more": "Seleccionar otro kernel...",
-      "selectKernel.placeholder": "Escriba para elegir un origen de kernel",
-      "selectKernelFromExtension": "Seleccionar kernel de {0}"
-    },
-    "vs/workbench/contrib/notebook/browser/viewParts/notebookKernelView": {
-      "notebookActions.selectKernel": "Seleccionar kernel del cuaderno",
-      "notebookActions.selectKernel.args": "Argumentos del kernel del bloc de notas"
-    },
-    "vs/workbench/contrib/notebook/browser/viewParts/notebookViewZones": {
-      "workbench.notebook.developer.addViewZones": "Alternar zonas de vista del cuaderno de notas"
-    },
-    "vs/workbench/contrib/notebook/common/notebookEditorInput": {
-      "vetoAutoExtHostRestart": "Un bloc de notas proporcionado por la extensión para '{0}' aún está abierto y, de lo contrario, se cerraría.",
-      "vetoExtHostRestart": "No se pudo guardar un bloc de notas proporcionado por la extensión para '{0}'."
-    },
-    "vs/workbench/contrib/offline/browser/offline.contribution": {
-      "offline": "La red parece estar sin conexión, es posible que algunas características no estén disponibles.",
-      "statusBarOfflineBackground": "Color de fondo de la barra de estado cuando el área de trabajo está sin conexión. La barra de estado se muestra en la parte inferior de la ventana",
-      "statusBarOfflineBorder": "Color del borde de la barra de estado que separa la barra lateral y el editor cuando el área de trabajo está sin conexión. La barra de estado se muestra en la parte inferior de la ventana",
-      "statusBarOfflineForeground": "Color de primer plano de la barra de estado cuando el área de trabajo está sin conexión. La barra de estado se muestra en la parte inferior de la ventana"
-    },
-    "vs/workbench/contrib/outline/browser/outline.contribution": {
-      "filteredTypes.array": "Cuando está habilitado, el contorno muestra símbolos de tipo \"array\".",
-      "filteredTypes.boolean": "Si está habilitado, el contorno muestra símbolos de tipo \"boolean\".",
-      "filteredTypes.class": "Cuando está habilitado, el contorno muestra los símbolos de tipo \"class\".",
-      "filteredTypes.constant": "Si está habilitado, el contorno muestra símbolos de tipo \"constant\".",
-      "filteredTypes.constructor": "Cuando está habilitado, el contorno muestra símbolos \"constructor\".",
-      "filteredTypes.enum": "Cuando está habilitado, el contorno muestra símbolos \"enum\".",
-      "filteredTypes.enumMember": "Cuando está habilitado, el contorno muestra símbolos de tipo \"enumMember\".",
-      "filteredTypes.event": "Cuando está activado, el contorno muestra símbolos de tipo \"event\".",
-      "filteredTypes.field": "Cuando está habilitado, el contorno muestra símbolos de tipo \"field\".",
-      "filteredTypes.file": "Cuando está habilitado, el contorno muestra símbolos de tipo \"file\".",
-      "filteredTypes.function": "Cuando está habilitado, el contorno muestra símbolos de tipo \"function\".",
-      "filteredTypes.interface": "Cuando está habilitado, el contorno muestra símbolos de tipo \"interface\".",
-      "filteredTypes.key": "Cuando está habilitado, el contorno muestra símbolos de tipo \"key\".",
-      "filteredTypes.method": "Cuando está habilitado, el contorno muestra símbolos de tipo \"method\".",
-      "filteredTypes.module": "Cuando está habilitado, el contorno muestra símbolos de tipo \"module\".",
-      "filteredTypes.namespace": "Cuando está habilitado, el contorno muestra símbolos de tipo \"namespace\".",
-      "filteredTypes.null": "Cuando está habilitado, el contorno muestra símbolos de tipo \"null\".",
-      "filteredTypes.number": "Cuando está habilitado, el contorno muestra símbolos de tipo \"number\".",
-      "filteredTypes.object": "Cuando está habilitado, el contorno muestra símbolos de tipo \"object\".",
-      "filteredTypes.operator": "Cuando está activado, el contorno muestra los símbolos de tipo \"operator\".",
-      "filteredTypes.package": "Cuando está habilitado, el contorno muestra los símbolos de tipo \"package\".",
-      "filteredTypes.property": "Si está habilitado, el contorno muestra los símbolos de tipo \"property\".",
-      "filteredTypes.string": "Si está habilitado, el contorno muestra símbolos de tipo \"string\".",
-      "filteredTypes.struct": "Cuando se activa, el contorno muestra símbolos de tipo \"struct\".",
-      "filteredTypes.typeParameter": "Cuando está habilitado, el contorno muestra símbolos de tipo \"typeParameter\".",
-      "filteredTypes.variable": "Cuando está habilitado, el contorno muestra símbolos de tipo \"variable\".",
-      "name": "Esquema",
-      "outline.initialState": "Controla si los elementos del Esquema están colapsados o expandidos.",
-      "outline.initialState.collapsed": "Contraer todos los elementos.",
-      "outline.initialState.expanded": "Expandir todos los elementos.",
-      "outline.problem.colors": "Use colores para errores y advertencias en los elementos de esquema. Sobrescrito cuando {0} está desactivado.",
-      "outline.problems.badges": "Use distintivos para errores y advertencias en los elementos de esquema. Sobrescrito cuando {0} está desactivado.",
-      "outline.showIcons": "Representar elementos de esquema con iconos.",
-      "outline.showProblem": "Mostrar errores y advertencias en los elementos de esquema. Sobrescrito cuando {0} está desactivado.",
-      "outlineConfigurationTitle": "Esquema",
-      "outlineViewIcon": "Vea el icono de la vista Esquema."
-    },
-    "vs/workbench/contrib/outline/browser/outlineActions": {
-      "collapse": "Contraer todo",
-      "expand": "Expandir todo",
-      "filterOnType": "Filtrar por tipo",
-      "followCur": "Seguir el Cursor",
-      "sortByKind": "Ordenar por: Categoría",
-      "sortByName": "Ordenar por: Nombre",
-      "sortByPosition": "Ordenar por: posición"
-    },
-    "vs/workbench/contrib/outline/browser/outlinePane": {
-      "loading": "Cargando símbolos del documento para \"{0}\"...",
-      "no-editor": "El editor activo no puede proporcionar información de esquema.",
-      "no-symbols": "No se encontró ningún símbolo en el documento \"{0}\"."
-    },
-    "vs/workbench/contrib/output/browser/output.contribution": {
-      "addCompoundLog": "Agregar registro compuesto...",
-      "clearFiltersText": "Borrar texto de filtros",
-      "clearOutput.label": "Borrar salida",
-      "exportLogs": "Exportar registros...",
-      "extensionLogs": "Registros de extensión",
-      "importLog": "Importar registro...",
-      "importLogFile": "Importar archivo de registro",
-      "logFile": "Id. del archivo de registro que se va a abrir, por ejemplo \"window\". Actualmente, la mejor manera de obtenerlo es comprobar los comandos \"workbench.action.output.show.<id>\".",
-      "logFiles": "Archivos de registro",
-      "logLevel.label": "Establecer nivel de registro...",
-      "logLevelDefault.label": "Establecer como predeterminado",
-      "miToggleOutput": "&&Salida",
-      "nocustumoutput": "No hay salidas personalizadas que quitar.",
-      "openActiveOutputFile": "Abrir salida en el editor",
-      "openActiveOutputFileInNewWindow": "Abrir salida en nueva ventana",
-      "openLogFile": "Abrir registro...",
-      "output": "Salida",
-      "output.smartScroll.enabled": "Habilite/desactive la función de desplazamiento inteligente en la vista de salida. El desplazamiento inteligente le permite bloquear el desplazamiento automáticamente al hacer clic en la vista de salida y se desbloquea al hacer clic en la última línea.",
-      "outputScrollOff": "Desactivar desplazamiento automático",
-      "outputScrollOn": "Activar desplazamiento automático",
-      "outputViewIcon": "Vea el icono de la vista de salida.",
-      "removeLog": "Quitar salida...",
-      "saveActiveOutputAs": "Guardar salida como...",
-      "selectOutput": "Seleccionar canal de salida",
-      "selectlog": "Seleccionar registro",
-      "selectlogFile": "Seleccionar archivo de registro",
-      "showLogs": "Mostrar registros...",
-      "showOutputChannels": "Mostrar canales de salida...",
-      "switchBetweenOutputs.label": "Salida del conmutador",
-      "switchToOutput.label": "Salida del conmutador",
-      "toggleAutoScroll": "Alternar desplazamiento automático",
+    "mcpServerError": "Không thể khởi động máy chủ MCP {0}: {1}",
+    "mcpServerInstall": "Cài đặt {0}",
+    "mcpServerNotFound": "Không tìm thấy lệnh \"{0}\" cần thiết để chạy {1}.",
+    "mcpViewDocs": "Xem tài liệu"
+  },
+  "vs/workbench/contrib/mcp/common/mcpServerConnection": {
+    "mcpServer.starting": "Đang khởi động máy chủ {0}",
+    "mcpServer.state": "Trạng thái kết nối: {0}",
+    "mcpServer.stopping": "Đang dừng máy chủ {0}"
+  },
+  "vs/workbench/contrib/mcp/common/mcpService": {
+    "mcp.autostart.configure": "Cấu hình",
+    "mcp.autostart.progress": "Đang chờ máy chủ MCP \"{0}\" khởi động...",
+    "mcp.autostart.send": "Bỏ qua chờ đợi"
+  },
+  "vs/workbench/contrib/mcp/common/mcpTypes": {
+    "mcpstate.error": "Lỗi {0}",
+    "mcpstate.running": "Đang chạy",
+    "mcpstate.starting": "Đang khởi động",
+    "mcpstate.stopped": "Đã dừng"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/commands/commands": {
+    "layout.column": "Bố cục cột",
+    "layout.mixed": "Bố cục hỗn hợp",
+    "layout.showBase": "Hiển thị cơ sở",
+    "layout.showBaseCenter": "Hiển thị cơ sở ở giữa",
+    "layout.showBaseTop": "Hiển thị cơ sở ở trên",
+    "merge.acceptAllInput1": "Chấp nhận tất cả thay đổi từ bên trái",
+    "merge.acceptAllInput2": "Chấp nhận tất cả thay đổi hiện tại từ bên phải",
+    "merge.goToNextUnhandledConflict": "Đi đến xung đột chưa xử lý tiếp theo",
+    "merge.goToPreviousUnhandledConflict": "Đi đến xung đột chưa xử lý trước đó",
+    "merge.openBaseEditor": "Mở tệp cơ sở",
+    "merge.toggleCurrentConflictFromLeft": "Chuyển đổi xung đột hiện tại từ bên trái",
+    "merge.toggleCurrentConflictFromRight": "Chuyển đổi xung đột hiện tại từ bên phải",
+    "mergeEditor": "Trình chỉnh sửa hợp nhất",
+    "mergeEditor.acceptAllCombination": "Chấp nhận tất cả kết hợp",
+    "mergeEditor.acceptMerge": "Hoàn tất hợp nhất",
+    "mergeEditor.acceptMerge.unhandledConflicts.accept": "&&Hoàn tất với xung đột",
+    "mergeEditor.acceptMerge.unhandledConflicts.detail": "Tệp chứa các xung đột chưa xử lý.",
+    "mergeEditor.acceptMerge.unhandledConflicts.message": "Bạn có muốn hoàn tất hợp nhất của {0} không?",
+    "mergeEditor.compareInput1WithBase": "So sánh đầu vào 1 với cơ sở",
+    "mergeEditor.compareInput2WithBase": "So sánh đầu vào 2 với cơ sở",
+    "mergeEditor.compareWithBase": "So sánh với cơ sở",
+    "mergeEditor.resetChoice": "Đặt lại lựa chọn cho \"Đóng với xung đột\"",
+    "mergeEditor.resetResultToBaseAndAutoMerge": "Đặt lại kết quả",
+    "mergeEditor.resetResultToBaseAndAutoMerge.short": "Đặt lại",
+    "mergeEditor.toggleBetweenInputs": "Chuyển đổi giữa các đầu vào của Trình chỉnh sửa hợp nhất",
+    "openfile": "Mở tệp",
+    "showNonConflictingChanges": "Hiển thị các thay đổi không xung đột",
+    "title": "Mở Trình chỉnh sửa hợp nhất"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/commands/devCommands": {
+    "merge.dev.copyState": "Sao chép trạng thái trình chỉnh sửa hợp nhất dưới dạng JSON",
+    "merge.dev.loadContentsFromFolder": "Tải trạng thái trình chỉnh sửa hợp nhất từ thư mục",
+    "merge.dev.saveContentsToFolder": "Lưu trạng thái trình chỉnh sửa hợp nhất vào thư mục",
+    "mergeEditor": "Trình chỉnh sửa hợp nhất (phát triển)",
+    "mergeEditor.name": "Trình chỉnh sửa hợp nhất",
+    "mergeEditor.noActiveMergeEditor": "Không có trình chỉnh sửa hợp nhất nào đang hoạt động",
+    "mergeEditor.selectFolderToSaveTo": "Chọn thư mục để lưu",
+    "mergeEditor.successfullyCopiedMergeEditorContents": "Đã sao chép trạng thái trình chỉnh sửa hợp nhất thành công",
+    "mergeEditor.successfullySavedMergeEditorContentsToFolder": "Đã lưu trạng thái trình chỉnh sửa hợp nhất vào thư mục thành công"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/mergeEditor.contribution": {
+    "diffAlgorithm.advanced": "Sử dụng thuật toán so sánh nâng cao.",
+    "diffAlgorithm.legacy": "Sử dụng thuật toán so sánh kế thừa.",
+    "name": "Trình chỉnh sửa hợp nhất"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/mergeEditorAccessibilityHelp": {
+    "msg1": "Bạn đang ở trong trình chỉnh sửa hợp nhất.",
+    "msg2": "Điều hướng giữa các xung đột hợp nhất bằng lệnh Đi đến xung đột chưa xử lý tiếp theo{0} và Đi đến xung đột chưa xử lý trước đó{1}.",
+    "msg3": "Thực thi lệnh Trình chỉnh sửa hợp nhất: Chấp nhận tất cả thay đổi từ bên trái{0} và Trình chỉnh sửa hợp nhất: Chấp nhận tất cả thay đổi hiện tại từ bên phải{1}",
+    "msg4": "Hoàn tất hợp nhất{0}.",
+    "msg5": "Chuyển đổi giữa các đầu vào của trình chỉnh sửa hợp nhất, các thay đổi đến và các thay đổi hiện tại {0}."
+  },
+  "vs/workbench/contrib/mergeEditor/browser/mergeEditorInput": {
+    "mergeEditor.input1": "Đầu vào trái hiện tại",
+    "mergeEditor.input2": "Đầu vào phải hiện tại",
+    "mergeEditor.result": "Kết quả hợp nhất",
+    "name": "Đang hợp nhất: {0}"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/mergeEditorInputModel": {
+    "acceptMerge": "&&Chấp nhận hợp nhất",
+    "detail1": "Kết quả hợp nhất sẽ bị mất nếu bạn không lưu.",
+    "detail1Conflicts": "Tệp chứa các xung đột chưa xử lý. Kết quả hợp nhất sẽ bị mất nếu bạn không lưu.",
+    "detailN": "Các kết quả hợp nhất sẽ bị mất nếu bạn không lưu.",
+    "detailNConflicts": "Các tệp chứa các xung đột chưa xử lý. Các kết quả hợp nhất sẽ bị mất nếu bạn không lưu.",
+    "discard": "&&Không lưu",
+    "merge-editor.source": "Trước khi giải quyết xung đột trong Trình chỉnh sửa hợp nhất",
+    "message1": "Bạn có muốn giữ kết quả hợp nhất của {0} không?",
+    "messageN": "Bạn có muốn giữ kết quả hợp nhất của các tệp {0} không?",
+    "noMoreWarn": "Không hỏi lại tôi câu này",
+    "save": "&&Lưu",
+    "saveTempFile.detail": "Thao tác này sẽ ghi kết quả hợp nhất vào tệp gốc và đóng trình chỉnh sửa hợp nhất.",
+    "saveTempFile.message": "Bạn có muốn chấp nhận kết quả hợp nhất không?",
+    "saveWithConflict": "&&Lưu với xung đột",
+    "workspace.close": "&&Đóng",
+    "workspace.closeWithConflicts": "&&Đóng với xung đột",
+    "workspace.detail1.handled": "Các thay đổi sẽ bị mất nếu bạn không lưu.",
+    "workspace.detail1.unhandled": "Tệp chứa các xung đột chưa xử lý. Các thay đổi sẽ bị mất nếu bạn không lưu.",
+    "workspace.detail1.unhandled.nonDirty": "Tệp chứa các xung đột chưa xử lý.",
+    "workspace.detailN.handled": "Các thay đổi sẽ bị mất nếu bạn không lưu.",
+    "workspace.detailN.unhandled": "Các tệp chứa các xung đột chưa xử lý. Các thay đổi sẽ bị mất nếu bạn không lưu.",
+    "workspace.detailN.unhandled.nonDirty": "Các tệp chứa các xung đột chưa xử lý.",
+    "workspace.doNotSave": "&&Không lưu",
+    "workspace.message1": "Bạn có muốn lưu các thay đổi được thực hiện trong {0} không?",
+    "workspace.message1.nonDirty": "Bạn có muốn đóng trình chỉnh sửa hợp nhất cho {0} không?",
+    "workspace.messageN": "Bạn có muốn lưu các thay đổi được thực hiện trong {0} tệp không?",
+    "workspace.messageN.nonDirty": "Bạn có muốn đóng {0} trình chỉnh sửa hợp nhất không?",
+    "workspace.save": "&&Lưu",
+    "workspace.saveWithConflict": "&&Lưu với xung đột"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/mergeMarkers/mergeMarkersController": {
+    "conflictingLine": "1 dòng xung đột",
+    "conflictingLines": "{0} dòng xung đột"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/model/mergeEditorModel": {
+    "setInputHandled": "Đặt đầu vào đã xử lý",
+    "undoMarkAsHandled": "Hoàn tác đánh dấu là đã xử lý"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/view/colors": {
+    "mergeEditor.change.background": "Màu nền của các thay đổi.",
+    "mergeEditor.change.word.background": "Màu nền của các thay đổi từ.",
+    "mergeEditor.changeBase.background": "Màu nền của các thay đổi trong cơ sở.",
+    "mergeEditor.changeBase.word.background": "Màu nền của các thay đổi từ trong cơ sở.",
+    "mergeEditor.conflict.handled.minimapOverViewRuler": "Màu nền cho các thay đổi trong đầu vào 1.",
+    "mergeEditor.conflict.handledFocused.border": "Màu viền của các xung đột được xử lý khi tập trung.",
+    "mergeEditor.conflict.handledUnfocused.border": "Màu viền của các xung đột được xử lý khi không tập trung.",
+    "mergeEditor.conflict.input1.background": "Màu nền của các trang trí trong đầu vào 1.",
+    "mergeEditor.conflict.input2.background": "Màu nền của các trang trí trong đầu vào 2.",
+    "mergeEditor.conflict.unhandled.minimapOverViewRuler": "Màu nền cho các thay đổi trong đầu vào 1.",
+    "mergeEditor.conflict.unhandledFocused.border": "Màu viền của các xung đột chưa xử lý khi tập trung.",
+    "mergeEditor.conflict.unhandledUnfocused.border": "Màu viền của các xung đột chưa xử lý khi không tập trung.",
+    "mergeEditor.conflictingLines.background": "Màu nền của văn bản \"Dòng xung đột\"."
+  },
+  "vs/workbench/contrib/mergeEditor/browser/view/conflictActions": {
+    "accept": "Chấp nhận {0}",
+    "acceptBoth": "Chấp nhận kết hợp",
+    "acceptBoth0First": "Chấp nhận kết hợp ({0} trước)",
+    "acceptBothTooltip": "Chấp nhận kết hợp tự động của cả hai bên trong tài liệu kết quả.",
+    "acceptTooltip": "Chấp nhận {0} trong tài liệu kết quả.",
+    "append": "Thêm {0}",
+    "appendTooltip": "Thêm {0} vào tài liệu kết quả.",
+    "combine": "Chấp nhận kết hợp",
+    "ignore": "Bỏ qua",
+    "manualResolution": "Giải quyết thủ công",
+    "manualResolutionTooltip": "Xung đột này đã được giải quyết thủ công.",
+    "markAsHandledTooltip": "Không chấp nhận phía này của xung đột.",
+    "noChangesAccepted": "Không có thay đổi nào được chấp nhận",
+    "noChangesAcceptedTooltip": "Giải pháp hiện tại của xung đột này giống với tổ tiên chung của các thay đổi bên phải và bên trái.",
+    "remove": "Xóa {0}",
+    "removeTooltip": "Xóa {0} khỏi tài liệu kết quả.",
+    "resetToBase": "Đặt lại về cơ sở",
+    "resetToBaseTooltip": "Đặt lại xung đột này về tổ tiên chung của các thay đổi bên phải và bên trái."
+  },
+  "vs/workbench/contrib/mergeEditor/browser/view/editors/baseCodeEditorView": {
+    "base": "Cơ sở",
+    "compareWith": "So sánh với {0}",
+    "compareWithTooltip": "Các khác biệt được làm nổi bật bằng màu nền."
+  },
+  "vs/workbench/contrib/mergeEditor/browser/view/editors/inputCodeEditorView": {
+    "accept.conflicting": "Chấp nhận (kết quả có thay đổi)",
+    "accept.excluded": "Chấp nhận",
+    "accept.first": "Hoàn tác chấp nhận",
+    "accept.second": "Hoàn tác Chấp nhận (hiện tại là thứ hai)",
+    "input1": "Đầu vào 1",
+    "input2": "Đầu vào 2",
+    "mergeEditor.accept": "Chấp nhận {0}",
+    "mergeEditor.acceptBoth": "Chấp nhận cả hai",
+    "mergeEditor.markAsHandled": "Đánh dấu là đã xử lý",
+    "mergeEditor.swap": "Hoán đổi"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/view/editors/resultCodeEditorView": {
+    "allConflictHandled": "Tất cả xung đột đã được xử lý, giờ đây có thể hoàn tất hợp nhất.",
+    "goToNextConflict": "Đi đến xung đột tiếp theo",
+    "mergeEditor.remainingConflict": "{0} xung đột còn lại",
+    "mergeEditor.remainingConflicts": "{0} xung đột còn lại",
+    "result": "Kết quả"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/view/mergeEditor": {
+    "mergeEditor": "Trình chỉnh sửa hợp nhất văn bản"
+  },
+  "vs/workbench/contrib/mergeEditor/browser/view/viewModel": {
+    "noConflictMessage": "Hiện tại không có xung đột nào đang tập trung để có thể chuyển đổi."
+  },
+  "vs/workbench/contrib/mergeEditor/common/mergeEditor": {
+    "baseUri": "Định danh URI của cơ sở của trình chỉnh sửa hợp nhất",
+    "editorLayout": "Chế độ bố cục của trình chỉnh sửa hợp nhất",
+    "is": "Trình chỉnh sửa là trình chỉnh sửa hợp nhất",
+    "isr": "Trình chỉnh sửa là trình chỉnh sửa kết quả của trình chỉnh sửa hợp nhất.",
+    "resultUri": "Định danh URI của kết quả của trình chỉnh sửa hợp nhất",
+    "showBase": "Liệu trình chỉnh sửa hợp nhất có hiển thị phiên bản cơ sở hay không",
+    "showBaseAtTop": "Liệu cơ sở có nên được hiển thị ở trên cùng hay không",
+    "showNonConflictingChanges": "Liệu trình chỉnh sửa hợp nhất có hiển thị các thay đổi không xung đột hay không"
+  },
+  "vs/workbench/contrib/mergeEditor/electron-browser/devCommands": {
+    "merge.dev.openSelectionInTemporaryMergeEditor": "Mở lựa chọn trong Trình chỉnh sửa hợp nhất tạm thời",
+    "merge.dev.openState": "Mở trạng thái trình chỉnh sửa hợp nhất từ JSON",
+    "mergeEditor": "Trình chỉnh sửa hợp nhất (phát triển)",
+    "mergeEditor.enterJSON": "Nhập JSON"
+  },
+  "vs/workbench/contrib/multiDiffEditor/browser/actions": {
+    "ExpandAllDiffs": "Mở rộng tất cả khác biệt",
+    "collapseAllDiffs": "Thu gọn tất cả khác biệt",
+    "goToFile": "Mở tệp"
+  },
+  "vs/workbench/contrib/multiDiffEditor/browser/icons.contribution": {
+    "multiDiffEditorLabelIcon": "Biểu tượng nhãn của trình chỉnh sửa khác biệt đa dạng."
+  },
+  "vs/workbench/contrib/multiDiffEditor/browser/multiDiffEditor.contribution": {
+    "name": "Trình chỉnh sửa khác biệt đa dạng"
+  },
+  "vs/workbench/contrib/multiDiffEditor/browser/multiDiffEditorInput": {
+    "name": "Trình chỉnh sửa khác biệt đa dạng",
+    "nameWithFiles": "{0} (tệp {1})",
+    "nameWithOneFile": "{0} (1 tệp)"
+  },
+  "vs/workbench/contrib/multiDiffEditor/browser/scmMultiDiffSourceResolver": {
+    "openChanges": "Mở thay đổi"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/cellCommands/cellCommands": {
+    "notebookActions.changeCellToCode": "Chuyển đổi ô thành mã",
+    "notebookActions.changeCellToMarkdown": "Chuyển đổi ô thành Markdown",
+    "notebookActions.collapseAllCellInput": "Thu gọn tất cả đầu vào ô",
+    "notebookActions.collapseAllCellOutput": "Thu gọn tất cả đầu ra ô",
+    "notebookActions.collapseCellInput": "Thu gọn đầu vào ô",
+    "notebookActions.collapseCellOutput": "Thu gọn đầu ra ô",
+    "notebookActions.copyCellDown": "Sao chép ô xuống dưới",
+    "notebookActions.copyCellUp": "Sao chép ô lên trên",
+    "notebookActions.expandAllCellInput": "Mở rộng tất cả đầu vào ô",
+    "notebookActions.expandAllCellOutput": "Mở rộng tất cả đầu ra ô",
+    "notebookActions.expandCellInput": "Mở rộng đầu vào ô",
+    "notebookActions.expandCellOutput": "Mở rộng đầu ra ô",
+    "notebookActions.joinCellAbove": "Kết hợp với ô phía trên",
+    "notebookActions.joinCellBelow": "Kết hợp với ô phía dưới",
+    "notebookActions.joinSelectedCells": "Kết hợp các ô được chọn",
+    "notebookActions.moveCellDown": "Di chuyển ô xuống",
+    "notebookActions.moveCellUp": "Di chuyển ô lên",
+    "notebookActions.splitCell": "Chia ô",
+    "notebookActions.toggleOutputs": "Bật/tắt đầu ra",
+    "notebookActions.toggleScrolling": "Bật/tắt cuộn đầu ra ô"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/cellDiagnostics/cellDiagnosticsActions": {
+    "cellCommands.quickFix.noneMessage": "Không có hành động mã nào khả dụng",
+    "notebookActions.cellFailureActions": "Hiển thị hành động lỗi ô",
+    "notebookActions.chatExplainCellError": "Giải thích lỗi ô",
+    "notebookActions.chatFixCellError": "Sửa lỗi ô"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/cellDiagnostics/diagnosticCellStatusBarContrib": {
+    "notebook.cell.status.diagnostic": "Hành động nhanh {0}"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/executionStatusBarItemController": {
+    "notebook.cell.status.executing": "Đang thực thi",
+    "notebook.cell.status.failed": "Lỗi",
+    "notebook.cell.status.pending": "Đang chờ",
+    "notebook.cell.status.success": "Thành công",
+    "notebook.cell.statusBar.timerTooltip": "**Lần thực thi cuối** {0}\r\n\r\n**Thời gian thực thi** {1}\r\n\r\n**Thời gian tải thêm** {2}\r\n\r\n**Thời gian hiển thị**\r\n\r\n{3}",
+    "notebook.cell.statusBar.timerTooltip.reportIssueFootnote": "Sử dụng các liên kết trên để gửi báo cáo vấn đề.",
+    "notebook.cell.statusBar.timerVerbose": "Lần thực thi cuối: {0}, Thời gian: {1}"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/statusBarProviders": {
+    "notebook.cell.status.autoDetectLanguage": "Chấp nhận ngôn ngữ được phát hiện: {0}",
+    "notebook.cell.status.language": "Chọn chế độ ngôn ngữ ô",
+    "notebook.cell.status.searchLanguageExtensions": "Ngôn ngữ ô không xác định. Nhấp để tìm kiếm tiện ích mở rộng cho '{0}'"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/chat/notebookChatUtils": {
+    "notebookOutputCellLabel": "{0} • Ô {1} • Đầu ra {2}"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/clipboard/notebookClipboard": {
+    "notebook.cell.output.selectAll": "Chọn tất cả",
+    "notebookActions.copy": "Sao chép ô",
+    "notebookActions.cut": "Cắt ô",
+    "notebookActions.paste": "Dán ô",
+    "notebookActions.pasteAbove": "Dán ô phía trên",
+    "toggleNotebookClipboardLog": "Bật/tắt khắc phục sự cố Clipboard của Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/editorStatusBar/editorStatusBar": {
+    "kernel.select.label": "Chọn kernel",
+    "notebook.activeCellStatusName": "Lựa chọn trình chỉnh sửa Notebook",
+    "notebook.indentation": "Thụt lề Notebook",
+    "notebook.info": "Thông tin kernel của Notebook",
+    "notebook.multiActiveCellIndicator": "Ô {0} ({1} được chọn)",
+    "notebook.select": "Lựa chọn kernel của Notebook",
+    "notebook.singleActiveCellIndicator": "Ô {0} trong số {1}",
+    "selectNotebookIndentation": "Chọn thụt lề",
+    "tooltop": "{0} (Gợi ý)"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/find/notebookFind": {
+    "notebookActions.findInNotebook": "Tìm trong Notebook",
+    "notebookActions.hideFind": "Ẩn Tìm trong Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/find/notebookFindReplaceWidget": {
+    "findFilterIcon": "Biểu tượng bộ lọc Tìm trong tiện ích tìm kiếm.",
+    "label.closeButton": "Đóng",
+    "label.find": "Tìm",
+    "label.nextMatchButton": "Kết quả tiếp theo",
+    "label.previousMatchButton": "Kết quả trước đó",
+    "label.replace": "Thay thế",
+    "label.replaceAllButton": "Thay thế tất cả",
+    "label.replaceButton": "Thay thế",
+    "label.toggleReplaceButton": "Bật/tắt thay thế",
+    "label.toggleSelectionFind": "Tìm trong lựa chọn",
+    "notebook.find.filter.filterAction": "Bộ lọc tìm kiếm",
+    "notebook.find.filter.findInCodeInput": "Nguồn ô mã",
+    "notebook.find.filter.findInCodeOutput": "Đầu ra ô mã",
+    "notebook.find.filter.findInMarkupInput": "Nguồn Markdown",
+    "notebook.find.filter.findInMarkupPreview": "Markdown được hiển thị",
+    "placeholder.find": "Tìm",
+    "placeholder.replace": "Thay thế"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/find/notebookFindWidget": {
+    "ariaSearchNoResult": "Đã tìm thấy {0} cho '{1}'",
+    "ariaSearchNoResultEmpty": "Đã tìm thấy: {0}",
+    "ariaSearchNoResultWithLineNumNoCurrentMatch": "Đã tìm thấy {0} cho '{1}'"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/format/formatting": {
+    "format.title": "Định dạng Notebook",
+    "formatCell.label": "Áp dụng định dạng cho ô",
+    "formatCells.label": "Áp dụng định dạng cho các ô",
+    "label": "Định dạng Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/gettingStarted/notebookGettingStarted": {
+    "workbench.notebook.layout.gettingStarted.label": "Đặt lại hướng dẫn Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/layout/layoutActions": {
+    "notebook.toggleCellToolbarPosition": "Bật/tắt vị trí thanh công cụ ô"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/multicursor/notebookMulticursor": {
+    "addFindMatchToSelection": "Thêm lựa chọn đến kết quả tìm kiếm tiếp theo",
+    "deleteLeftMultiSelection": "Xóa bên trái",
+    "deleteRightMultiSelection": "Xóa bên phải",
+    "exitMultiSelection": "Thoát chế độ con trỏ đa dạng",
+    "selectAllFindMatches": "Chọn tất cả các lần xuất hiện của kết quả tìm kiếm"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/navigation/arrow": {
+    "cursorMoveDown": "Đặt tiêu điểm vào trình chỉnh sửa ô tiếp theo",
+    "cursorMoveUp": "Đặt tiêu điểm vào trình chỉnh sửa ô trước đó",
+    "cursorPageDown": "Trang xuống của con trỏ ô",
+    "cursorPageDownSelect": "Lựa chọn trang xuống của con trỏ ô",
+    "cursorPageUp": "Trang lên của con trỏ ô",
+    "cursorPageUpSelect": "Lựa chọn trang lên của con trỏ ô",
+    "focusFirstCell": "Tập trung vào ô đầu tiên",
+    "focusLastCell": "Tập trung vào ô cuối cùng",
+    "focusOutput": "Tập trung vào đầu ra của ô đang hoạt động",
+    "focusOutputOut": "Tập trung ra ngoài đầu ra của ô đang hoạt động",
+    "notebook.cell.webviewHandledEvents": "Các phím nhấn được xử lý bởi phần tử ưu tiên trong đầu ra ô.",
+    "notebook.navigation.allowNavigateToSurroundingCells": "Khi bật, con trỏ có thể di chuyển đến ô tiếp theo hoặc trước đó khi con trỏ hiện tại trong trình chỉnh sửa ô ở dòng đầu tiên hoặc cuối cùng.",
+    "notebookActions.centerActiveCell": "Căn giữa ô đang hoạt động"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookInlineVariables": {
+    "clearAllInlineValues": "Xóa tất cả giá trị nội tuyến"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariableCommands": {
+    "copyWorkspaceVariableValue": "Sao chép giá trị",
+    "executeNotebookVariableProvider": "Thực thi nhà cung cấp biến Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariables": {
+    "notebookVariables": "Biến Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariablesDataSource": {
+    "notebook.indexedChildrenLimitReached": "Đã đạt đến giới hạn hiển thị"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/notebookVariables/notebookVariablesTree": {
+    "notebook.ReplVariables": "Biến REPL",
+    "notebook.notebookVariables": "Biến Notebook",
+    "notebookVariableAriaLabel": "Biến {0}, giá trị {1}"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/outline/notebookOutline": {
+    "breadcrumbs.showCodeCells": "Khi bật, các đường dẫn điều hướng của Notebook bao gồm các ô mã.",
+    "filter": "Lọc các mục",
+    "notebook.gotoSymbols.showAllSymbols": "Khi bật, lựa chọn nhanh đi đến biểu tượng sẽ hiển thị tất cả các biểu tượng mã của Notebook, cũng như các tiêu đề Markdown.",
+    "outline.showCodeCellSymbols": "Khi bật, dàn ý Notebook hiển thị các biểu tượng ô mã. Dựa trên việc bật `#notebook.outline.showCodeCells#`.",
+    "outline.showCodeCells": "Khi bật, dàn ý Notebook hiển thị các ô mã.",
+    "outline.showMarkdownHeadersOnly": "Khi bật, dàn ý Notebook chỉ hiển thị các ô Markdown chứa tiêu đề.",
+    "toggleCodeCellSymbols": "Biểu tượng ô mã",
+    "toggleCodeCells": "Ô mã",
+    "toggleShowMarkdownHeadersOnly": "Chỉ tiêu đề Markdown"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/profile/notebookProfile": {
+    "setProfileTitle": "Đặt hồ sơ"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/saveParticipants/saveParticipants": {
+    "codeAction.apply": "Đang áp dụng hành động mã \"{0}\".",
+    "codeaction.get2": "Đang lấy hành động mã từ \"{0}\" ([cấu hình]({1})).",
+    "formatNotebook": "Định dạng Notebook",
+    "insertFinalNewLine": "Chèn dòng mới cuối cùng",
+    "notebookFormatSave.formatting": "Đang định dạng",
+    "notebookSaveParticipants.cellCodeActions": "Thực thi hành động mã \"Ô\"",
+    "notebookSaveParticipants.formatCodeActions": "Thực thi hành động mã \"Định dạng\"",
+    "notebookSaveParticipants.notebookCodeActions": "Thực thi hành động mã \"Notebook\"",
+    "trimNotebookNewlines": "Cắt các dòng mới cuối cùng của Notebook",
+    "trimNotebookWhitespace": "Cắt khoảng trắng cuối của Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/contrib/troubleshoot/layout": {
+    "workbench.notebook.clearNotebookEdtitorTypeCache": "Xóa bộ nhớ cache loại trình chỉnh sửa Notebook",
+    "workbench.notebook.inspectLayout": "Kiểm tra bố cục Notebook",
+    "workbench.notebook.toggleLayoutTroubleshoot": "Bật/tắt khắc phục sự cố bố cục Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/cellOperations": {
+    "notebookActions.joinSelectedCells": "Không thể kết hợp các ô thuộc các loại khác nhau",
+    "notebookActions.joinSelectedCells.label": "Kết hợp các ô Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/cellOutputActions": {
+    "notebookActions.copyOutput": "Sao chép đầu ra ô",
+    "notebookActions.openOutputInEditor": "Mở đầu ra ô trong trình chỉnh sửa văn bản",
+    "notebookActions.openOutputInNotebookOutputEditor": "Mở trong xem trước đầu ra",
+    "notebookActions.showAllOutput": "Hiển thị đầu ra trống"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/chat/cellChatActions": {
+    "apply1": "Chấp nhận thay đổi",
+    "apply2": "Chấp nhận",
+    "apply3": "Chấp nhận thay đổi",
+    "arrowDown": "Con trỏ xuống",
+    "arrowUp": "Con trỏ lên",
+    "discard": "Hủy bỏ",
+    "focusChatWidget": "Tập trung vào tiện ích trò chuyện",
+    "focusNextCell": "Tập trung vào ô tiếp theo",
+    "focusNextChatWidget": "Tập trung vào tiện ích trò chuyện của ô tiếp theo",
+    "focusPreviousCell": "Tập trung vào ô trước đó",
+    "focusNotebookChat": "Tập trung vào trò chuyện",
+    "notebook.apply1": "Chấp nhận và thực thi",
+    "notebook.apply2": "Chấp nhận và Thực thi",
+    "notebook.apply3": "Chấp nhận các thay đổi và thực thi ô",
+    "notebook.cell.chat.accept": "Tạo yêu cầu",
+    "notebook.cell.chat.close": "Đóng trò chuyện",
+    "notebook.cell.chat.nextFromHistory": "Tiếp theo từ lịch sử",
+    "notebook.cell.chat.previousFromHistory": "Trước đó từ lịch sử",
+    "notebook.cell.chat.stop": "Dừng yêu cầu",
+    "notebookActions.menu.insertCode.ontoolbar": "Tạo",
+    "notebookActions.menu.insertCode.tooltip": "Bắt đầu trò chuyện để tạo mã",
+    "notebookActions.menu.insertCodeCellWithChat": "Tạo",
+    "notebookActions.menu.insertCodeCellWithChat.tooltip": "Bắt đầu trò chuyện để tạo mã",
+    "notebookActions.restoreCellprompt": "Tạo"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/chat/notebook.chat.contribution": {
+    "chatContext.notebook.kernelVariable": "Biến kernel...",
+    "chatContext.notebook.kernelVariable.placeholder": "Chọn một biến kernel",
+    "noKernelVariables": "Không tìm thấy biến kernel",
+    "notebookActions.addOutputToChat": "Thêm đầu ra ô vào trò chuyện",
+    "pickKernelVariableLabel": "Chọn một biến kernel",
+    "selectKernelVariablePlaceholder": "Chọn một biến kernel"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/chat/notebookChatContext": {
+    "notebookCellChatFocused": "Liệu trình chỉnh sửa trò chuyện ô có đang được tập trung hay không",
+    "notebookChatAgentRegistered": "Liệu một tác nhân trò chuyện cho Notebook có được đăng ký hay không",
+    "notebookChatHasActiveRequest": "Liệu trình chỉnh sửa trò chuyện ô có yêu cầu đang hoạt động hay không",
+    "notebookChatOuterFocusPosition": "Liệu tiêu điểm của trình chỉnh sửa Notebook ở trên hay dưới trò chuyện ô",
+    "notebookChatUserDidEdit": "Liệu người dùng có thực hiện thay đổi trên trò chuyện ô của Notebook hay không"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/chat/notebookChatController": {
+    "default.placeholder": "Hỏi hoặc chỉnh sửa trong ngữ cảnh",
+    "welcome.1": "Nội dung được tạo bởi trí tuệ nhân tạo có thể không chính xác"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/coreActions": {
+    "miShare": "Chia sẻ",
+    "notebookActions.category": "Notebook",
+    "notebookMenu.cellTitle": "Ô Notebook",
+    "notebookMenu.insertCell": "Chèn ô"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/editActions": {
+    "autoDetect": "Phát hiện tự động",
+    "changeLanguage": "Thay đổi ngôn ngữ ô",
+    "clearAllCellsOutputs": "Xóa tất cả đầu ra ô",
+    "clearCellOutputs": "Xóa đầu ra ô",
+    "commentSelectedCells": "Bình luận các ô được chọn",
+    "confirmDeleteButton": "Xóa",
+    "confirmDeleteButtonMessage": "Ô này đang thực thi, bạn có chắc muốn xóa nó không?",
+    "detectLanguage": "Chấp nhận ngôn ngữ được phát hiện cho ô",
+    "doNotAskAgain": "Không hỏi lại tôi câu này",
+    "indentConvert": "chuyển đổi tệp",
+    "indentView": "thay đổi giao diện",
+    "languageDescription": "({0}): ngôn ngữ hiện tại",
+    "languageDescriptionConfigured": "({0})",
+    "languagesPicks": "ngôn ngữ (định danh)",
+    "noDetection": "Không thể phát hiện ngôn ngữ của ô",
+    "noNotebookEditor": "Hiện tại không có trình chỉnh sửa Notebook nào đang hoạt động",
+    "noWritableCodeEditor": "Trình chỉnh sửa Notebook đang hoạt động chỉ đọc.",
+    "notebookActions.deleteCell": "Xóa ô",
+    "notebookActions.editCell": "Chỉnh sửa ô",
+    "notebookActions.quitEdit": "Dừng chỉnh sửa ô",
+    "notebookActions.quitEditAllCells": "Dừng chỉnh sửa tất cả ô",
+    "pickAction": "Chọn hành động",
+    "pickLanguageToConfigure": "Chọn chế độ ngôn ngữ",
+    "selectNotebookIndentation": "Chọn thụt lề"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/executeActions": {
+    "notebookActions.cancel": "Dừng thực thi ô",
+    "notebookActions.cancelNotebook": "Dừng thực thi",
+    "notebookActions.execute": "Thực thi ô",
+    "notebookActions.executeAbove": "Thực thi các ô phía trên",
+    "notebookActions.executeAndFocusContainer": "Thực thi ô và tập trung vào container",
+    "notebookActions.executeAndInsertBelow": "Thực thi ô Notebook và chèn phía dưới",
+    "notebookActions.executeAndSelectBelow": "Thực thi ô Notebook và chọn phía dưới",
+    "notebookActions.executeBelow": "Thực thi ô và phía dưới",
+    "notebookActions.executeNotebook": "Thực thi tất cả",
+    "notebookActions.interruptNotebook": "Ngắt",
+    "notebookActions.renderMarkdown": "Hiển thị tất cả ô Markdown",
+    "revealLastFailedCell": "Đi đến ô lỗi gần đây nhất",
+    "revealLastFailedCellShort": "Đi đến ô lỗi gần đây nhất",
+    "revealRunningCell": "Đi đến ô đang thực thi",
+    "revealRunningCellShort": "Đi đến"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/foldingController": {
+    "fold.cell": "Gập ô",
+    "unfold.cell": "Mở rộng ô"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/insertCellActions": {
+    "notebookActions.insertCodeCellAbove": "Chèn ô mã phía trên",
+    "notebookActions.insertCodeCellAboveAndFocusContainer": "Chèn ô mã phía trên và tập trung vào container",
+    "notebookActions.insertCodeCellAtTop": "Thêm ô mã ở đầu",
+    "notebookActions.insertCodeCellBelow": "Chèn ô mã phía dưới",
+    "notebookActions.insertCodeCellBelowAndFocusContainer": "Chèn ô mã phía dưới và tập trung vào container",
+    "notebookActions.insertMarkdownCellAbove": "Chèn ô Markdown phía trên",
+    "notebookActions.insertMarkdownCellAtTop": "Thêm ô Markdown ở đầu",
+    "notebookActions.insertMarkdownCellBelow": "Chèn ô Markdown phía dưới",
+    "notebookActions.menu.insertCode": "Mã",
+    "notebookActions.menu.insertCode.minimalToolbar": "Thêm mã",
+    "notebookActions.menu.insertCode.minimaltoolbar": "Thêm mã",
+    "notebookActions.menu.insertCode.ontoolbar": "Mã",
+    "notebookActions.menu.insertCode.tooltip": "Thêm ô mã",
+    "notebookActions.menu.insertMarkdown": "Markdown",
+    "notebookActions.menu.insertMarkdown.ontoolbar": "Markdown",
+    "notebookActions.menu.insertMarkdown.tooltip": "Thêm ô Markdown"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/layoutActions": {
+    "customizeNotebook": "Tùy chỉnh Notebook...",
+    "mitoggleNotebookStickyScroll": "&&Bật/tắt cuộn cố định Notebook",
+    "notebook.placeholder": "Tệp cấu hình để lưu",
+    "notebook.saveMimeTypeOrder": "Lưu thứ tự hiển thị kiểu MIME",
+    "notebook.showLineNumbers": "Số dòng của Notebook",
+    "notebook.toggleBreadcrumb": "Bật/tắt đường dẫn điều hướng",
+    "notebook.toggleCellToolbarPosition": "Bật/tắt vị trí thanh công cụ ô",
+    "notebook.toggleLineNumbers": "Bật/tắt số dòng của Notebook",
+    "notebookStickyScroll": "Bật/tắt cuộn cố định Notebook",
+    "saveTarget.machine": "Cấu hình người dùng",
+    "saveTarget.workspace": "Cấu hình khu vực làm việc",
+    "toggleStickyScroll": "Bật/tắt cuộn cố định Notebook",
+    "workbench.notebook.layout.configure.label": "Tùy chỉnh bố cục Notebook",
+    "workbench.notebook.layout.select.label": "Chọn giữa các bố cục Notebook",
+    "workbench.notebook.layout.webview.reset.label": "Đặt lại chế độ xem web của Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/notebookIndentationActions": {
+    "changeTabDisplaySize": "Thay đổi kích thước hiển thị tab",
+    "convertIndentation": "Chuyển đổi thụt lề",
+    "convertIndentationToSpaces": "Chuyển đổi thụt lề thành khoảng trắng",
+    "convertIndentationToTabs": "Chuyển đổi thụt lề thành tab",
+    "indentUsingSpaces": "Áp dụng thụt lề bằng khoảng trắng",
+    "indentUsingTabs": "Áp dụng thụt lề bằng tab",
+    "selectTabWidth": "Chọn kích thước tab cho tệp hiện tại"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/sectionActions": {
+    "expandSection": "Mở rộng phần",
+    "foldSection": "Gập phần",
+    "miexpandSection": "&&Mở rộng phần",
+    "mifoldSection": "&&Gập phần",
+    "mirunCell": "&&Thực thi ô",
+    "mirunCellsInSection": "&&Thực thi các ô trong phần",
+    "runCell": "Thực thi ô",
+    "runCellsInSection": "Thực thi các ô trong phần"
+  },
+  "vs/workbench/contrib/notebook/browser/controller/variablesActions": {
+    "notebookActions.openVariablesView": "Biến"
+  },
+  "vs/workbench/contrib/notebook/browser/diff/diffComponents": {
+    "hiddenCell": "{0} ô ẩn",
+    "hiddenCells": "{0} ô ẩn",
+    "hideUnchangedCells": "Ẩn các ô không thay đổi",
+    "showUnchangedCells": "Hiển thị các ô không thay đổi"
+  },
+  "vs/workbench/contrib/notebook/browser/diff/diffElementOutputs": {
+    "builtinRenderInfo": "tích hợp",
+    "curruentActiveMimeType": "Hiện đang hoạt động",
+    "empty": "Ô không có kết quả",
+    "mimeTypePicker": "Chọn kiểu MIME đầu ra khác. Các kiểu MIME có sẵn: {0}",
+    "noRenderer.2": "Không tìm thấy trình hiển thị cho đầu ra. Có các kiểu MIME sau: {0}",
+    "promptChooseMimeType.placeHolder": "Chọn kiểu MIME để hiển thị trong đầu ra hiện tại",
+    "promptChooseMimeTypeInSecure.placeHolder": "Chọn kiểu MIME để hiển thị trong đầu ra hiện tại. Các kiểu MIME phong phú chỉ khả dụng khi Notebook được tin cậy"
+  },
+  "vs/workbench/contrib/notebook/browser/diff/notebookDiffActions": {
+    "goToCell": "Đi đến ô",
+    "hideUnchangedCells": "Ẩn các ô không thay đổi",
+    "ignoreTrimWhitespace.label": "Hiển thị sự khác biệt khoảng trắng đầu/cuối",
+    "notebook.diff.action.next.title": "Hiển thị thay đổi tiếp theo",
+    "notebook.diff.action.previous.title": "Hiển thị thay đổi trước đó",
+    "notebook.diff.cell.revertInput": "Hoàn tác đầu vào",
+    "notebook.diff.cell.revertMetadata": "Hoàn tác siêu dữ liệu",
+    "notebook.diff.cell.revertOutputs": "Hoàn tác đầu ra",
+    "notebook.diff.cell.switchOutputRenderingStyleToText": "Chuyển đổi kiểu hiển thị đầu ra",
+    "notebook.diff.cell.toggleCollapseUnchangedRegions": "Bật/tắt thu gọn các vùng không thay đổi",
+    "notebook.diff.ignoreMetadata": "Ẩn sự khác biệt siêu dữ liệu",
+    "notebook.diff.ignoreOutputs": "Ẩn sự khác biệt đầu ra",
+    "notebook.diff.inline.toggle.title": "Bật/tắt chế độ xem nội tuyến",
+    "notebook.diff.openFile": "Mở tệp",
+    "notebook.diff.revertMetadata": "Hoàn tác siêu dữ liệu Notebook",
+    "notebook.diff.showMetadata": "Hiển thị sự khác biệt siêu dữ liệu",
+    "notebook.diff.showOutputs": "Hiển thị sự khác biệt đầu ra",
+    "notebook.diff.switchToText": "Mở trình chỉnh sửa khác biệt văn bản",
+    "notebook.diff.toggleInline": "Kích hoạt lệnh để bật/tắt trình chỉnh sửa khác biệt nội tuyến Notebook thử nghiệm.",
+    "showUnchangedCells": "Hiển thị các ô không thay đổi"
+  },
+  "vs/workbench/contrib/notebook/browser/diff/notebookDiffEditor": {
+    "notebookTreeAriaLabel": "Khác biệt văn bản Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/diff/notebookDiffEditorBrowser": {
+    "notebook.diffEditor.allCollapsed": "Liệu tất cả các ô trong trình chỉnh sửa khác biệt Notebook có được thu gọn hay không",
+    "notebook.diffEditor.hasUnchangedCells": "Liệu có các ô không thay đổi trong trình chỉnh sửa khác biệt Notebook hay không",
+    "notebook.diffEditor.item.kind": "Loại mục trong trình chỉnh sửa khác biệt Notebook, ô, siêu dữ liệu hoặc đầu ra",
+    "notebook.diffEditor.item.state": "Trạng thái khác biệt của mục trong trình chỉnh sửa khác biệt Notebook, xóa, chèn, sửa đổi hoặc không thay đổi",
+    "notebook.diffEditor.unchangedCellsAreHidden": "Liệu các ô không thay đổi trong trình chỉnh sửa khác biệt Notebook có bị ẩn hay không"
+  },
+  "vs/workbench/contrib/notebook/browser/diff/notebookDiffList": {
+    "notebook.diff.hiddenCells.expandAll": "Nhấp đúp để hiển thị"
+  },
+  "vs/workbench/contrib/notebook/browser/diff/notebookMultiDiffEditor": {
+    "notebookCellLabel": "Ô {0}",
+    "notebookCellMetadataLabel": "Siêu dữ liệu",
+    "notebookCellOutputLabel": "Đầu ra"
+  },
+  "vs/workbench/contrib/notebook/browser/notebook.contribution": {
+    "insertToolbarLocation.betweenCells": "Thanh công cụ xuất hiện khi di chuột giữa các ô.",
+    "insertToolbarLocation.both": "Cả hai thanh công cụ.",
+    "insertToolbarLocation.hidden": "Các hành động chèn không xuất hiện ở bất kỳ đâu.",
+    "insertToolbarLocation.notebookToolbar": "Thanh công cụ nằm ở đầu trình chỉnh sửa Notebook.",
+    "notebook.VariablesView.description": "Kích hoạt chế độ xem biến thử nghiệm của Notebook trong bảng gỡ lỗi.",
+    "notebook.backup.sizeLimit": "Giới hạn kích thước đầu ra Notebook tính bằng kilobyte (KB) nơi các tệp Notebook sẽ không còn được sao lưu để tải lại. Sử dụng 0 để không giới hạn.",
+    "notebook.cellExecutionTimeVerbosity.default.description": "Thời gian thực thi ô hiển thị, với thông tin nâng cao khi di chuột qua thông tin trên màn hình.",
+    "notebook.cellExecutionTimeVerbosity.description": "Kiểm soát mức độ chi tiết của thời gian thực thi ô trong thanh trạng thái ô.",
+    "notebook.cellExecutionTimeVerbosity.verbose.description": "Dấu thời gian và thời gian thực thi cuối cùng của ô hiển thị, với thông tin nâng cao khi di chuột qua thông tin trên màn hình.",
+    "notebook.cellFailureDiagnostics": "Hiển thị các chẩn đoán có sẵn cho lỗi ô.",
+    "notebook.cellGenerate": "Kích hoạt hành động tạo thử nghiệm để tạo ô mã với trò chuyện nội tuyến được bật.",
+    "notebook.cellToolbarLocation.description": "Xác định liệu thanh công cụ ô có nên hiển thị hay ẩn.",
+    "notebook.cellToolbarLocation.viewType": "Cấu hình vị trí thanh công cụ ô cho các loại tệp cụ thể",
+    "notebook.cellToolbarVisibility.description": "Xác định liệu thanh công cụ ô có nên xuất hiện khi di chuột hoặc nhấp chuột.",
+    "notebook.compactView.description": "Kiểm soát liệu trình chỉnh sửa Notebook có nên hiển thị ở định dạng gọn hay không. Ví dụ, khi bật, sẽ giảm độ rộng của lề trái.",
+    "notebook.confirmDeleteRunningCell": "Kiểm soát liệu có cần thông báo xác nhận để xóa ô đang thực thi hay không.",
+    "notebook.consolidatedOutputButton.description": "Kiểm soát liệu hành động đầu ra có nên được hiển thị trong thanh công cụ đầu ra hay không.",
+    "notebook.consolidatedRunButton.description": "Kiểm soát liệu các hành động bổ sung có nên hiển thị trong danh sách thả xuống bên cạnh nút chạy hay không.",
+    "notebook.diff.enableOverviewRuler.description": "Xác định liệu thước tổng quan có nên được hiển thị trong trình chỉnh sửa khác biệt cho Notebook hay không.",
+    "notebook.diff.enablePreview.description": "Xác định liệu trình chỉnh sửa khác biệt văn bản nâng cao có được sử dụng cho Notebook hay không.",
+    "notebook.disableOutputFilePathLinks": "Kiểm soát liệu các liên kết đường dẫn tệp trong đầu ra ô Notebook có nên bị vô hiệu hóa hay không.",
+    "notebook.displayOrder.description": "Danh sách ưu tiên cho các kiểu MIME đầu ra",
+    "notebook.dragAndDrop.description": "Kiểm soát liệu trình chỉnh sửa Notebook có nên cho phép di chuyển các ô bằng kéo và thả hay không.",
+    "notebook.editorOptions.experimentalCustomization": "Cấu hình các trình chỉnh sửa mã được sử dụng trong Notebook. Có thể dùng để tùy chỉnh hầu hết các tùy chọn trình chỉnh sửa*.",
+    "notebook.findFilters": "Tùy chỉnh hành vi của tiện ích tìm kiếm để tìm trong các ô Notebook. Khi nguồn Markdown và xem trước Markdown được bật, tiện ích sẽ tìm kiếm mã nguồn hoặc xem trước dựa trên trạng thái hiện tại của ô.",
+    "notebook.focusIndicator.description": "Kiểm soát nơi hiển thị chỉ báo tiêu điểm, dọc theo các cạnh ô hoặc ở lề trái.",
+    "notebook.formatOnCellExecution": "Định dạng ô Notebook sau khi thực thi. Phải có trình định dạng sẵn có.",
+    "notebook.formatOnSave": "Định dạng Notebook khi lưu. Phải có trình định dạng sẵn có và trình chỉnh sửa không được đóng. Khi {0} được đặt thành \"afterDelay\", tệp chỉ được định dạng khi lưu rõ ràng.",
+    "notebook.globalToolbar.description": "Kiểm soát liệu có nên hiển thị thanh công cụ toàn cục trong trình chỉnh sửa Notebook hay không.",
+    "notebook.globalToolbarShowLabel": "Kiểm soát liệu các hành động thanh công cụ Notebook có nên hiển thị nhãn hay không.",
+    "notebook.inlineValues.auto": "Chỉ hiển thị giá trị nội tuyến khi có nhà cung cấp giá trị nội tuyến được đăng ký.",
+    "notebook.inlineValues.description": "Kiểm soát liệu giá trị nội tuyến có nên hiển thị trong các ô mã Notebook sau khi thực thi ô hay không. Các giá trị sẽ tồn tại cho đến khi ô được chỉnh sửa, thực thi lại hoặc xóa rõ ràng thông qua nút thanh công cụ Xóa tất cả đầu ra hoặc lệnh \"Notebook: Xóa giá trị nội tuyến\".",
+    "notebook.inlineValues.off": "Không bao giờ hiển thị giá trị nội tuyến.",
+    "notebook.inlineValues.on": "Luôn hiển thị giá trị nội tuyến, với dự phòng regex nếu không có nhà cung cấp giá trị nội tuyến nào được đăng ký. Lưu ý: nếu sử dụng dự phòng, có thể ảnh hưởng đến hiệu suất trên các ô lớn hơn.",
+    "notebook.insertFinalNewline": "Khi bật, chèn dòng mới cuối cùng vào cuối các ô mã khi lưu Notebook.",
+    "notebook.insertToolbarPosition.description": "Kiểm soát nơi các hành động chèn ô nên xuất hiện.",
+    "notebook.interactiveWindow.collapseCodeCells": "Kiểm soát liệu các ô mã của cửa sổ tương tác có được thu gọn theo mặc định hay không.",
+    "notebook.markdown.lineHeight": "Kiểm soát chiều cao dòng tính bằng pixel của các ô Markdown trong Notebook. Khi đặt thành {0}, sẽ sử dụng {1}",
+    "notebook.markup.fontFamily": "Kiểm soát họ phông chữ của Markdown được hiển thị trong Notebook. Nếu để trống, sẽ sử dụng họ phông chữ mặc định của khu vực làm việc.",
+    "notebook.markup.fontSize": "Kiểm soát kích thước phông chữ tính bằng pixel của Markdown được hiển thị trong Notebook. Khi đặt thành {0}, sử dụng 120% của {1}.",
+    "notebook.minimalErrorRendering": "Kiểm soát liệu đầu ra lỗi có được hiển thị ở kiểu tối thiểu hay không.",
+    "notebook.multiCursor.enabled": "Thử nghiệm. Kích hoạt tập hợp giới hạn các điều khiển con trỏ đa dạng trên nhiều ô trong trình chỉnh sửa Notebook. Hiện hỗ trợ các hành động chính của trình chỉnh sửa (gõ, cắt, sao chép, dán và soạn) và một tập hợp con giới hạn của các lệnh trình chỉnh sửa.",
+    "notebook.outputFontFamily": "Họ phông chữ của văn bản đầu ra trong các ô Notebook. Khi đặt thành trống, sử dụng {0}.",
+    "notebook.outputFontSize": "Kích thước phông chữ của văn bản đầu ra trong các ô Notebook. Khi đặt thành 0, sử dụng {0}.",
+    "notebook.outputLineHeight": "Chiều cao dòng của văn bản đầu ra trong các ô Notebook.\r\n - Khi đặt thành 0, sử dụng chiều cao dòng của trình chỉnh sửa.\r\n - Các giá trị từ 0 đến 8 sẽ được sử dụng làm hệ số nhân với kích thước phông chữ.\r\n - Các giá trị lớn hơn hoặc bằng 8 sẽ được sử dụng làm giá trị hiệu quả.",
+    "notebook.outputScrolling": "Hiển thị ban đầu các đầu ra Notebook trong vùng có thể cuộn khi không vượt quá giới hạn.",
+    "notebook.outputWordWrap": "Kiểm soát liệu các dòng đầu ra có nên được gói hay không.",
+    "notebook.remoteSaving": "Kích hoạt lưu tăng dần cho Notebook giữa các tiến trình và kết nối từ xa. Khi bật, chỉ các thay đổi được thực hiện trong Notebook được gửi đến máy chủ tiện ích mở rộng, cải thiện hiệu suất cho các Notebook lớn và kết nối mạng chậm.",
+    "notebook.scrolling.revealNextCellOnExecute.description": "Khoảng cách cuộn khi hiển thị ô tiếp theo khi thực thi {0}.",
+    "notebook.scrolling.revealNextCellOnExecute.firstLine.description": "Cuộn để hiển thị dòng đầu tiên của ô tiếp theo.",
+    "notebook.scrolling.revealNextCellOnExecute.fullCell.description": "Cuộn để hiển thị hoàn toàn ô tiếp theo.",
+    "notebook.scrolling.revealNextCellOnExecute.none.description": "Không cuộn.",
+    "notebook.showCellStatusbar.description": "Xác định liệu thanh trạng thái ô có nên hiển thị hay không.",
+    "notebook.showCellStatusbar.hidden.description": "Thanh trạng thái ô luôn ẩn.",
+    "notebook.showCellStatusbar.visible.description": "Thanh trạng thái ô luôn hiển thị.",
+    "notebook.showCellStatusbar.visibleAfterExecute.description": "Thanh trạng thái ô bị ẩn cho đến khi ô được thực thi. Sau đó, nó hiển thị để cho thấy trạng thái thực thi.",
+    "notebook.showFoldingControls.description": "Kiểm soát khi nào mũi tên gập của tiêu đề Markdown được hiển thị.",
+    "notebook.stickyScrollEnabled.description": "Thử nghiệm. Kiểm soát liệu các tiêu đề cuộn cố định của Notebook có được hiển thị trong trình chỉnh sửa Notebook hay không.",
+    "notebook.stickyScrollMode.description": "Kiểm soát liệu các dòng cuộn cố định lồng nhau xuất hiện phẳng hay thụt lề.",
+    "notebook.stickyScrollMode.flat": "Các dòng cuộn cố định lồng nhau xuất hiện phẳng.",
+    "notebook.stickyScrollMode.indented": "Các dòng cuộn cố định lồng nhau xuất hiện với thụt lề.",
+    "notebook.textOutputLineLimit": "Kiểm soát số dòng văn bản được hiển thị trong đầu ra văn bản. Nếu {0} được bật, cài đặt này được sử dụng để xác định chiều cao cuộn của đầu ra.",
+    "notebook.undoRedoPerCell.description": "Xác định liệu có nên sử dụng ngăn xếp hoàn tác hoặc làm lại riêng cho mỗi ô hay không.",
+    "notebookConfigurationTitle": "Notebook",
+    "notebookFormatter.default": "Xác định trình định dạng Notebook mặc định có ưu tiên hơn tất cả các giá trị định dạng khác. Phải là định danh của tiện ích mở rộng đóng góp trình định dạng.",
+    "showFoldingControls.always": "Các điều khiển gập luôn hiển thị.",
+    "showFoldingControls.mouseover": "Các điều khiển gập chỉ hiển thị khi di chuột.",
+    "showFoldingControls.never": "Không bao giờ hiển thị các điều khiển gập và giảm kích thước lề."
+  },
+  "vs/workbench/contrib/notebook/browser/notebookAccessibilityHelp": {
+    "notebook.cell.edit": "Lệnh Chỉnh sửa ô {0} sẽ tập trung vào đầu vào ô.",
+    "notebook.cell.executeAndFocusContainer": "Lệnh Thực thi ô {0} thực thi ô hiện đang có tiêu điểm.",
+    "notebook.cell.focusInOutput": "Lệnh Tiêu điểm đầu ra ({0}) sẽ đặt tiêu điểm vào đầu ra của ô.",
+    "notebook.cell.insertCodeCellBelowAndFocusContainer": "Các lệnh Chèn ô phía trên {0} và Phía dưới {1} sẽ tạo các ô mã trống mới.",
+    "notebook.cell.quitEdit": "Lệnh Thoát chỉnh sửa {0} sẽ đặt tiêu điểm vào container ô. Có thể cần nhấn phím mặc định (Escape) hai lần trước khi thoát khỏi con trỏ ảo nếu đang hoạt động.",
+    "notebook.cellNavigation": "Các phím mũi tên lên và xuống cũng sẽ di chuyển tiêu điểm giữa các ô khi tập trung vào container ô bên ngoài.",
+    "notebook.changeCellType": "Các lệnh Chuyển đổi ô thành Mã hoặc Markdown được sử dụng để chuyển đổi giữa các loại ô.",
+    "notebook.focusNextEditor": "Lệnh Đặt tiêu điểm vào Trình chỉnh sửa ô tiếp theo ({0}) sẽ đặt tiêu điểm vào trình chỉnh sửa của ô tiếp theo.",
+    "notebook.focusPreviousEditor": "Lệnh Tiêu điểm trình chỉnh sửa ô trước đó {0} sẽ đặt tiêu điểm vào trình chỉnh sửa của ô trước đó.",
+    "notebook.overview": "Chế độ xem Notebook là tập hợp các ô mã và Markdown. Các ô mã có thể được thực thi và tạo ra đầu ra ngay dưới ô."
+  },
+  "vs/workbench/contrib/notebook/browser/notebookAccessibilityProvider": {
+    "notebookTreeAriaLabel": "Notebook",
+    "notebookTreeAriaLabelHelp": "{0}\r\nSử dụng {1} để nhận trợ giúp tiếp cận",
+    "notebookTreeAriaLabelHelpNoKb": "{0}\r\nChạy lệnh Mở trợ giúp tiếp cận để biết thêm thông tin",
+    "replHistoryTreeAriaLabel": "Lịch sử trình chỉnh sửa REPL"
+  },
+  "vs/workbench/contrib/notebook/browser/notebookEditor": {
+    "fail.noEditor": "Không thể mở tài nguyên với loại trình chỉnh sửa Notebook '{0}'. Vui lòng kiểm tra xem bạn đã cài đặt và kích hoạt tiện ích mở rộng đúng hay chưa.",
+    "fail.noEditor.extensionMissing": "Không thể mở tài nguyên với loại trình chỉnh sửa Notebook '{0}'. Vui lòng kiểm tra xem bạn đã cài đặt và kích hoạt tiện ích mở rộng đúng hay chưa.",
+    "notebookOpenAsText": "Mở dưới dạng văn bản",
+    "notebookOpenEnableMissingViewType": "Kích hoạt tiện ích mở rộng cho “{0}”",
+    "notebookOpenInTextEditor": "Mở trong Trình chỉnh sửa văn bản",
+    "notebookOpenInstallMissingViewType": "Cài đặt tiện ích mở rộng cho '{0}'",
+    "notebookTooLargeForHeapErrorWithSize": "Notebook không được hiển thị trong trình chỉnh sửa Notebook vì nó quá lớn ({0}).",
+    "notebookTooLargeForHeapErrorWithoutSize": "Notebook không được hiển thị trong trình chỉnh sửa Notebook vì nó quá lớn."
+  },
+  "vs/workbench/contrib/notebook/browser/notebookEditorWidget": {
+    "focusedCellBackground": "Màu nền của ô khi ô có tiêu điểm.",
+    "notebook.cellBorderColor": "Màu viền của các ô Notebook.",
+    "notebook.cellEditorBackground": "Màu nền của trình chỉnh sửa ô.",
+    "notebook.cellHoverBackground": "Màu nền của ô khi di chuột qua.",
+    "notebook.cellInsertionIndicator": "Màu của chỉ báo chèn ô Notebook.",
+    "notebook.cellStatusBarItemHoverBackground": "Màu nền của các mục thanh trạng thái ô Notebook.",
+    "notebook.cellToolbarSeparator": "Màu của phân cách thanh công cụ dưới ô",
+    "notebook.editorBackground": "Màu nền của Notebook.",
+    "notebook.focusedCellBorder": "Màu viền của chỉ báo tiêu điểm ô khi ô được tập trung.",
+    "notebook.focusedEditorBorder": "Màu viền của trình chỉnh sửa ô Notebook.",
+    "notebook.inactiveFocusedCellBorder": "Màu viền trên và dưới của ô khi ô nhận tiêu điểm trong khi tiêu điểm chính nằm ngoài trình chỉnh sửa.",
+    "notebook.inactiveSelectedCellBorder": "Màu viền của ô khi nhiều ô được chọn.",
+    "notebook.outputContainerBackgroundColor": "Màu nền của container đầu ra Notebook.",
+    "notebook.outputContainerBorderColor": "Màu viền của container đầu ra Notebook.",
+    "notebook.selectedCellBorder": "Màu viền trên và dưới của ô khi ô được chọn nhưng không có tiêu điểm.",
+    "notebook.symbolHighlightBackground": "Màu nền của ô được làm nổi bật",
+    "notebookEditorOverviewRuler.runningCellForeground": "Màu của trang trí ô đang thực thi trong thước tổng quan của trình chỉnh sửa Notebook.",
+    "notebookScrollbarSliderActiveBackground": "Màu nền của thanh trượt thanh cuộn Notebook khi nhấp vào.",
+    "notebookScrollbarSliderBackground": "Màu nền của thanh trượt thanh cuộn Notebook.",
+    "notebookScrollbarSliderHoverBackground": "Màu nền của thanh trượt thanh cuộn Notebook khi di chuột.",
+    "notebookStatusErrorIcon.foreground": "Màu của biểu tượng lỗi của các ô Notebook trong thanh trạng thái ô.",
+    "notebookStatusRunningIcon.foreground": "Màu của biểu tượng đang thực thi của các ô Notebook trong thanh trạng thái ô.",
+    "notebookStatusSuccessIcon.foreground": "Màu của biểu tượng thành công của các ô Notebook trong thanh trạng thái ô.",
+    "selectedCellBackground": "Màu nền của ô khi ô được chọn."
+  },
+  "vs/workbench/contrib/notebook/browser/notebookExtensionPoint": {
+    "Notebook id": "Id.",
+    "Notebook mimetypes": "Các kiểu MIME",
+    "Notebook name": "Tên",
+    "Notebook renderer name": "Tên",
+    "contributes.notebook.provider": "Đóng góp nhà cung cấp tài liệu Notebook.",
+    "contributes.notebook.provider.displayName": "Tên dễ đọc của Notebook.",
+    "contributes.notebook.provider.selector": "Tập hợp các mẫu glob mà Notebook hướng tới.",
+    "contributes.notebook.provider.selector.filenamePattern": "Mẫu glob mà Notebook được kích hoạt.",
+    "contributes.notebook.provider.viewType": "Loại Notebook.",
+    "contributes.notebook.renderer": "Đóng góp nhà cung cấp trình hiển thị đầu ra Notebook.",
+    "contributes.notebook.renderer.displayName": "Tên dễ đọc của trình hiển thị đầu ra Notebook.",
+    "contributes.notebook.renderer.entrypoint": "Tệp sẽ được tải trong chế độ xem web để hiển thị tiện ích mở rộng.",
+    "contributes.notebook.renderer.entrypoint.extends": "Trình hiển thị hiện có mà tiện ích này mở rộng.",
+    "contributes.notebook.renderer.hardDependencies": "Danh sách các phụ thuộc kernel mà trình hiển thị yêu cầu. Nếu bất kỳ phụ thuộc nào có trong \"NotebookKernel.preloads\", trình hiển thị có thể được sử dụng.",
+    "contributes.notebook.renderer.optionalDependencies": "Danh sách các phụ thuộc kernel nhẹ mà trình hiển thị có thể sử dụng. Nếu bất kỳ phụ thuộc nào có trong \"NotebookKernel.preloads\", trình hiển thị sẽ được ưu tiên hơn các trình hiển thị không tương tác với kernel.",
+    "contributes.notebook.renderer.requiresMessaging": "Xác định cách và liệu trình hiển thị có cần giao tiếp với máy chủ tiện ích mở rộng thông qua `createRendererMessaging` hay không. Các trình hiển thị có yêu cầu giao tiếp nghiêm ngặt hơn có thể không hoạt động trong mọi môi trường.",
+    "contributes.notebook.renderer.requiresMessaging.always": "Yêu cầu giao tiếp. Trình hiển thị chỉ được sử dụng khi là một phần của tiện ích mở rộng có thể chạy trên máy chủ tiện ích mở rộng.",
+    "contributes.notebook.renderer.requiresMessaging.never": "Trình hiển thị không yêu cầu giao tiếp.",
+    "contributes.notebook.renderer.requiresMessaging.optional": "Trình hiển thị hoạt động tốt hơn khi có giao tiếp, nhưng không bắt buộc.",
+    "contributes.notebook.renderer.viewType": "Định danh duy nhất của trình hiển thị đầu ra Notebook.",
+    "contributes.notebook.selector": "Tập hợp các mẫu glob mà Notebook hướng tới.",
+    "contributes.notebook.selector.provider.excludeFileNamePattern": "Mẫu glob mà Notebook bị vô hiệu hóa.",
+    "contributes.preload.entrypoint": "Đường dẫn đến tệp được tải trong chế độ xem web.",
+    "contributes.preload.localResourceRoots": "Đường dẫn đến các tài nguyên bổ sung được phép trong chế độ xem web.",
+    "contributes.preload.provider": "Đóng góp các tải trước của Notebook.",
+    "contributes.preload.provider.viewType": "Loại Notebook.",
+    "contributes.priority": "Kiểm soát liệu trình chỉnh sửa tùy chỉnh có được kích hoạt tự động khi người dùng mở tệp hay không. Người dùng có thể ghi đè bằng giá trị \"workbench.editorAssociations\".",
+    "contributes.priority.default": "Trình chỉnh sửa được sử dụng tự động khi người dùng mở tài nguyên, miễn là không có trình chỉnh sửa tùy chỉnh mặc định nào khác được đăng ký cho tài nguyên đó.",
+    "contributes.priority.option": "Trình chỉnh sửa không được sử dụng tự động khi người dùng mở tài nguyên, nhưng người dùng có thể chuyển sang trình chỉnh sửa bằng lệnh \"Mở lại với\".",
+    "notebookRenderer": "Trình hiển thị Notebook",
+    "notebooks": "Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/notebookIcons": {
+    "clearIcon": "Biểu tượng để xóa đầu ra ô trong các trình chỉnh sửa Notebook.",
+    "collapsedIcon": "Biểu tượng để đánh dấu phần thu gọn trong các trình chỉnh sửa Notebook.",
+    "copyIcon": "Biểu tượng để sao chép nội dung vào Clipboard",
+    "deleteCellIcon": "Biểu tượng để xóa ô trong các trình chỉnh sửa Notebook.",
+    "editIcon": "Biểu tượng để chỉnh sửa ô trong các trình chỉnh sửa Notebook.",
+    "errorStateIcon": "Biểu tượng để chỉ trạng thái lỗi trong các trình chỉnh sửa Notebook.",
+    "executeAboveIcon": "Biểu tượng để thực thi các ô phía trên trong các trình chỉnh sửa Notebook.",
+    "executeAllIcon": "Biểu tượng để thực thi tất cả các ô trong các trình chỉnh sửa Notebook.",
+    "executeBelowIcon": "Biểu tượng để thực thi các ô phía dưới trong các trình chỉnh sửa Notebook.",
+    "executeIcon": "Biểu tượng để thực thi trong các trình chỉnh sửa Notebook.",
+    "executingStateIcon": "Biểu tượng để chỉ trạng thái thực thi trong các trình chỉnh sửa Notebook.",
+    "expandedIcon": "Biểu tượng để đánh dấu phần mở rộng trong các trình chỉnh sửa Notebook.",
+    "mimetypeIcon": "Biểu tượng của kiểu MIME trong các trình chỉnh sửa Notebook.",
+    "moveDownIcon": "Biểu tượng để di chuyển ô xuống trong các trình chỉnh sửa Notebook.",
+    "moveUpIcon": "Biểu tượng để di chuyển ô lên trong các trình chỉnh sửa Notebook.",
+    "nextChangeIcon": "Biểu tượng của hành động thay đổi tiếp theo trong trình chỉnh sửa khác biệt.",
+    "openAsTextIcon": "Biểu tượng để mở Notebook trong trình chỉnh sửa văn bản.",
+    "pendingStateIcon": "Biểu tượng để chỉ trạng thái đang chờ trong các trình chỉnh sửa Notebook.",
+    "previousChangeIcon": "Biểu tượng của hành động thay đổi trước đó trong trình chỉnh sửa khác biệt.",
+    "renderOutputIcon": "Biểu tượng để hiển thị đầu ra trong trình chỉnh sửa khác biệt.",
+    "revertIcon": "Biểu tượng để hoàn tác trong các trình chỉnh sửa Notebook.",
+    "selectKernelIcon": "Biểu tượng cấu hình để chọn kernel trong các trình chỉnh sửa Notebook.",
+    "splitCellIcon": "Biểu tượng để chia ô trong các trình chỉnh sửa Notebook.",
+    "stopEditIcon": "Biểu tượng để dừng chỉnh sửa ô trong các trình chỉnh sửa Notebook.",
+    "stopIcon": "Biểu tượng để dừng thực thi trong các trình chỉnh sửa Notebook.",
+    "successStateIcon": "Biểu tượng để chỉ trạng thái thành công trong các trình chỉnh sửa Notebook.",
+    "toggleWhitespace": "Biểu tượng của hành động bật/tắt khoảng trắng trong trình chỉnh sửa khác biệt.",
+    "variablesViewIcon": "Biểu tượng của chế độ xem biến."
+  },
+  "vs/workbench/contrib/notebook/browser/outputEditor/notebookOutputEditor": {
+    "empty": "Ô không có kết quả",
+    "noRenderer.2": "Không tìm thấy trình hiển thị cho đầu ra. Có các kiểu MIME sau: {0}",
+    "notebookOutputEditor": "Trình chỉnh sửa đầu ra Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/outputEditor/notebookOutputEditorInput": {
+    "notebookOutputEditorInput": "Xem trước đầu ra Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/services/notebookExecutionServiceImpl": {
+    "notebookRunTrust": "Khi thực thi ô Notebook, mã từ khu vực làm việc này sẽ được thực thi."
+  },
+  "vs/workbench/contrib/notebook/browser/services/notebookKernelHistoryServiceImpl": {
+    "workbench.notebook.clearNotebookKernelsMRUCache": "Xóa bộ nhớ cache MRU của kernel Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/services/notebookKeymapServiceImpl": {
+    "disableOtherKeymapsConfirmation": "Bạn có muốn vô hiệu hóa các ánh xạ phím khác ({0}) để tránh xung đột giữa các phím tắt không?",
+    "no": "Không",
+    "yes": "Có"
+  },
+  "vs/workbench/contrib/notebook/browser/services/notebookLoggingServiceImpl": {
+    "renderChannelName": "Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/services/notebookServiceImpl": {
+    "notebookOpenInstallMissingViewType": "Cài đặt tiện ích mở rộng cho '{0}'"
+  },
+  "vs/workbench/contrib/notebook/browser/view/cellParts/cellEditorOptions": {
+    "notebook.cell.toggleLineNumbers.title": "Hiển thị số dòng ô",
+    "notebook.lineNumbers": "Kiểm soát hiển thị số dòng trong trình chỉnh sửa ô.",
+    "notebook.showLineNumbers": "Số dòng của Notebook",
+    "notebook.toggleLineNumbers": "Bật/tắt số dòng của Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/view/cellParts/cellOutput": {
+    "curruentActiveMimeType": "Hiện đang hoạt động",
+    "empty": "Ô không có kết quả",
+    "installJupyterPrompt": "Cài đặt trình hiển thị bổ sung từ Marketplace",
+    "noRenderer.2": "Không tìm thấy trình hiển thị cho đầu ra. Có các kiểu MIME sau: {0}",
+    "pickMimeType": "Thay đổi hiển thị",
+    "promptChooseMimeType.placeHolder": "Chọn kiểu MIME để hiển thị trong đầu ra hiện tại",
+    "promptChooseMimeTypeInSecure.placeHolder": "Chọn kiểu MIME để hiển thị trong đầu ra hiện tại",
+    "unavailableRenderInfo": "Trình hiển thị không khả dụng"
+  },
+  "vs/workbench/contrib/notebook/browser/view/cellParts/codeCell": {
+    "cellExpandInputButtonLabel": "Mở rộng đầu vào ô ({0})",
+    "cellExpandInputButtonLabelWithDoubleClick": "Nhấp đúp để mở rộng đầu vào ô ({0})"
+  },
+  "vs/workbench/contrib/notebook/browser/view/cellParts/codeCellExecutionIcon": {
+    "notebook.cell.status.executing": "Đang thực thi",
+    "notebook.cell.status.failure": "Lỗi",
+    "notebook.cell.status.pending": "Đang chờ",
+    "notebook.cell.status.success": "Thành công"
+  },
+  "vs/workbench/contrib/notebook/browser/view/cellParts/codeCellRunToolbar": {
+    "notebook.moreRunActionsLabel": "Thêm..."
+  },
+  "vs/workbench/contrib/notebook/browser/view/cellParts/collapsedCellOutput": {
+    "cellExpandOutputButtonLabel": "Mở rộng đầu ra ô (${0})",
+    "cellExpandOutputButtonLabelWithDoubleClick": "Nhấp đúp để mở rộng đầu ra ô ({0})",
+    "cellOutputsCollapsedMsg": "Các đầu ra được thu gọn"
+  },
+  "vs/workbench/contrib/notebook/browser/view/cellParts/foldedCellHint": {
+    "hiddenCellsLabel": "1 ô ẩn",
+    "hiddenCellsLabelPlural": "{0} ô ẩn"
+  },
+  "vs/workbench/contrib/notebook/browser/view/cellParts/markupCell": {
+    "cellExpandInputButtonLabel": "Mở rộng đầu vào ô ({0})",
+    "cellExpandInputButtonLabelWithDoubleClick": "Nhấp đúp để mở rộng đầu vào ô ({0})"
+  },
+  "vs/workbench/contrib/notebook/browser/view/renderers/backLayerWebView": {
+    "notebook.emptyMarkdownPlaceholder": "Ô Markdown trống, nhấp đúp hoặc nhấn Enter để chỉnh sửa.",
+    "notebook.error.rendererFallbacksExhausted": "Không thể hiển thị nội dung của '$0'",
+    "notebook.error.rendererNotFound": "Không tìm thấy trình hiển thị cho '$0'",
+    "webview title": "Nội dung chế độ xem web Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/view/renderers/cellRenderer": {
+    "cellExecutionOrderCountLabel": "Thứ tự thực thi"
+  },
+  "vs/workbench/contrib/notebook/browser/viewModel/notebookOutlineEntryFactory": {
+    "empty": "ô trống"
+  },
+  "vs/workbench/contrib/notebook/browser/viewParts/notebookKernelQuickPickStrategy": {
+    "current1": "Hiện được chọn",
+    "current2": "{0} - Hiện được chọn",
+    "installSuggestedKernel": "Cài đặt hoặc kích hoạt các tiện ích mở rộng được đề xuất",
+    "kernels.detecting": "Đang phát hiện Kernel",
+    "kernels.selectedKernelAndKernelDetectionRunning": "Kernel được chọn: {0} (các tác vụ phát hiện kernel đang chạy)",
+    "learnMoreTooltip": "Thêm thông tin",
+    "prompt.placeholder.change": "Thay đổi kernel cho \"{0}\"",
+    "prompt.placeholder.select": "Chọn kernel cho '{0}'",
+    "searchForKernels": "Tìm kiếm tiện ích mở rộng kernel trên Marketplace",
+    "select": "Chọn kernel",
+    "selectAnotherKernel": "Chọn kernel khác",
+    "selectAnotherKernel.more": "Chọn kernel khác...",
+    "selectKernel.placeholder": "Nhập để chọn nguồn kernel",
+    "selectKernelFromExtension": "Chọn kernel từ {0}"
+  },
+  "vs/workbench/contrib/notebook/browser/viewParts/notebookKernelView": {
+    "notebookActions.selectKernel": "Chọn kernel Notebook",
+    "notebookActions.selectKernel.args": "Đối số kernel Notebook"
+  },
+  "vs/workbench/contrib/notebook/browser/viewParts/notebookViewZones": {
+    "workbench.notebook.developer.addViewZones": "Bật/tắt vùng xem Notebook"
+  },
+  "vs/workbench/contrib/notebook/common/notebookEditorInput": {
+    "vetoAutoExtHostRestart": "Notebook được cung cấp bởi tiện ích mở rộng cho '{0}' vẫn đang mở và nếu không sẽ bị đóng.",
+    "vetoExtHostRestart": "Không thể lưu Notebook được cung cấp bởi tiện ích mở rộng cho '{0}'."
+  },
+  "vs/workbench/contrib/offline/browser/offline.contribution": {
+    "offline": "Mạng dường như đang ngoại tuyến, một số tính năng có thể không khả dụng.",
+    "statusBarOfflineBackground": "Màu nền của thanh trạng thái khi khu vực làm việc ngoại tuyến. Thanh trạng thái được hiển thị ở dưới cùng của cửa sổ",
+    "statusBarOfflineBorder": "Màu viền của thanh trạng thái phân tách thanh bên và trình chỉnh sửa khi khu vực làm việc ngoại tuyến. Thanh trạng thái được hiển thị ở dưới cùng của cửa sổ",
+    "statusBarOfflineForeground": "Màu nền trước của thanh trạng thái khi khu vực làm việc ngoại tuyến. Thanh trạng thái được hiển thị ở dưới cùng của cửa sổ"
+  },
+  "vs/workbench/contrib/outline/browser/outline.contribution": {
+    "filteredTypes.array": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"mảng\".",
+    "filteredTypes.boolean": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"boolean\".",
+    "filteredTypes.class": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"lớp\".",
+    "filteredTypes.constant": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"hằng số\".",
+    "filteredTypes.constructor": "Khi bật, dàn ý hiển thị các biểu tượng \"hàm khởi tạo\".",
+    "filteredTypes.enum": "Khi bật, dàn ý hiển thị các biểu tượng \"enum\".",
+    "filteredTypes.enumMember": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"thành viên enum\".",
+    "filteredTypes.event": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"sự kiện\".",
+    "filteredTypes.field": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"trường\".",
+    "filteredTypes.file": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"tệp\".",
+    "filteredTypes.function": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"hàm\".",
+    "filteredTypes.interface": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"giao diện\".",
+    "filteredTypes.key": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"khóa\".",
+    "filteredTypes.method": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"phương thức\".",
+    "filteredTypes.module": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"mô-đun\".",
+    "filteredTypes.namespace": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"không gian tên\".",
+    "filteredTypes.null": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"null\".",
+    "filteredTypes.number": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"số\".",
+    "filteredTypes.object": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"đối tượng\".",
+    "filteredTypes.operator": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"toán tử\".",
+    "filteredTypes.package": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"gói\".",
+    "filteredTypes.property": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"thuộc tính\".",
+    "filteredTypes.string": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"chuỗi\".",
+    "filteredTypes.struct": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"cấu trúc\".",
+    "filteredTypes.typeParameter": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"tham số kiểu\".",
+    "filteredTypes.variable": "Khi bật, dàn ý hiển thị các biểu tượng kiểu \"biến\".",
+    "name": "Dàn ý",
+    "outline.initialState": "Kiểm soát liệu các mục trong Dàn ý được thu gọn hay mở rộng.",
+    "outline.initialState.collapsed": "Thu gọn tất cả các mục.",
+    "outline.initialState.expanded": "Mở rộng tất cả các mục.",
+    "outline.problem.colors": "Sử dụng màu sắc cho lỗi và cảnh báo trên các mục dàn ý. Bị ghi đè khi {0} bị tắt.",
+    "outline.problems.badges": "Sử dụng huy hiệu cho lỗi và cảnh báo trên các mục dàn ý. Bị ghi đè khi {0} bị tắt.",
+    "outline.showIcons": "Hiển thị các mục dàn ý với biểu tượng.",
+    "outline.showProblem": "Hiển thị lỗi và cảnh báo trên các mục dàn ý. Bị ghi đè khi {0} bị tắt.",
+    "outlineConfigurationTitle": "Dàn ý",
+    "outlineViewIcon": "Biểu tượng của chế độ xem Dàn ý."
+  },
+  "vs/workbench/contrib/outline/browser/outlineActions": {
+    "collapse": "Thu gọn tất cả",
+    "expand": "Mở rộng tất cả",
+    "filterOnType": "Lọc theo loại",
+    "followCur": "Theo con trỏ",
+    "sortByKind": "Sắp xếp theo: Danh mục",
+    "sortByName": "Sắp xếp theo: Tên",
+    "sortByPosition": "Sắp xếp theo: Vị trí"
+  },
+  "vs/workbench/contrib/outline/browser/outlinePane": {
+    "loading": "Đang tải biểu tượng tài liệu cho \"{0}\"...",
+    "no-editor": "Trình chỉnh sửa đang hoạt động không thể cung cấp thông tin dàn ý.",
+    "no-symbols": "Không tìm thấy biểu tượng nào trong tài liệu \"{0}\"."
+  },
+  "vs/workbench/contrib/output/browser/output.contribution": {
+    "addCompoundLog": "Thêm nhật ký tổng hợp...",
+    "clearFiltersText": "Xóa văn bản bộ lọc",
+    "clearOutput.label": "Xóa đầu ra",
+    "exportLogs": "Xuất nhật ký...",
+    "extensionLogs": "Nhật ký tiện ích mở rộng",
+    "importLog": "Nhập nhật ký...",
+    "importLogFile": "Nhập tệp nhật ký",
+    "logFile": "Id của tệp nhật ký cần mở, ví dụ \"window\". Hiện tại, cách tốt nhất để lấy là kiểm tra các lệnh \"workbench.action.output.show.<id>\".",
+    "logFiles": "Tệp nhật ký",
+    "logLevel.label": "Đặt mức nhật ký...",
+    "logLevelDefault.label": "Đặt làm mặc định",
+    "miToggleOutput": "&&Đầu ra",
+    "nocustumoutput": "Không có đầu ra tùy chỉnh nào để xóa.",
+    "openActiveOutputFile": "Mở đầu ra trong trình chỉnh sửa",
+    "openActiveOutputFileInNewWindow": "Mở đầu ra trong cửa sổ mới",
+    "openLogFile": "Mở nhật ký...",
+    "output": "Đầu ra",
+    "output.smartScroll.enabled": "Bật/tắt chức năng cuộn thông minh trong chế độ xem đầu ra. Cuộn thông minh cho phép khóa cuộn tự động khi nhấp vào chế độ xem đầu ra và mở khóa khi nhấp vào dòng cuối cùng.",
+    "outputScrollOff": "Tắt cuộn tự động",
+    "outputScrollOn": "Bật cuộn tự động",
+    "outputViewIcon": "Biểu tượng của chế độ xem đầu ra.",
+    "removeLog": "Xóa đầu ra...",
+    "saveActiveOutputAs": "Lưu đầu ra dưới dạng...",
+    "selectOutput": "Chọn kênh đầu ra",
+    "selectlog": "Chọn nhật ký",
+    "selectlogFile": "Chọn tệp nhật ký",
+    "showLogs": "Hiển thị nhật ký...",
+    "showOutputChannels": "Hiển thị các kênh đầu ra...",
+    "switchBetweenOutputs.label": "Chuyển đổi đầu ra",
+    "switchToOutput.label": "Chuyển đổi đầu ra",
+    "toggleAutoScroll": "Bật/tắt cuộn tự động",
