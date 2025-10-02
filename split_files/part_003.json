@@ -1,4 +1,3 @@
-{
   "accessibilitySignals.codeActionRequestTriggered": "Yêu cầu hành động mã được kích hoạt",
   "accessibilitySignals.diffLineDeleted": "Dòng khác biệt bị xóa",
   "accessibilitySignals.diffLineInserted": "Dòng khác biệt được chèn",
@@ -998,5 +997,4 @@
   "abstract": "Kiểu sẽ sử dụng cho các biểu tượng trừu tượng.",
   "async": "Kiểu sẽ sử dụng cho các biểu tượng không đồng bộ.",
   "class": "Kiểu cho lớp.",
-  "comment": "Kiểu cho chú thích."
-}
+  "comment": "Kiểu cho chú thích.",

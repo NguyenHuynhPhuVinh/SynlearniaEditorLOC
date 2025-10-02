@@ -1,5 +1,3 @@
-{
-  "vs/platform/theme/common/colorRegistry": {
     "declaration": "Kiểu của tất cả các khai báo ký hiệu.",
     "decorator": "Kiểu cho trình trang trí và chú thích.",
     "deprecated": "Kiểu để sử dụng với các ký hiệu đã bị loại bỏ.",
@@ -999,6 +997,4 @@
     "closeOtherEditors": "Đóng Các Trình Chỉnh Sửa Khác Trong Nhóm",
     "closeOthers": "Đóng các cái khác",
     "closePinnedEditor": "Đóng trình chỉnh sửa ghim",
-    "closeRight": "Đóng bên phải"
-  }
-}
+    "closeRight": "Đóng bên phải",

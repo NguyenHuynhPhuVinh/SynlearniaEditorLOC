@@ -1,5 +1,3 @@
-{
-  "vs/base/common/contextkeys": {
     "resourcePath": "Đường dẫn đầy đủ của tài nguyên",
     "resourceScheme": "Lược đồ của tài nguyên",
     "resourceSet": "Tài nguyên có tồn tại hay không",
@@ -999,4 +997,4 @@
   "interactive.submit.panel.label": "Gửi đến phiên chỉnh sửa",
   "interactive.submitWithoutDispatch.label": "Gửi",
   "interactive.switchToNextModel.label": "Chuyển sang mô hình tiếp theo",
-  "interactive.toggleAgent.label": "Chuyển sang chế độ trò chuyện tiếp theo"
+  "interactive.toggleAgent.label": "Chuyển sang chế độ trò chuyện tiếp theo",

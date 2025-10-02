@@ -1,5 +1,3 @@
-{
-  "vs/workbench/browser/parts/editor/editor.contribution": {
     "closeRightEditors": "Đóng các trình chỉnh sửa bên phải trong nhóm",
     "closeSavedEditors": "Đóng các trình chỉnh sửa đã lưu của nhóm",
     "configureEditors": "Cấu hình trình chỉnh sửa",
@@ -999,6 +997,4 @@
     "resourceDirname": "Tên thư mục chứa tài nguyên",
     "resourceExtname": "Phần mở rộng tài nguyên",
     "resourceFilename": "Tên tệp tài nguyên",
-    "resourceLangId": "Id ngôn ngữ tài nguyên"
-  }
-}
+    "resourceLangId": "Id ngôn ngữ tài nguyên",
